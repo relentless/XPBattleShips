@@ -26,14 +26,12 @@ type ``Integration tests`` ()=
 
     [<Test>]
     member x.``Move Get attacks increasing positions`` () =
-
         x.NewGame()
         x.CheckMoveEquals("A1")
         x.CheckMoveEquals("A2")
 
     [<Test>]
     member x.``Move starts again with each game`` () =
-
         x.NewGame()
         x.CheckMoveEquals("A1")
         x.NewGame()
@@ -41,7 +39,6 @@ type ``Integration tests`` ()=
 
     [<Test>]
     member x.``Grid size taken from Start`` () =
-
         x.NewGame()
         x.CheckMoveEquals("A1")
         x.CheckMoveEquals("A2")
@@ -54,8 +51,7 @@ type ``Integration tests`` ()=
         |> withBody "{\"gridReferences\" : [\"C12\", \"D12\"]}"
         |> getResponseCode |> should equal 200
 
-//    [<Test>]
-//    member x.``Place get with grid size under 8 does nothing useful`` () =
-//        createRequest Get "http://localhost/Bot/PLACE" 
-//        |> withBody "{\"gridReferences\" : [\"C12\", \"D12\"]}"
-//        |> getResponseCode |> should equal 200
+    [<Test>]
+    member x.``Place get with grid size under 8 does nothing useful`` () =
+        createRequest Get "http://localhost/Bot/PLACE" 
+        |> getResponseBody |> should equal ""

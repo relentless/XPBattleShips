@@ -43,12 +43,12 @@ type FakeServer() as self =
                 requestBody |> logRequest "PLACE (Get)"
 
                 let response = 
-                    match bot.GridLength with
-                    | 8 -> 
+                    match bot.GridLength >= 8 with
+                    | true -> 
                         let position = bot.PlaceShip()
                         sprintf "{\"gridReference\": \"%s%i\",\"orientation\": \"%s\"}" (position.GridLetter) (position.GridNumber) (position.Orientation) 
                         |> Nancy.Response.op_Implicit 
-                    | _ -> "Response" |> Nancy.Response.op_Implicit 
+                    | _ -> "nowt" |> Nancy.Response.op_Implicit 
 
                 response.StatusCode <- HttpStatusCode.OK
                 200 :> obj
