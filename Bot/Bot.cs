@@ -19,10 +19,7 @@ namespace Bot
         public int GridLengthDifference { get; set; }
         private int _placedShips;
         private char _initialChar = 'H';
-        public List<string> MinePositions = new List<string>
-        {
-            "B1", "C3", "G1"
-        };
+        public List<string> MinePositions;
 
         public List<ShipPosition> MyPlacedShips = new List<ShipPosition>
         {
@@ -38,6 +35,7 @@ namespace Bot
 
         public Bot()
         {
+            MinePositions = new List<string>();
             MyShipPositions = new List<string>();
             AttackedPositions = new List<string>();
             _placedShips = 0;
@@ -63,6 +61,14 @@ namespace Bot
 
         public void SetupGrid(string gridSize, int maxTurns, string[] ships, int mineCount)
         {
+            MinePositions = new List<string>
+            {
+                "B1",
+                "C3",
+                "G1",
+                "G3",
+                "D5"
+            };
             MaxTurns = maxTurns;
             Ships = ships;
             MineCount = mineCount;
