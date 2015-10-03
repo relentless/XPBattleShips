@@ -4,10 +4,20 @@ open Nancy.Hosting.Self
 open System
 open FSharp.Data
 open Bot
+open System.IO
 
 let bot = Bot()
 
 type Start = JsonProvider<"{ \"maxTurns\" : 10, \"gridSize\" : \"B2\", \"players\"  : [\"P1\",\"p2\"], \"ships\" : [\"S1\",\"S2\"], \"mineCount\" : 5}" >
+
+type Place = JsonProvider<"{\"gridReferences\" : [\"C12\", \"D12\"]}">
+
+//let logFile = sprintf """c:/Logs/BattleshipsLog%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
+//System.IO.File.Create(logFile) |> ignore
+
+//let log (text:string) =
+//    use streamWriter = File.AppendText(logFile)
+//    streamWriter.WriteLine(text)
 
 type FakeServer() as self = 
     inherit NancyModule()
@@ -25,8 +35,10 @@ type FakeServer() as self =
                 let requestBody = self.Request.Body.AsString()
                 printfn "START\n%s" requestBody
 
+                //requestBody |> log
+
                 let body = Start.Parse(requestBody)
-                bot.SetupGrid(body.GridSize)
+                bot.SetupGrid(body.GridSize, body.MaxTurns, body.Ships, body.MineCount)
                 200 :> obj
 
         self.Get.["/PLACE"] <- 
@@ -41,6 +53,10 @@ type FakeServer() as self =
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
                 printfn "PLACE (Post)\n%s" requestBody
+
+                let request = Place.Parse(requestBody)
+                bot.MyShips(request.GridReferences)
+
                 200 :> obj
 
         self.Post.["/SCAN"] <- 
