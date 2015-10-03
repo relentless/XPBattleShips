@@ -9,15 +9,9 @@ let bot = Bot()
 type FakeServer() as self = 
     inherit NancyModule()
 
-//    let mutable places = 
-//        [for index in 1..8 do
-//            for char in 'A'..'H' do
-//                yield string char + string index]
-
     do
         self.Get.["/"] <- 
             fun _ -> 
-                //let requestBody = self.Request.Body.AsString()
                 printfn "Index\n"
                 let response = "Grant and Simon's Bot" |> Nancy.Response.op_Implicit 
                 response.StatusCode <- HttpStatusCode.OK
@@ -28,10 +22,7 @@ type FakeServer() as self =
                 let requestBody = self.Request.Body.AsString()
                 printfn "START\n%s" requestBody
 
-                bot.SetupGrid()
-
-                //let response = "Response" |> Nancy.Response.op_Implicit 
-                //response.StatusCode <- HttpStatusCode.OK
+                bot.SetupGrid("H8")
                 200 :> obj
 
         self.Get.["/PLACE"] <- 

@@ -19,11 +19,13 @@ type ``Integration tests`` ()=
     [<Test>]
     member x.``Move Get attacks increasing positions`` () =
 
+        createRequest Post "http://localhost/Bot/START" |> withBody "hi" |> getResponseCode |> ignore
+
         let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
         response |> should equal "{\"type\": \"ATTACK\", \"gridReference\" : \"A1\"}"
 
         let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
-        response |> should equal "{\"type\": \"ATTACK\", \"gridReference\" : \"B1\"}"
+        response |> should equal "{\"type\": \"ATTACK\", \"gridReference\" : \"A2\"}"
 
     [<Test>]
     member x.``Move starts again with each game`` () =
@@ -32,9 +34,6 @@ type ``Integration tests`` ()=
 
         let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
         response |> should equal "{\"type\": \"ATTACK\", \"gridReference\" : \"A1\"}"
-
-        let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
-        response |> should equal "{\"type\": \"ATTACK\", \"gridReference\" : \"B1\"}"
 
         createRequest Post "http://localhost/Bot/START" |> withBody "hi" |> getResponseCode |> ignore
 
