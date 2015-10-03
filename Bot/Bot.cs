@@ -11,6 +11,17 @@ namespace Bot
         public int GridLength { get; set; }
         public string GridLetter { get; set; }
         public List<string> Positions;
+        public int MaxTurns { get; set; }
+        public string[] Ships { get; set; }
+        public int MineCount { get; set; }
+
+        public void SetupGrid(string gridSize, int maxTurns, string[] ships, int mineCount)
+        {
+            MaxTurns = maxTurns;
+            Ships = ships;
+            MineCount = mineCount;
+            SetupGrid(gridSize);
+        }
 
         public void SetupGrid(string gridSize)
         {
