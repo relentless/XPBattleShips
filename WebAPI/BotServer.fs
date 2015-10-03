@@ -12,7 +12,7 @@ type Start = JsonProvider<"{ \"maxTurns\" : 10, \"gridSize\" : \"B2\", \"players
 
 type Place = JsonProvider<"{\"gridReferences\" : [\"C12\", \"D12\"]}">
 
-let logFile = sprintf """C:/Programming/XPBattleShips/Logs/%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
+let logFile = sprintf """C:/Programming/XPBattleShips/Logs/BattleLog%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
 
 let logToFile (text:string) =
     System.IO.File.AppendAllText(logFile, text)
@@ -41,7 +41,15 @@ type FakeServer() as self =
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
                 requestBody |> logRequest "PLACE (Get)"
-                let response = "Response" |> Nancy.Response.op_Implicit 
+
+                let response = 
+                    match bot.GridLength with
+                    | 8 -> 
+                        let position = bot.PlaceShip()
+                        sprintf "{\"gridReference\": \"%s%i\",\"orientation\": \"%s\"}" (position.GridLetter) (position.GridNumber) (position.Orientation) 
+                        |> Nancy.Response.op_Implicit 
+                    | _ -> "Response" |> Nancy.Response.op_Implicit 
+
                 response.StatusCode <- HttpStatusCode.OK
                 200 :> obj
 
