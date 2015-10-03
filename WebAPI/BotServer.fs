@@ -71,8 +71,13 @@ type FakeServer() as self =
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
                 requestBody |> logRequest "MOVE (Get)"
-                let place = bot.NextMove()
-                let response = "{\"type\": \"ATTACK\", \"gridReference\" : \"" + place + "\"}" |> Nancy.Response.op_Implicit 
+               // let place = bot.NextMove()
+               // let response = "{\"type\": \"ATTACK\", \"gridReference\" : \"" + place + "\"}" |> Nancy.Response.op_Implicit 
+                
+                let place = bot.NextMoveByType()
+                let response = "{\"type\": \"" + place.Type + "\", \"gridReference\" : \"" + place.GridReference + "\"}" |> Nancy.Response.op_Implicit 
+                
+
                 response.StatusCode <- HttpStatusCode.OK
                 response :> obj
 

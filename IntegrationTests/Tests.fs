@@ -15,9 +15,17 @@ type ``Integration tests`` ()=
     member x.NewGame() =
         x.StartRequest() |> getResponseCode |> ignore
 
+    member x.Move() =
+        createRequest Get "http://localhost/Bot/MOVE" |> getResponseCode |> ignore
+
     member x.CheckMoveEquals(position:string) =
         let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
         response |> should equal ("{\"type\": \"ATTACK\", \"gridReference\" : \"" + position + "\"}")
+
+    member x.GetRidOfMines() =
+        x.Move()
+        x.Move()
+        x.Move()
 
     [<Test>]
     member x.``Start Get gives a 200`` () =
@@ -27,11 +35,15 @@ type ``Integration tests`` ()=
     [<Test>]
     member x.``Move Get attacks increasing positions`` () =
         x.NewGame()
+        x.GetRidOfMines()
+        x.NewGame()
         x.CheckMoveEquals("A1")
         x.CheckMoveEquals("A2")
 
     [<Test>]
     member x.``Move starts again with each game`` () =
+        x.NewGame()
+        x.GetRidOfMines()
         x.NewGame()
         x.CheckMoveEquals("A1")
         x.NewGame()
@@ -39,6 +51,8 @@ type ``Integration tests`` ()=
 
     [<Test>]
     member x.``Grid size taken from Start`` () =
+        x.NewGame()
+        x.GetRidOfMines()
         x.NewGame()
         x.CheckMoveEquals("A1")
         x.CheckMoveEquals("A2")
