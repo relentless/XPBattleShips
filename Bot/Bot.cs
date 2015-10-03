@@ -12,12 +12,17 @@ namespace Bot
         public string GridLetter { get; set; }
         public List<string> Positions;
         public List<string> MyShipPositions { get; set; }
+        public List<string> AttackedPositions { get; set; }
         public int MaxTurns { get; set; }
         public string[] Ships { get; set; }
         public int MineCount { get; set; }
         public int GridLengthDifference { get; set; }
         private int _placedShips;
         private char _initialChar = 'H';
+        public List<string> MinePositions = new List<string>
+        {
+            "B1", "C3", "G1"
+        };
 
         public List<ShipPosition> MyPlacedShips = new List<ShipPosition>
         {
@@ -34,8 +39,10 @@ namespace Bot
         public Bot()
         {
             MyShipPositions = new List<string>();
+            AttackedPositions = new List<string>();
             _placedShips = 0;
         }
+
 
         public ShipPosition PlaceShip()
         {
@@ -87,6 +94,31 @@ namespace Bot
             }
         }
 
+        public Move NextMoveByType()
+        {
+            if (MinePositions.Any())
+            {
+                var minePosition = MinePositions[0];
+                MinePositions.Remove(minePosition);
+                return new Move { Type = "MINE", GridReference = minePosition };
+            }
+
+            var move = string.Empty;
+            if (MyShipPositions.Any())
+            {
+                move = MyShipPositions[0];
+                MyShipPositions.Remove(move);
+            }
+            else
+            {
+                move = Positions[0];
+            }
+
+            Positions.Remove(move);
+
+            return new Move { GridReference = move, Type = "ATTACK" };
+        }
+
         public string NextMove()
         {
             var move = string.Empty;
@@ -104,6 +136,12 @@ namespace Bot
 
             return move;
         }
+    }
+
+    public class Move
+    {
+        public string Type { get; set; }
+        public string GridReference { get; set; }
     }
 
     public class ShipPosition
