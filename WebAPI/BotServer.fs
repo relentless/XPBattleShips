@@ -27,6 +27,9 @@ type FakeServer() as self =
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
                 printfn "START\n%s" requestBody
+
+                bot.SetupGrid()
+
                 //let response = "Response" |> Nancy.Response.op_Implicit 
                 //response.StatusCode <- HttpStatusCode.OK
                 200 :> obj
@@ -61,7 +64,7 @@ type FakeServer() as self =
 
                 let response = "{\"type\": \"ATTACK\", \"gridReference\" : \"" + place + "\"}" |> Nancy.Response.op_Implicit 
                 response.StatusCode <- HttpStatusCode.OK
-                response.ContentType <- "application/json"
+                //response.ContentType <- "application/json"
                 response :> obj
 
         self.Post.["/HIT"] <- 
