@@ -8,8 +8,6 @@ namespace Bot
 {
     public class Bot
     {
-        public class Bot
-    {
         public int GridLength { get; set; }
         public string GridLetter { get; set; }
         public List<string> Positions;
