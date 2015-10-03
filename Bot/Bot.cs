@@ -17,6 +17,7 @@ namespace Bot
         public int MineCount { get; set; }
         public int GridLengthDifference { get; set; }
         private int _placedShips;
+        private char _initialChar = 'H';
 
         public List<ShipPosition> MyPlacedShips = new List<ShipPosition>
         {
@@ -30,13 +31,23 @@ namespace Bot
             new ShipPosition {GridLetter = "C", GridNumber = 3, Orientation = "horizontal"},
         };
 
-        public Bot() 
+        public Bot()
         {
             MyShipPositions = new List<string>();
+            _placedShips = 0;
         }
 
         public ShipPosition PlaceShip()
         {
+            if (_placedShips == MyPlacedShips.Count && GridLength > 8)
+            {
+                var random = new Random();
+
+                var randomGridNumber = random.Next(1, GridLength - 4);
+                _initialChar++;
+                return new ShipPosition { GridLetter = _initialChar.ToString(), GridNumber = randomGridNumber, Orientation = "vertical" };
+            }
+
             var ship = MyPlacedShips[_placedShips];
             ship.GridNumber += GridLengthDifference;
             _placedShips++;
@@ -61,8 +72,6 @@ namespace Bot
 
         public void SetupGrid(string gridSize)
         {
-            MyShipPositions = new List<string>();
-            _placedShips = 0;
             Positions = new List<string>();
             GridLetter = gridSize.Substring(0, 1);
             GridLength = int.Parse(gridSize.Substring(1, gridSize.Length - 1));
@@ -70,6 +79,7 @@ namespace Bot
 
             for (char c = 'A'; c <= Convert.ToChar(GridLetter); c++)
             {
+                //do something with letter 
                 for (var i = 1; i < GridLength + 1; i++)
                 {
                     Positions.Add(c + i.ToString());
