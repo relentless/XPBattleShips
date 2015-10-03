@@ -14,13 +14,9 @@ namespace Bot
         public string GridLetter { get; set; }
         public List<string> Positions;
 
-        public Bot()
-        {
-            Positions = new List<string>();
-        }
-
         public void SetupGrid(string gridSize)
         {
+            Positions = new List<string>();
             GridLetter = gridSize.Substring(0, 1);
             GridLength = int.Parse(gridSize.Substring(1, gridSize.Length-1));
 
