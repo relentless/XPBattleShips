@@ -22,7 +22,13 @@ type ``Integration tests`` ()=
         let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
         response |> should equal ("{\"type\": \"ATTACK\", \"gridReference\" : \"" + position + "\"}")
 
+    member x.CheckMoveEqualsType(moveType:string) =
+        let response = createRequest Get "http://localhost/Bot/MOVE" |> getResponseBody
+        response.Substring(10, 4) |> should equal moveType
+
     member x.GetRidOfMines() =
+        x.Move()
+        x.Move()
         x.Move()
         x.Move()
         x.Move()
@@ -31,33 +37,6 @@ type ``Integration tests`` ()=
     member x.``Start Get gives a 200`` () =
         x.StartRequest()
         |> getResponseCode |> should equal 200
-
-    [<Test>]
-    member x.``Move Get attacks increasing positions`` () =
-        x.NewGame()
-        x.GetRidOfMines()
-        x.NewGame()
-        x.CheckMoveEquals("A1")
-        x.CheckMoveEquals("A2")
-
-    [<Test>]
-    member x.``Move starts again with each game`` () =
-        x.NewGame()
-        x.GetRidOfMines()
-        x.NewGame()
-        x.CheckMoveEquals("A1")
-        x.NewGame()
-        x.CheckMoveEquals("A1")
-
-    [<Test>]
-    member x.``Grid size taken from Start`` () =
-        x.NewGame()
-        x.GetRidOfMines()
-        x.NewGame()
-        x.CheckMoveEquals("A1")
-        x.CheckMoveEquals("A2")
-        x.CheckMoveEquals("B1")
-        x.CheckMoveEquals("B2")
 
     [<Test>]
     member x.``Place post doesn't break anything`` () =
@@ -69,3 +48,27 @@ type ``Integration tests`` ()=
     member x.``Place get with grid size under 8 does nothing useful`` () =
         createRequest Get "http://localhost/Bot/PLACE" 
         |> getResponseBody |> should equal ""
+
+    [<Test>]
+    member x.``First five moves are mines`` () =
+        x.NewGame()
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+
+    [<Test>]
+    member x.``Mines reset for new game`` () =
+        x.NewGame()
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.NewGame()
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")
+        x.CheckMoveEqualsType("MINE")

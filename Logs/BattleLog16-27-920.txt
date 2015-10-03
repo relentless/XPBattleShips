@@ -1,0 +1,42 @@
+27:43:215 : START
+{ "maxTurns" : 10, "gridSize" : "B2", "players"  : ["P1","p2"], "ships" : ["S1","S2"], "mineCount" : 5}
+27:43:352 : MOVE (Get)
+
+27:43:395 : MOVE (Get)
+
+27:43:397 : MOVE (Get)
+
+27:43:398 : MOVE (Get)
+
+27:43:399 : MOVE (Get)
+
+27:43:444 : START
+{ "maxTurns" : 10, "gridSize" : "B2", "players"  : ["P1","p2"], "ships" : ["S1","S2"], "mineCount" : 5}
+27:43:446 : MOVE (Get)
+
+27:43:447 : MOVE (Get)
+
+27:43:448 : MOVE (Get)
+
+27:43:449 : MOVE (Get)
+
+27:43:457 : MOVE (Get)
+
+27:43:460 : START
+{ "maxTurns" : 10, "gridSize" : "B2", "players"  : ["P1","p2"], "ships" : ["S1","S2"], "mineCount" : 5}
+27:43:461 : MOVE (Get)
+
+27:43:463 : MOVE (Get)
+
+27:43:464 : MOVE (Get)
+
+27:43:465 : MOVE (Get)
+
+27:43:467 : MOVE (Get)
+
+27:43:472 : PLACE (Get)
+
+27:43:478 : PLACE (Get)
+{"gridReferences" : ["C12", "D12"]}
+27:43:486 : START
+{ "maxTurns" : 10, "gridSize" : "B2", "players"  : ["P1","p2"], "ships" : ["S1","S2"], "mineCount" : 5}
