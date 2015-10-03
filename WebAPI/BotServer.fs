@@ -22,6 +22,11 @@ let logRequest title requestBody =
     let time = System.DateTime.Now
     logToFile (sprintf "%i:%i:%i : %s%s %s" time.Minute time.Second time.Millisecond title requestBody System.Environment.NewLine)
 
+let logRequestResponse title requestBody responseBody =
+    printfn "%s\n%s" title requestBody
+    let time = System.DateTime.Now
+    logToFile (sprintf "%i:%i:%i : %s%s -> %s%s" time.Minute time.Second time.Millisecond title requestBody responseBody System.Environment.NewLine)
+
 type FakeServer() as self = 
     inherit NancyModule()
 

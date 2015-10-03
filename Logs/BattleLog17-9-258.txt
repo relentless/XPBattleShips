@@ -1,0 +1,2632 @@
+13:56:692 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","Sparrow"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+13:56:830 : PLACE (Get) 
+13:56:879 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+13:56:921 : MOVE (Get) 
+13:56:943 : PLACE (Get){"gridReferences":["A2"]} 
+13:56:952 : MISS{"attacker":"Sparrow","gridReference":"O7"} 
+13:56:957 : MOVE (Get) 
+13:56:968 : PLACE (Get){"gridReferences":["C3"]} 
+13:56:977 : MISS{"attacker":"Sparrow","gridReference":"M7"} 
+13:56:982 : MOVE (Get) 
+13:56:993 : PLACE (Get){"gridReferences":["G1"]} 
+13:57:9 : MISS{"attacker":"Sparrow","gridReference":"H6"} 
+13:57:14 : MOVE (Get) 
+13:57:26 : PLACE (Get){"gridReferences":["G3"]} 
+13:57:36 : MISS{"attacker":"Sparrow","gridReference":"I13"} 
+13:57:41 : MOVE (Get) 
+13:57:55 : PLACE (Get){"gridReferences":["D5"]} 
+13:57:64 : MISS{"attacker":"Sparrow","gridReference":"D6"} 
+13:57:70 : MOVE (Get) 
+13:57:82 : MISS{"attacker":"xpsman","gridReference":"A1"} 
+13:57:92 : MISS{"attacker":"Sparrow","gridReference":"E3"} 
+13:57:97 : MOVE (Get) 
+13:57:110 : MISS{"attacker":"xpsman","gridReference":"B1"} 
+13:57:119 : MISS{"attacker":"Sparrow","gridReference":"S5"} 
+13:57:160 : MOVE (Get) 
+13:57:174 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+13:57:194 : MISS{"attacker":"Sparrow","gridReference":"C15"} 
+13:57:200 : MOVE (Get) 
+13:57:211 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+13:57:221 : MISS{"attacker":"Sparrow","gridReference":"N4"} 
+13:57:226 : MOVE (Get) 
+13:57:241 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+13:57:250 : MISS{"attacker":"Sparrow","gridReference":"N14"} 
+13:57:256 : MOVE (Get) 
+13:57:267 : MISS{"attacker":"xpsman","gridReference":"A2"} 
+13:57:276 : MISS{"attacker":"Sparrow","gridReference":"S15"} 
+13:57:281 : MOVE (Get) 
+13:57:294 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+13:57:304 : MISS{"attacker":"Sparrow","gridReference":"H12"} 
+13:57:309 : MOVE (Get) 
+13:57:321 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+13:57:331 : MISS{"attacker":"Sparrow","gridReference":"N8"} 
+13:57:347 : MOVE (Get) 
+13:57:381 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+13:57:418 : MISS{"attacker":"Sparrow","gridReference":"A11"} 
+13:57:423 : MOVE (Get) 
+13:57:435 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+13:57:445 : MISS{"attacker":"Sparrow","gridReference":"M3"} 
+13:57:450 : MOVE (Get) 
+13:57:462 : MISS{"attacker":"xpsman","gridReference":"A3"} 
+13:57:475 : MISS{"attacker":"Sparrow","gridReference":"L8"} 
+13:57:480 : MOVE (Get) 
+13:57:494 : MISS{"attacker":"xpsman","gridReference":"A4"} 
+13:57:503 : MISS{"attacker":"Sparrow","gridReference":"I11"} 
+13:57:508 : MOVE (Get) 
+13:57:522 : MISS{"attacker":"xpsman","gridReference":"A5"} 
+13:57:531 : MISS{"attacker":"Sparrow","gridReference":"O1"} 
+13:57:537 : MOVE (Get) 
+13:57:549 : MISS{"attacker":"xpsman","gridReference":"A6"} 
+13:57:558 : MISS{"attacker":"Sparrow","gridReference":"P4"} 
+13:57:563 : MOVE (Get) 
+13:57:577 : MISS{"attacker":"xpsman","gridReference":"A7"} 
+13:57:586 : MISS{"attacker":"Sparrow","gridReference":"G13"} 
+13:57:591 : MOVE (Get) 
+13:57:603 : MISS{"attacker":"xpsman","gridReference":"A8"} 
+13:57:612 : MISS{"attacker":"Sparrow","gridReference":"I15"} 
+13:57:617 : MOVE (Get) 
+13:57:628 : MISS{"attacker":"xpsman","gridReference":"A9"} 
+13:57:637 : MISS{"attacker":"Sparrow","gridReference":"I7"} 
+13:57:642 : MOVE (Get) 
+13:57:654 : MISS{"attacker":"xpsman","gridReference":"A10"} 
+13:57:663 : MISS{"attacker":"Sparrow","gridReference":"B14"} 
+13:57:668 : MOVE (Get) 
+13:57:680 : MISS{"attacker":"xpsman","gridReference":"A11"} 
+13:57:690 : MISS{"attacker":"Sparrow","gridReference":"K13"} 
+13:57:695 : MOVE (Get) 
+13:57:707 : MISS{"attacker":"xpsman","gridReference":"A12"} 
+13:57:717 : MISS{"attacker":"Sparrow","gridReference":"I1"} 
+13:57:722 : MOVE (Get) 
+13:57:733 : MISS{"attacker":"xpsman","gridReference":"A13"} 
+13:57:743 : HIT_MINE{"attacker":"Sparrow","gridReference":"C3"} 
+13:57:749 : MOVE (Get) 
+13:57:761 : MISS{"attacker":"xpsman","gridReference":"A14"} 
+13:57:766 : MOVE (Get) 
+13:57:778 : MISS{"attacker":"xpsman","gridReference":"A15"} 
+13:57:785 : MOVE (Get) 
+13:57:797 : MISS{"attacker":"xpsman","gridReference":"B2"} 
+13:57:803 : MOVE (Get) 
+13:57:815 : MISS{"attacker":"xpsman","gridReference":"B3"} 
+13:57:820 : MOVE (Get) 
+13:57:833 : MISS{"attacker":"xpsman","gridReference":"B4"} 
+13:57:838 : MOVE (Get) 
+13:57:851 : MISS{"attacker":"xpsman","gridReference":"B5"} 
+13:57:857 : MOVE (Get) 
+13:57:870 : MISS{"attacker":"xpsman","gridReference":"B6"} 
+13:57:875 : MOVE (Get) 
+13:57:887 : MISS{"attacker":"xpsman","gridReference":"B7"} 
+13:57:892 : MOVE (Get) 
+13:57:904 : MISS{"attacker":"xpsman","gridReference":"B8"} 
+13:57:909 : MOVE (Get) 
+13:57:921 : MISS{"attacker":"xpsman","gridReference":"B9"} 
+13:57:926 : MOVE (Get) 
+13:57:938 : MISS{"attacker":"xpsman","gridReference":"B10"} 
+13:57:950 : MISS{"attacker":"Sparrow","gridReference":"J2"} 
+13:57:955 : MOVE (Get) 
+13:57:968 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+13:57:977 : MISS{"attacker":"Sparrow","gridReference":"J10"} 
+13:57:982 : MOVE (Get) 
+13:57:993 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+13:58:3 : MISS{"attacker":"Sparrow","gridReference":"J4"} 
+13:58:8 : MOVE (Get) 
+13:58:23 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+13:58:33 : MISS{"attacker":"Sparrow","gridReference":"F4"} 
+13:58:39 : MOVE (Get) 
+13:58:51 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+13:58:60 : MISS{"attacker":"Sparrow","gridReference":"L6"} 
+13:58:65 : MOVE (Get) 
+13:58:77 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+13:58:86 : MISS{"attacker":"Sparrow","gridReference":"P10"} 
+13:58:91 : MOVE (Get) 
+13:58:103 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+13:58:113 : MISS{"attacker":"Sparrow","gridReference":"P8"} 
+13:58:120 : MOVE (Get) 
+13:58:132 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+13:58:140 : MISS{"attacker":"Sparrow","gridReference":"Q9"} 
+13:58:146 : MOVE (Get) 
+13:58:157 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+13:58:167 : MISS{"attacker":"Sparrow","gridReference":"B2"} 
+13:58:172 : MOVE (Get) 
+13:58:183 : MISS{"attacker":"xpsman","gridReference":"C6"} 
+13:58:193 : MISS{"attacker":"Sparrow","gridReference":"J6"} 
+13:58:199 : MOVE (Get) 
+13:58:213 : HIT{"attacker":"xpsman","gridReference":"C7"} 
+13:58:219 : MOVE (Get) 
+13:58:231 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+13:58:237 : MOVE (Get) 
+13:58:249 : MISS{"attacker":"xpsman","gridReference":"C9"} 
+13:58:254 : MOVE (Get) 
+13:58:266 : MISS{"attacker":"xpsman","gridReference":"C10"} 
+13:58:275 : MISS{"attacker":"Sparrow","gridReference":"E5"} 
+13:58:282 : MOVE (Get) 
+13:58:294 : MISS{"attacker":"xpsman","gridReference":"C11"} 
+13:58:303 : MISS{"attacker":"Sparrow","gridReference":"D10"} 
+13:58:308 : MOVE (Get) 
+13:58:319 : MISS{"attacker":"xpsman","gridReference":"C12"} 
+13:58:328 : MISS{"attacker":"Sparrow","gridReference":"A9"} 
+13:58:333 : MOVE (Get) 
+13:58:345 : MISS{"attacker":"xpsman","gridReference":"C13"} 
+13:58:354 : MISS{"attacker":"Sparrow","gridReference":"S7"} 
+13:58:359 : MOVE (Get) 
+13:58:370 : MISS{"attacker":"xpsman","gridReference":"C14"} 
+13:58:378 : MISS{"attacker":"Sparrow","gridReference":"N12"} 
+13:58:383 : MOVE (Get) 
+13:58:394 : MISS{"attacker":"xpsman","gridReference":"C15"} 
+13:58:447 : MISS{"attacker":"Sparrow","gridReference":"H10"} 
+13:58:453 : MOVE (Get) 
+13:58:488 : MISS{"attacker":"xpsman","gridReference":"D2"} 
+13:58:498 : MISS{"attacker":"Sparrow","gridReference":"R4"} 
+13:58:503 : MOVE (Get) 
+13:58:515 : MISS{"attacker":"xpsman","gridReference":"D3"} 
+13:58:524 : MISS{"attacker":"Sparrow","gridReference":"R14"} 
+13:58:528 : MOVE (Get) 
+13:58:540 : MISS{"attacker":"xpsman","gridReference":"D4"} 
+13:58:550 : MISS{"attacker":"Sparrow","gridReference":"N6"} 
+13:58:556 : MOVE (Get) 
+13:58:602 : HIT{"attacker":"xpsman","gridReference":"D6"} 
+13:58:622 : MOVE (Get) 
+13:58:634 : HIT{"attacker":"xpsman","gridReference":"D7"} 
+13:58:639 : MOVE (Get) 
+13:58:651 : MISS{"attacker":"xpsman","gridReference":"D8"} 
+13:58:657 : MOVE (Get) 
+13:58:668 : MISS{"attacker":"xpsman","gridReference":"D9"} 
+13:58:678 : HIT{"attacker":"Sparrow","gridReference":"E1"} 
+13:58:684 : MOVE (Get) 
+13:58:695 : MISS{"attacker":"xpsman","gridReference":"D10"} 
+13:58:708 : HIT{"attacker":"Sparrow","gridReference":"D1"} 
+13:58:713 : MOVE (Get) 
+13:58:724 : MISS{"attacker":"xpsman","gridReference":"D11"} 
+13:58:736 : HIT{"attacker":"Sparrow","gridReference":"C1"} 
+13:58:742 : MOVE (Get) 
+13:58:754 : MISS{"attacker":"xpsman","gridReference":"D12"} 
+13:58:767 : HIT{"attacker":"Sparrow","gridReference":"B1"} 
+13:58:773 : MOVE (Get) 
+13:58:784 : MISS{"attacker":"xpsman","gridReference":"D13"} 
+13:58:796 : HIT{"attacker":"Sparrow","gridReference":"A1"} 
+14:25:595 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","poseidon"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+14:25:626 : PLACE (Get) 
+14:25:666 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+14:25:792 : MOVE (Get) 
+14:25:809 : PLACE (Get){"gridReferences":["A2"]} 
+14:25:900 : MOVE (Get) 
+14:25:912 : PLACE (Get){"gridReferences":["C3"]} 
+14:25:972 : MOVE (Get) 
+14:25:984 : PLACE (Get){"gridReferences":["G1"]} 
+14:26:43 : MOVE (Get) 
+14:26:55 : PLACE (Get){"gridReferences":["G3"]} 
+14:26:114 : MOVE (Get) 
+14:26:126 : PLACE (Get){"gridReferences":["D5"]} 
+14:26:222 : MOVE (Get) 
+14:26:236 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+14:26:270 : MISS{"attacker":"poseidon","gridReference":"L13"} 
+14:26:294 : MOVE (Get) 
+14:26:307 : HIT{"attacker":"xpsman","gridReference":"B1"} 
+14:26:334 : MISS{"attacker":"poseidon","gridReference":"J5"} 
+14:26:350 : MOVE (Get) 
+14:26:363 : HIT{"attacker":"xpsman","gridReference":"C1"} 
+14:26:390 : MISS{"attacker":"poseidon","gridReference":"K13"} 
+14:26:406 : MOVE (Get) 
+14:26:419 : HIT{"attacker":"xpsman","gridReference":"D1"} 
+14:26:448 : MISS{"attacker":"poseidon","gridReference":"I5"} 
+14:26:468 : MOVE (Get) 
+14:26:479 : HIT{"attacker":"xpsman","gridReference":"E1"} 
+14:26:516 : MISS{"attacker":"poseidon","gridReference":"Q8"} 
+17:42:519 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","the-black-pig"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+17:42:665 : PLACE (Get) 
+17:42:705 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+17:43:866 : MOVE (Get) 
+17:43:879 : PLACE (Get){"gridReferences":["A2"]} 
+17:44:179 : MOVE (Get) 
+17:44:192 : PLACE (Get){"gridReferences":["C3"]} 
+17:44:223 : MOVE (Get) 
+17:44:245 : PLACE (Get){"gridReferences":["G1"]} 
+17:44:280 : MOVE (Get) 
+17:44:302 : PLACE (Get){"gridReferences":["G3"]} 
+17:44:328 : MOVE (Get) 
+17:44:339 : PLACE (Get){"gridReferences":["D5"]} 
+17:44:604 : MOVE (Get) 
+17:44:620 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+17:44:963 : MOVE (Get) 
+17:44:978 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+17:45:28 : MOVE (Get) 
+17:45:41 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+17:45:103 : MOVE (Get) 
+17:45:115 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+17:45:443 : MOVE (Get) 
+17:45:454 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+17:45:535 : MOVE (Get) 
+17:45:548 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+17:45:794 : MOVE (Get) 
+17:45:807 : HIT{"attacker":"xpsman","gridReference":"B1"} 
+17:45:894 : MOVE (Get) 
+17:45:921 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+17:46:268 : MOVE (Get) 
+17:46:279 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+17:46:327 : MOVE (Get) 
+17:46:338 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+17:46:634 : MOVE (Get) 
+17:46:687 : MISS{"attacker":"xpsman","gridReference":"A2"} 
+17:46:734 : MOVE (Get) 
+17:46:746 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+17:47:65 : MOVE (Get) 
+17:47:107 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+17:47:158 : MOVE (Get) 
+17:47:169 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+17:47:390 : MOVE (Get) 
+17:47:401 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+17:47:445 : MOVE (Get) 
+17:47:458 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+17:47:500 : MOVE (Get) 
+17:47:513 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+17:47:596 : MOVE (Get) 
+17:47:610 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+17:47:928 : MOVE (Get) 
+17:47:943 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+17:47:990 : MOVE (Get) 
+17:48:6 : HIT{"attacker":"xpsman","gridReference":"A7"} 
+17:48:375 : MOVE (Get) 
+17:48:388 : HIT{"attacker":"xpsman","gridReference":"A8"} 
+17:48:423 : HIT{"attacker":"the-black-pig","gridReference":"A1"} 
+17:48:441 : MOVE (Get) 
+17:48:453 : HIT{"attacker":"xpsman","gridReference":"A9"} 
+17:48:486 : HIT_MINE{"attacker":"the-black-pig","gridReference":"A2"} 
+17:48:720 : MOVE (Get) 
+17:48:733 : HIT{"attacker":"xpsman","gridReference":"A10"} 
+17:48:753 : MOVE (Get) 
+17:48:766 : HIT{"attacker":"xpsman","gridReference":"A11"} 
+17:48:784 : MOVE (Get) 
+17:48:797 : HIT{"attacker":"xpsman","gridReference":"A12"} 
+17:48:816 : MOVE (Get) 
+17:48:828 : HIT{"attacker":"xpsman","gridReference":"A13"} 
+17:48:846 : MOVE (Get) 
+17:48:861 : HIT{"attacker":"xpsman","gridReference":"A14"} 
+17:48:891 : MOVE (Get) 
+17:48:903 : HIT_MINE{"attacker":"xpsman","gridReference":"A15"} 
+17:49:257 : MISS{"attacker":"the-black-pig","gridReference":"A3"} 
+17:49:295 : MISS{"attacker":"the-black-pig","gridReference":"A4"} 
+17:49:331 : MISS{"attacker":"the-black-pig","gridReference":"A5"} 
+17:49:368 : MISS{"attacker":"the-black-pig","gridReference":"A6"} 
+17:49:404 : MISS{"attacker":"the-black-pig","gridReference":"A7"} 
+17:49:437 : MISS{"attacker":"the-black-pig","gridReference":"A8"} 
+17:49:459 : MOVE (Get) 
+17:49:472 : HIT{"attacker":"xpsman","gridReference":"B2"} 
+17:49:508 : MISS{"attacker":"the-black-pig","gridReference":"A9"} 
+17:49:526 : MOVE (Get) 
+17:49:539 : HIT{"attacker":"xpsman","gridReference":"B3"} 
+17:49:580 : MISS{"attacker":"the-black-pig","gridReference":"A10"} 
+17:49:625 : MOVE (Get) 
+17:49:640 : HIT{"attacker":"xpsman","gridReference":"B4"} 
+17:49:850 : MISS{"attacker":"the-black-pig","gridReference":"A11"} 
+17:49:870 : MOVE (Get) 
+17:49:883 : HIT{"attacker":"xpsman","gridReference":"B5"} 
+17:49:916 : MISS{"attacker":"the-black-pig","gridReference":"A12"} 
+17:49:933 : MOVE (Get) 
+17:49:947 : HIT{"attacker":"xpsman","gridReference":"B6"} 
+17:49:980 : MISS{"attacker":"the-black-pig","gridReference":"A13"} 
+17:50:274 : MOVE (Get) 
+17:50:287 : HIT{"attacker":"xpsman","gridReference":"B7"} 
+17:50:319 : MISS{"attacker":"the-black-pig","gridReference":"A14"} 
+17:50:342 : MOVE (Get) 
+17:50:355 : HIT{"attacker":"xpsman","gridReference":"B8"} 
+17:50:388 : MISS{"attacker":"the-black-pig","gridReference":"A15"} 
+17:50:410 : MOVE (Get) 
+17:50:422 : HIT{"attacker":"xpsman","gridReference":"B9"} 
+17:50:534 : HIT{"attacker":"the-black-pig","gridReference":"B1"} 
+17:50:748 : MOVE (Get) 
+17:50:762 : MISS{"attacker":"xpsman","gridReference":"B10"} 
+17:50:854 : MISS{"attacker":"the-black-pig","gridReference":"B2"} 
+17:50:873 : MOVE (Get) 
+17:50:953 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+17:50:988 : MISS{"attacker":"the-black-pig","gridReference":"B3"} 
+17:51:7 : MOVE (Get) 
+17:51:18 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+17:51:213 : MISS{"attacker":"the-black-pig","gridReference":"B4"} 
+17:51:284 : MOVE (Get) 
+17:51:296 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+17:51:397 : MISS{"attacker":"the-black-pig","gridReference":"B5"} 
+17:51:419 : MOVE (Get) 
+17:51:430 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+17:51:461 : MISS{"attacker":"the-black-pig","gridReference":"B6"} 
+17:51:480 : MOVE (Get) 
+17:51:492 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+17:51:586 : MISS{"attacker":"the-black-pig","gridReference":"B7"} 
+17:51:670 : MOVE (Get) 
+17:51:682 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+17:51:716 : MISS{"attacker":"the-black-pig","gridReference":"B8"} 
+17:51:736 : MOVE (Get) 
+17:51:748 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+17:51:788 : MISS{"attacker":"the-black-pig","gridReference":"B9"} 
+17:52:193 : MOVE (Get) 
+17:52:206 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+17:52:237 : MISS{"attacker":"the-black-pig","gridReference":"B10"} 
+17:52:257 : MOVE (Get) 
+17:52:268 : MISS{"attacker":"xpsman","gridReference":"C6"} 
+17:52:304 : MISS{"attacker":"the-black-pig","gridReference":"B11"} 
+17:52:325 : MOVE (Get) 
+17:52:338 : MISS{"attacker":"xpsman","gridReference":"C7"} 
+17:52:375 : MISS{"attacker":"the-black-pig","gridReference":"B12"} 
+17:52:397 : MOVE (Get) 
+17:52:408 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+17:52:445 : MISS{"attacker":"the-black-pig","gridReference":"B13"} 
+17:52:470 : MOVE (Get) 
+17:52:481 : MISS{"attacker":"xpsman","gridReference":"C9"} 
+17:52:564 : MISS{"attacker":"the-black-pig","gridReference":"B14"} 
+17:52:583 : MOVE (Get) 
+17:52:594 : MISS{"attacker":"xpsman","gridReference":"C10"} 
+17:52:845 : MISS{"attacker":"the-black-pig","gridReference":"B15"} 
+17:52:864 : MOVE (Get) 
+17:52:876 : MISS{"attacker":"xpsman","gridReference":"C11"} 
+17:52:916 : HIT{"attacker":"the-black-pig","gridReference":"C1"} 
+17:52:943 : MOVE (Get) 
+17:52:955 : MISS{"attacker":"xpsman","gridReference":"C12"} 
+17:52:992 : MISS{"attacker":"the-black-pig","gridReference":"C2"} 
+17:53:10 : MOVE (Get) 
+17:53:22 : MISS{"attacker":"xpsman","gridReference":"C13"} 
+17:53:57 : HIT_MINE{"attacker":"the-black-pig","gridReference":"C3"} 
+17:53:113 : MOVE (Get) 
+17:53:165 : MISS{"attacker":"xpsman","gridReference":"C14"} 
+17:53:240 : MOVE (Get) 
+17:53:253 : MISS{"attacker":"xpsman","gridReference":"C15"} 
+17:53:271 : MOVE (Get) 
+17:53:283 : MISS{"attacker":"xpsman","gridReference":"D2"} 
+17:53:303 : MOVE (Get) 
+17:53:315 : MISS{"attacker":"xpsman","gridReference":"D3"} 
+17:53:333 : MOVE (Get) 
+17:53:346 : MISS{"attacker":"xpsman","gridReference":"D4"} 
+17:53:367 : MOVE (Get) 
+17:53:379 : MISS{"attacker":"xpsman","gridReference":"D6"} 
+17:53:398 : MOVE (Get) 
+17:53:410 : MISS{"attacker":"xpsman","gridReference":"D7"} 
+17:53:462 : MOVE (Get) 
+17:53:474 : MISS{"attacker":"xpsman","gridReference":"D8"} 
+17:53:502 : MOVE (Get) 
+17:53:514 : MISS{"attacker":"xpsman","gridReference":"D9"} 
+17:53:533 : MOVE (Get) 
+17:53:545 : MISS{"attacker":"xpsman","gridReference":"D10"} 
+17:53:564 : MOVE (Get) 
+17:53:576 : MISS{"attacker":"xpsman","gridReference":"D11"} 
+17:53:608 : MISS{"attacker":"the-black-pig","gridReference":"C4"} 
+17:53:945 : MOVE (Get) 
+17:53:957 : MISS{"attacker":"xpsman","gridReference":"D12"} 
+17:53:991 : MISS{"attacker":"the-black-pig","gridReference":"C5"} 
+17:54:10 : MOVE (Get) 
+17:54:22 : MISS{"attacker":"xpsman","gridReference":"D13"} 
+17:54:57 : MISS{"attacker":"the-black-pig","gridReference":"C6"} 
+17:54:116 : MOVE (Get) 
+17:54:128 : MISS{"attacker":"xpsman","gridReference":"D14"} 
+17:54:173 : MISS{"attacker":"the-black-pig","gridReference":"C7"} 
+17:54:191 : MOVE (Get) 
+17:54:202 : HIT_MINE{"attacker":"xpsman","gridReference":"D15"} 
+17:54:234 : MISS{"attacker":"the-black-pig","gridReference":"C8"} 
+17:54:270 : MISS{"attacker":"the-black-pig","gridReference":"C9"} 
+17:54:306 : MISS{"attacker":"the-black-pig","gridReference":"C10"} 
+17:54:341 : MISS{"attacker":"the-black-pig","gridReference":"C11"} 
+17:54:372 : MISS{"attacker":"the-black-pig","gridReference":"C12"} 
+17:54:455 : MISS{"attacker":"the-black-pig","gridReference":"C13"} 
+17:54:486 : MISS{"attacker":"the-black-pig","gridReference":"C14"} 
+17:54:706 : MISS{"attacker":"the-black-pig","gridReference":"C15"} 
+17:54:739 : HIT{"attacker":"the-black-pig","gridReference":"D1"} 
+17:54:770 : MISS{"attacker":"the-black-pig","gridReference":"D2"} 
+17:54:803 : MISS{"attacker":"the-black-pig","gridReference":"D3"} 
+17:55:88 : MOVE (Get) 
+17:55:123 : MISS{"attacker":"xpsman","gridReference":"E2"} 
+17:55:516 : MISS{"attacker":"the-black-pig","gridReference":"D4"} 
+17:55:534 : MOVE (Get) 
+17:55:546 : HIT_MINE{"attacker":"xpsman","gridReference":"E3"} 
+17:55:578 : HIT_MINE{"attacker":"the-black-pig","gridReference":"D5"} 
+17:55:595 : MOVE (Get) 
+17:55:642 : MISS{"attacker":"xpsman","gridReference":"E4"} 
+17:55:870 : MISS{"attacker":"the-black-pig","gridReference":"D6"} 
+17:55:889 : MOVE (Get) 
+17:55:900 : MISS{"attacker":"xpsman","gridReference":"E5"} 
+17:55:933 : MISS{"attacker":"the-black-pig","gridReference":"D7"} 
+17:55:952 : MOVE (Get) 
+17:55:964 : MISS{"attacker":"xpsman","gridReference":"E6"} 
+17:55:998 : MISS{"attacker":"the-black-pig","gridReference":"D8"} 
+17:56:15 : MOVE (Get) 
+17:56:27 : MISS{"attacker":"xpsman","gridReference":"E7"} 
+17:56:332 : MISS{"attacker":"the-black-pig","gridReference":"D9"} 
+17:56:351 : MOVE (Get) 
+17:56:363 : MISS{"attacker":"xpsman","gridReference":"E8"} 
+17:56:397 : MISS{"attacker":"the-black-pig","gridReference":"D10"} 
+17:56:417 : MOVE (Get) 
+17:56:428 : MISS{"attacker":"xpsman","gridReference":"E9"} 
+17:56:467 : MISS{"attacker":"the-black-pig","gridReference":"D11"} 
+17:56:493 : MOVE (Get) 
+17:56:504 : MISS{"attacker":"xpsman","gridReference":"E10"} 
+17:56:540 : MISS{"attacker":"the-black-pig","gridReference":"D12"} 
+17:56:562 : MOVE (Get) 
+17:56:575 : MISS{"attacker":"xpsman","gridReference":"E11"} 
+17:56:960 : MISS{"attacker":"the-black-pig","gridReference":"D13"} 
+17:57:10 : MOVE (Get) 
+17:57:22 : HIT_MINE{"attacker":"xpsman","gridReference":"E12"} 
+17:57:355 : MISS{"attacker":"the-black-pig","gridReference":"D14"} 
+17:57:390 : MISS{"attacker":"the-black-pig","gridReference":"D15"} 
+17:57:429 : HIT{"attacker":"the-black-pig","gridReference":"E1"} 
+19:21:521 : START{"maxTurns":750,"gridSize":"S15","players":["Gibbs","xpsman"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+19:21:534 : PLACE (Get) 
+19:21:574 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+19:21:612 : MISS{"attacker":"Gibbs","gridReference":"F10"} 
+19:21:617 : MOVE (Get) 
+19:21:629 : PLACE (Get){"gridReferences":["A2"]} 
+19:21:643 : MISS{"attacker":"Gibbs","gridReference":"O11"} 
+19:21:652 : MOVE (Get) 
+19:21:664 : PLACE (Get){"gridReferences":["C3"]} 
+19:21:675 : MISS{"attacker":"Gibbs","gridReference":"L4"} 
+19:21:680 : MOVE (Get) 
+19:21:692 : PLACE (Get){"gridReferences":["G1"]} 
+19:21:701 : MISS{"attacker":"Gibbs","gridReference":"J12"} 
+19:21:707 : MOVE (Get) 
+19:21:719 : PLACE (Get){"gridReferences":["G3"]} 
+19:21:728 : MISS{"attacker":"Gibbs","gridReference":"M11"} 
+19:21:733 : MOVE (Get) 
+19:21:745 : PLACE (Get){"gridReferences":["D5"]} 
+19:21:757 : MISS{"attacker":"Gibbs","gridReference":"H14"} 
+19:21:762 : MOVE (Get) 
+19:21:775 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+19:21:784 : MISS{"attacker":"Gibbs","gridReference":"J8"} 
+19:21:790 : MOVE (Get) 
+19:21:801 : MISS{"attacker":"xpsman","gridReference":"B1"} 
+19:21:810 : MISS{"attacker":"Gibbs","gridReference":"M15"} 
+19:21:815 : MOVE (Get) 
+19:21:827 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+19:21:836 : MISS{"attacker":"Gibbs","gridReference":"O7"} 
+19:21:840 : MOVE (Get) 
+19:21:851 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+19:21:861 : MISS{"attacker":"Gibbs","gridReference":"Q7"} 
+19:21:865 : MOVE (Get) 
+19:21:877 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+19:21:885 : MISS{"attacker":"Gibbs","gridReference":"P12"} 
+19:21:890 : MOVE (Get) 
+19:21:902 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+19:21:911 : MISS{"attacker":"Gibbs","gridReference":"Q3"} 
+19:21:916 : MOVE (Get) 
+19:21:928 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+19:21:937 : MISS{"attacker":"Gibbs","gridReference":"S9"} 
+19:21:942 : MOVE (Get) 
+19:21:953 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+19:21:962 : MISS{"attacker":"Gibbs","gridReference":"N8"} 
+19:21:966 : MOVE (Get) 
+19:21:978 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+19:21:987 : MISS{"attacker":"Gibbs","gridReference":"D12"} 
+19:21:992 : MOVE (Get) 
+19:22:4 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+19:22:13 : MISS{"attacker":"Gibbs","gridReference":"K5"} 
+19:22:18 : MOVE (Get) 
+19:22:32 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+19:22:41 : MISS{"attacker":"Gibbs","gridReference":"S15"} 
+19:22:46 : MOVE (Get) 
+19:22:59 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+19:22:90 : MISS{"attacker":"Gibbs","gridReference":"B6"} 
+19:22:113 : MOVE (Get) 
+19:22:125 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+19:22:134 : MISS{"attacker":"Gibbs","gridReference":"C15"} 
+19:22:139 : MOVE (Get) 
+19:22:152 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+19:22:162 : MISS{"attacker":"Gibbs","gridReference":"Q9"} 
+19:22:167 : MOVE (Get) 
+19:22:180 : HIT{"attacker":"xpsman","gridReference":"A7"} 
+19:22:189 : MISS{"attacker":"Gibbs","gridReference":"R8"} 
+19:22:194 : MOVE (Get) 
+19:22:206 : HIT{"attacker":"xpsman","gridReference":"A8"} 
+19:22:215 : MISS{"attacker":"Gibbs","gridReference":"Q1"} 
+19:22:220 : MOVE (Get) 
+19:22:232 : HIT{"attacker":"xpsman","gridReference":"A9"} 
+19:22:241 : MISS{"attacker":"Gibbs","gridReference":"P10"} 
+19:22:246 : MOVE (Get) 
+19:22:259 : HIT{"attacker":"xpsman","gridReference":"A10"} 
+19:22:267 : MISS{"attacker":"Gibbs","gridReference":"E11"} 
+19:22:272 : MOVE (Get) 
+19:22:285 : HIT{"attacker":"xpsman","gridReference":"A11"} 
+19:22:294 : MISS{"attacker":"Gibbs","gridReference":"M3"} 
+19:22:299 : MOVE (Get) 
+19:22:310 : MISS{"attacker":"xpsman","gridReference":"A12"} 
+19:22:318 : MISS{"attacker":"Gibbs","gridReference":"G9"} 
+19:22:323 : MOVE (Get) 
+19:22:335 : MISS{"attacker":"xpsman","gridReference":"A13"} 
+19:22:344 : MISS{"attacker":"Gibbs","gridReference":"A13"} 
+19:22:349 : MOVE (Get) 
+19:22:360 : MISS{"attacker":"xpsman","gridReference":"A14"} 
+19:22:368 : MISS{"attacker":"Gibbs","gridReference":"P8"} 
+19:22:373 : MOVE (Get) 
+19:22:384 : MISS{"attacker":"xpsman","gridReference":"A15"} 
+19:22:393 : MISS{"attacker":"Gibbs","gridReference":"L8"} 
+19:22:397 : MOVE (Get) 
+19:22:408 : MISS{"attacker":"xpsman","gridReference":"B2"} 
+19:22:417 : MISS{"attacker":"Gibbs","gridReference":"O9"} 
+19:22:423 : MOVE (Get) 
+19:22:434 : MISS{"attacker":"xpsman","gridReference":"B3"} 
+19:22:443 : MISS{"attacker":"Gibbs","gridReference":"I15"} 
+19:22:450 : MOVE (Get) 
+19:22:462 : MISS{"attacker":"xpsman","gridReference":"B4"} 
+19:22:471 : MISS{"attacker":"Gibbs","gridReference":"H12"} 
+19:22:476 : MOVE (Get) 
+19:22:487 : MISS{"attacker":"xpsman","gridReference":"B5"} 
+19:22:497 : MISS{"attacker":"Gibbs","gridReference":"B2"} 
+19:22:502 : MOVE (Get) 
+19:22:514 : HIT{"attacker":"xpsman","gridReference":"B6"} 
+19:22:524 : MISS{"attacker":"Gibbs","gridReference":"K1"} 
+19:22:528 : MOVE (Get) 
+19:22:540 : MISS{"attacker":"xpsman","gridReference":"B7"} 
+19:22:550 : MISS{"attacker":"Gibbs","gridReference":"A5"} 
+19:22:555 : MOVE (Get) 
+19:22:567 : MISS{"attacker":"xpsman","gridReference":"B8"} 
+19:22:575 : MISS{"attacker":"Gibbs","gridReference":"I1"} 
+19:22:579 : MOVE (Get) 
+19:22:591 : MISS{"attacker":"xpsman","gridReference":"B9"} 
+19:22:601 : MISS{"attacker":"Gibbs","gridReference":"G7"} 
+19:22:605 : MOVE (Get) 
+19:22:616 : MISS{"attacker":"xpsman","gridReference":"B10"} 
+19:22:625 : MISS{"attacker":"Gibbs","gridReference":"B14"} 
+19:22:630 : MOVE (Get) 
+19:22:641 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+19:22:651 : MISS{"attacker":"Gibbs","gridReference":"L6"} 
+19:22:655 : MOVE (Get) 
+19:22:669 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+19:22:678 : MISS{"attacker":"Gibbs","gridReference":"J10"} 
+19:22:683 : MOVE (Get) 
+19:22:695 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+19:22:704 : MISS{"attacker":"Gibbs","gridReference":"D14"} 
+19:22:709 : MOVE (Get) 
+19:22:720 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+19:22:729 : MISS{"attacker":"Gibbs","gridReference":"B8"} 
+19:22:734 : MOVE (Get) 
+19:22:745 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+19:22:755 : MISS{"attacker":"Gibbs","gridReference":"S7"} 
+19:22:760 : MOVE (Get) 
+19:22:772 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+19:22:781 : MISS{"attacker":"Gibbs","gridReference":"H4"} 
+19:22:785 : MOVE (Get) 
+19:22:797 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+19:22:807 : MISS{"attacker":"Gibbs","gridReference":"L12"} 
+19:22:811 : MOVE (Get) 
+19:22:945 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+19:22:973 : MISS{"attacker":"Gibbs","gridReference":"N10"} 
+19:22:978 : MOVE (Get) 
+19:22:990 : HIT{"attacker":"xpsman","gridReference":"C6"} 
+19:22:999 : MISS{"attacker":"Gibbs","gridReference":"S3"} 
+19:23:4 : MOVE (Get) 
+19:23:15 : MISS{"attacker":"xpsman","gridReference":"C7"} 
+19:23:24 : HIT_MINE{"attacker":"Gibbs","gridReference":"G3"} 
+19:23:29 : MOVE (Get) 
+19:23:41 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+19:23:46 : MOVE (Get) 
+19:23:62 : MISS{"attacker":"xpsman","gridReference":"C9"} 
+19:23:67 : MOVE (Get) 
+19:23:78 : MISS{"attacker":"xpsman","gridReference":"C10"} 
+19:23:83 : MOVE (Get) 
+19:23:94 : MISS{"attacker":"xpsman","gridReference":"C11"} 
+19:23:99 : MOVE (Get) 
+19:23:111 : MISS{"attacker":"xpsman","gridReference":"C12"} 
+19:23:116 : MOVE (Get) 
+19:23:128 : MISS{"attacker":"xpsman","gridReference":"C13"} 
+19:23:132 : MOVE (Get) 
+19:23:144 : MISS{"attacker":"xpsman","gridReference":"C14"} 
+19:23:149 : MOVE (Get) 
+19:23:161 : MISS{"attacker":"xpsman","gridReference":"C15"} 
+19:23:166 : MOVE (Get) 
+19:23:178 : MISS{"attacker":"xpsman","gridReference":"D2"} 
+19:23:184 : MOVE (Get) 
+19:23:195 : MISS{"attacker":"xpsman","gridReference":"D3"} 
+19:23:201 : MOVE (Get) 
+19:23:213 : MISS{"attacker":"xpsman","gridReference":"D4"} 
+19:23:222 : MISS{"attacker":"Gibbs","gridReference":"K3"} 
+19:23:227 : MOVE (Get) 
+19:23:239 : HIT{"attacker":"xpsman","gridReference":"D6"} 
+19:23:248 : MISS{"attacker":"Gibbs","gridReference":"K9"} 
+19:23:253 : MOVE (Get) 
+19:23:264 : MISS{"attacker":"xpsman","gridReference":"D7"} 
+19:23:275 : HIT{"attacker":"Gibbs","gridReference":"E1"} 
+19:23:280 : MOVE (Get) 
+19:23:317 : MISS{"attacker":"xpsman","gridReference":"D8"} 
+19:23:328 : HIT{"attacker":"Gibbs","gridReference":"D1"} 
+19:23:334 : MOVE (Get) 
+19:23:345 : MISS{"attacker":"xpsman","gridReference":"D9"} 
+19:23:356 : HIT{"attacker":"Gibbs","gridReference":"C1"} 
+19:23:361 : MOVE (Get) 
+19:23:374 : MISS{"attacker":"xpsman","gridReference":"D10"} 
+19:23:385 : HIT{"attacker":"Gibbs","gridReference":"B1"} 
+19:23:390 : MOVE (Get) 
+19:23:401 : MISS{"attacker":"xpsman","gridReference":"D11"} 
+19:23:412 : HIT{"attacker":"Gibbs","gridReference":"A1"} 
+19:23:424 : MOVE (Get) 
+19:23:437 : MISS{"attacker":"xpsman","gridReference":"D12"} 
+19:43:103 : START{"maxTurns":750,"gridSize":"S15","players":["piship","xpsman"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+19:43:446 : PLACE (Get) 
+19:43:485 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+19:43:562 : MISS{"attacker":"piship","gridReference":"O11"} 
+19:43:567 : MOVE (Get) 
+19:43:579 : PLACE (Get){"gridReferences":["A2"]} 
+19:43:628 : MISS{"attacker":"piship","gridReference":"E8"} 
+19:43:633 : MOVE (Get) 
+19:43:644 : PLACE (Get){"gridReferences":["C3"]} 
+19:43:688 : MOVE (Get) 
+19:43:700 : PLACE (Get){"gridReferences":["G1"]} 
+19:43:791 : MISS{"attacker":"piship","gridReference":"P5"} 
+19:43:796 : MOVE (Get) 
+19:43:807 : PLACE (Get){"gridReferences":["G3"]} 
+19:43:855 : MISS{"attacker":"piship","gridReference":"N12"} 
+19:43:860 : MOVE (Get) 
+19:43:872 : PLACE (Get){"gridReferences":["D5"]} 
+19:43:919 : MISS{"attacker":"piship","gridReference":"P2"} 
+19:43:924 : MOVE (Get) 
+19:43:955 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+19:43:995 : MOVE (Get) 
+19:44:29 : MISS{"attacker":"xpsman","gridReference":"B1"} 
+19:44:77 : MISS{"attacker":"piship","gridReference":"J8"} 
+19:44:82 : MOVE (Get) 
+19:44:117 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+19:44:167 : MISS{"attacker":"piship","gridReference":"J6"} 
+19:44:173 : MOVE (Get) 
+19:44:207 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+19:44:255 : MISS{"attacker":"piship","gridReference":"A14"} 
+19:44:260 : MOVE (Get) 
+19:44:302 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+19:44:353 : HIT{"attacker":"piship","gridReference":"B1"} 
+19:44:360 : MOVE (Get) 
+19:44:397 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+19:44:470 : MISS{"attacker":"piship","gridReference":"B1"} 
+19:44:475 : MOVE (Get) 
+19:44:520 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+19:44:573 : MOVE (Get) 
+19:44:610 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+19:44:660 : MISS{"attacker":"piship","gridReference":"F6"} 
+19:44:665 : MOVE (Get) 
+19:44:699 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+19:44:743 : MOVE (Get) 
+19:44:776 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+19:44:859 : MISS{"attacker":"piship","gridReference":"S12"} 
+19:44:864 : MOVE (Get) 
+19:44:898 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+19:44:947 : MISS{"attacker":"piship","gridReference":"L11"} 
+19:44:952 : MOVE (Get) 
+19:44:986 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+19:45:34 : MISS{"attacker":"piship","gridReference":"A14"} 
+19:45:39 : MOVE (Get) 
+19:45:71 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+19:45:120 : MISS{"attacker":"piship","gridReference":"M7"} 
+19:45:125 : MOVE (Get) 
+19:45:159 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+19:45:206 : MISS{"attacker":"piship","gridReference":"J2"} 
+19:45:211 : MOVE (Get) 
+19:45:260 : HIT_MINE{"attacker":"xpsman","gridReference":"A7"} 
+19:45:362 : MISS{"attacker":"piship","gridReference":"D3"} 
+19:45:409 : MISS{"attacker":"piship","gridReference":"K12"} 
+19:45:459 : MISS{"attacker":"piship","gridReference":"F2"} 
+19:45:542 : MISS{"attacker":"piship","gridReference":"B7"} 
+19:45:607 : MISS{"attacker":"piship","gridReference":"B9"} 
+19:45:654 : MISS{"attacker":"piship","gridReference":"@6"} 
+19:45:704 : MISS{"attacker":"piship","gridReference":"C13"} 
+19:45:754 : MISS{"attacker":"piship","gridReference":"Q10"} 
+19:45:802 : MISS{"attacker":"piship","gridReference":"P4"} 
+19:45:851 : MISS{"attacker":"piship","gridReference":"L0"} 
+19:45:856 : MOVE (Get) 
+19:45:888 : MISS{"attacker":"xpsman","gridReference":"A8"} 
+19:45:933 : MOVE (Get) 
+19:45:965 : MISS{"attacker":"xpsman","gridReference":"A9"} 
+19:46:12 : MISS{"attacker":"piship","gridReference":"K11"} 
+19:46:17 : MOVE (Get) 
+19:46:50 : MISS{"attacker":"xpsman","gridReference":"A10"} 
+19:46:96 : MISS{"attacker":"piship","gridReference":"S15"} 
+19:46:101 : MOVE (Get) 
+19:46:134 : MISS{"attacker":"xpsman","gridReference":"A11"} 
+19:46:184 : HIT_MINE{"attacker":"piship","gridReference":"G3"} 
+19:46:189 : MOVE (Get) 
+19:46:222 : MISS{"attacker":"xpsman","gridReference":"A12"} 
+19:46:227 : MOVE (Get) 
+19:46:262 : MISS{"attacker":"xpsman","gridReference":"A13"} 
+19:46:267 : MOVE (Get) 
+19:46:298 : MISS{"attacker":"xpsman","gridReference":"A14"} 
+19:46:303 : MOVE (Get) 
+19:46:395 : MISS{"attacker":"xpsman","gridReference":"A15"} 
+19:46:400 : MOVE (Get) 
+19:46:432 : MISS{"attacker":"xpsman","gridReference":"B2"} 
+19:46:440 : MOVE (Get) 
+19:46:515 : MISS{"attacker":"xpsman","gridReference":"B3"} 
+19:46:527 : MOVE (Get) 
+19:46:577 : MISS{"attacker":"xpsman","gridReference":"B4"} 
+19:46:582 : MOVE (Get) 
+19:46:615 : MISS{"attacker":"xpsman","gridReference":"B5"} 
+19:46:620 : MOVE (Get) 
+19:46:651 : MISS{"attacker":"xpsman","gridReference":"B6"} 
+19:46:656 : MOVE (Get) 
+19:46:688 : MISS{"attacker":"xpsman","gridReference":"B7"} 
+19:46:694 : MOVE (Get) 
+19:46:727 : MISS{"attacker":"xpsman","gridReference":"B8"} 
+19:46:778 : MISS{"attacker":"piship","gridReference":"O10"} 
+19:46:783 : MOVE (Get) 
+19:46:815 : MISS{"attacker":"xpsman","gridReference":"B9"} 
+19:46:865 : MISS{"attacker":"piship","gridReference":"J2"} 
+19:46:870 : MOVE (Get) 
+19:46:905 : MISS{"attacker":"xpsman","gridReference":"B10"} 
+19:46:955 : MISS{"attacker":"piship","gridReference":"N5"} 
+19:46:960 : MOVE (Get) 
+19:46:991 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+19:47:37 : MOVE (Get) 
+19:47:75 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+19:47:124 : MISS{"attacker":"piship","gridReference":"@9"} 
+19:47:128 : MOVE (Get) 
+19:47:161 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+19:47:209 : MISS{"attacker":"piship","gridReference":"R9"} 
+19:47:214 : MOVE (Get) 
+19:47:247 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+19:47:294 : MISS{"attacker":"piship","gridReference":"P15"} 
+19:47:300 : MOVE (Get) 
+19:47:342 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+19:47:393 : MISS{"attacker":"piship","gridReference":"@15"} 
+19:47:399 : MOVE (Get) 
+19:47:436 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+19:47:483 : MOVE (Get) 
+19:47:521 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+19:47:570 : MISS{"attacker":"piship","gridReference":"J6"} 
+19:47:575 : MOVE (Get) 
+19:47:608 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+19:47:665 : MOVE (Get) 
+19:47:770 : MISS{"attacker":"xpsman","gridReference":"C6"} 
+19:47:825 : MISS{"attacker":"piship","gridReference":"C9"} 
+19:47:830 : MOVE (Get) 
+19:47:873 : MISS{"attacker":"xpsman","gridReference":"C7"} 
+19:47:929 : MISS{"attacker":"piship","gridReference":"S4"} 
+19:47:934 : MOVE (Get) 
+19:47:976 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+19:48:24 : MISS{"attacker":"piship","gridReference":"G13"} 
+19:48:29 : MOVE (Get) 
+19:48:63 : MISS{"attacker":"xpsman","gridReference":"C9"} 
+19:48:114 : MISS{"attacker":"piship","gridReference":"E12"} 
+19:48:119 : MOVE (Get) 
+19:48:152 : HIT_MINE{"attacker":"xpsman","gridReference":"C10"} 
+19:48:200 : MISS{"attacker":"piship","gridReference":"@12"} 
+19:48:248 : MISS{"attacker":"piship","gridReference":"B0"} 
+19:48:299 : MISS{"attacker":"piship","gridReference":"H1"} 
+19:48:347 : MISS{"attacker":"piship","gridReference":"L11"} 
+19:48:422 : MISS{"attacker":"piship","gridReference":"O3"} 
+19:48:471 : MISS{"attacker":"piship","gridReference":"M14"} 
+19:48:521 : MISS{"attacker":"piship","gridReference":"C4"} 
+19:48:571 : MISS{"attacker":"piship","gridReference":"L1"} 
+19:48:622 : MISS{"attacker":"piship","gridReference":"L4"} 
+19:48:759 : MISS{"attacker":"piship","gridReference":"S1"} 
+19:48:764 : MOVE (Get) 
+19:48:799 : MISS{"attacker":"xpsman","gridReference":"C11"} 
+19:48:842 : MOVE (Get) 
+19:48:877 : MISS{"attacker":"xpsman","gridReference":"C12"} 
+19:48:929 : MISS{"attacker":"piship","gridReference":"E7"} 
+19:48:934 : MOVE (Get) 
+19:48:966 : MISS{"attacker":"xpsman","gridReference":"C13"} 
+19:49:9 : MOVE (Get) 
+19:49:101 : MISS{"attacker":"xpsman","gridReference":"C14"} 
+19:49:162 : MISS{"attacker":"piship","gridReference":"M8"} 
+19:49:167 : MOVE (Get) 
+19:49:200 : MISS{"attacker":"xpsman","gridReference":"C15"} 
+19:49:249 : HIT{"attacker":"piship","gridReference":"C1"} 
+19:49:253 : MOVE (Get) 
+19:49:287 : MISS{"attacker":"xpsman","gridReference":"D2"} 
+19:49:337 : MISS{"attacker":"piship","gridReference":"C1"} 
+19:49:342 : MOVE (Get) 
+19:49:384 : MISS{"attacker":"xpsman","gridReference":"D3"} 
+19:49:431 : MISS{"attacker":"piship","gridReference":"C4"} 
+19:49:436 : MOVE (Get) 
+19:49:470 : MISS{"attacker":"xpsman","gridReference":"D4"} 
+19:49:518 : MISS{"attacker":"piship","gridReference":"D10"} 
+19:49:523 : MOVE (Get) 
+19:49:557 : MISS{"attacker":"xpsman","gridReference":"D6"} 
+19:49:606 : MISS{"attacker":"piship","gridReference":"S2"} 
+19:49:610 : MOVE (Get) 
+19:49:645 : MISS{"attacker":"xpsman","gridReference":"D7"} 
+19:49:694 : MISS{"attacker":"piship","gridReference":"M4"} 
+19:49:699 : MOVE (Get) 
+19:49:733 : MISS{"attacker":"xpsman","gridReference":"D8"} 
+19:49:790 : MISS{"attacker":"piship","gridReference":"C13"} 
+19:49:795 : MOVE (Get) 
+19:49:828 : MISS{"attacker":"xpsman","gridReference":"D9"} 
+19:49:878 : MISS{"attacker":"piship","gridReference":"D2"} 
+19:49:883 : MOVE (Get) 
+19:49:915 : HIT_MINE{"attacker":"xpsman","gridReference":"D10"} 
+19:49:965 : MISS{"attacker":"piship","gridReference":"S8"} 
+19:50:16 : MISS{"attacker":"piship","gridReference":"D15"} 
+19:50:67 : MISS{"attacker":"piship","gridReference":"L8"} 
+19:50:165 : MISS{"attacker":"piship","gridReference":"C4"} 
+19:50:230 : MISS{"attacker":"piship","gridReference":"R3"} 
+19:50:362 : MISS{"attacker":"piship","gridReference":"I12"} 
+19:50:413 : MISS{"attacker":"piship","gridReference":"I1"} 
+19:50:461 : MISS{"attacker":"piship","gridReference":"C1"} 
+19:50:512 : MISS{"attacker":"piship","gridReference":"I14"} 
+19:50:517 : MOVE (Get) 
+19:50:549 : MISS{"attacker":"xpsman","gridReference":"D11"} 
+19:50:599 : MISS{"attacker":"piship","gridReference":"F13"} 
+19:50:604 : MOVE (Get) 
+19:50:636 : MISS{"attacker":"xpsman","gridReference":"D12"} 
+19:50:766 : MISS{"attacker":"piship","gridReference":"L11"} 
+19:50:771 : MOVE (Get) 
+19:50:805 : MISS{"attacker":"xpsman","gridReference":"D13"} 
+19:50:856 : MISS{"attacker":"piship","gridReference":"Q14"} 
+19:50:861 : MOVE (Get) 
+19:50:892 : MISS{"attacker":"xpsman","gridReference":"D14"} 
+19:50:940 : MISS{"attacker":"piship","gridReference":"E3"} 
+19:50:945 : MOVE (Get) 
+19:50:978 : MISS{"attacker":"xpsman","gridReference":"D15"} 
+19:51:27 : MISS{"attacker":"piship","gridReference":"P14"} 
+19:51:32 : MOVE (Get) 
+19:51:65 : MISS{"attacker":"xpsman","gridReference":"E2"} 
+19:51:115 : MISS{"attacker":"piship","gridReference":"I6"} 
+19:51:120 : MOVE (Get) 
+19:51:160 : MISS{"attacker":"xpsman","gridReference":"E3"} 
+19:51:214 : MISS{"attacker":"piship","gridReference":"L1"} 
+19:51:220 : MOVE (Get) 
+19:51:254 : MISS{"attacker":"xpsman","gridReference":"E4"} 
+19:51:310 : MISS{"attacker":"piship","gridReference":"K10"} 
+19:51:315 : MOVE (Get) 
+19:51:355 : MISS{"attacker":"xpsman","gridReference":"E5"} 
+19:51:408 : MISS{"attacker":"piship","gridReference":"P1"} 
+19:51:413 : MOVE (Get) 
+19:51:447 : MISS{"attacker":"xpsman","gridReference":"E6"} 
+19:51:499 : MISS{"attacker":"piship","gridReference":"K0"} 
+19:51:504 : MOVE (Get) 
+19:51:538 : MISS{"attacker":"xpsman","gridReference":"E7"} 
+19:51:587 : MISS{"attacker":"piship","gridReference":"D11"} 
+19:51:592 : MOVE (Get) 
+19:51:631 : MISS{"attacker":"xpsman","gridReference":"E8"} 
+19:51:676 : MOVE (Get) 
+19:51:710 : MISS{"attacker":"xpsman","gridReference":"E9"} 
+19:51:767 : MISS{"attacker":"piship","gridReference":"@3"} 
+19:51:772 : MOVE (Get) 
+19:51:806 : MISS{"attacker":"xpsman","gridReference":"E10"} 
+19:51:854 : MISS{"attacker":"piship","gridReference":"L7"} 
+19:51:859 : MOVE (Get) 
+19:51:892 : MISS{"attacker":"xpsman","gridReference":"E11"} 
+19:51:942 : MISS{"attacker":"piship","gridReference":"J14"} 
+19:51:947 : MOVE (Get) 
+19:55:84 : MISS{"attacker":"xpsman","gridReference":"E12"} 
+19:55:133 : MISS{"attacker":"piship","gridReference":"E15"} 
+19:55:138 : MOVE (Get) 
+19:55:171 : MISS{"attacker":"xpsman","gridReference":"E13"} 
+19:55:293 : MISS{"attacker":"piship","gridReference":"B9"} 
+19:55:297 : MOVE (Get) 
+19:55:331 : MISS{"attacker":"xpsman","gridReference":"E14"} 
+19:55:381 : MISS{"attacker":"piship","gridReference":"O7"} 
+19:55:385 : MOVE (Get) 
+19:55:419 : MISS{"attacker":"xpsman","gridReference":"E15"} 
+19:55:473 : MISS{"attacker":"piship","gridReference":"F14"} 
+19:55:478 : MOVE (Get) 
+19:55:511 : MISS{"attacker":"xpsman","gridReference":"F1"} 
+19:55:556 : MOVE (Get) 
+19:55:597 : MISS{"attacker":"xpsman","gridReference":"F2"} 
+19:55:647 : MISS{"attacker":"piship","gridReference":"@3"} 
+19:55:654 : MOVE (Get) 
+19:55:689 : MISS{"attacker":"xpsman","gridReference":"F3"} 
+19:55:735 : MISS{"attacker":"piship","gridReference":"I13"} 
+19:55:740 : MOVE (Get) 
+19:55:776 : MISS{"attacker":"xpsman","gridReference":"F4"} 
+19:55:884 : MISS{"attacker":"piship","gridReference":"G15"} 
+19:55:889 : MOVE (Get) 
+19:55:921 : MISS{"attacker":"xpsman","gridReference":"F5"} 
+19:55:969 : MISS{"attacker":"piship","gridReference":"F1"} 
+19:55:974 : MOVE (Get) 
+19:56:6 : MISS{"attacker":"xpsman","gridReference":"F6"} 
+19:56:52 : MOVE (Get) 
+19:56:322 : HIT{"attacker":"xpsman","gridReference":"F7"} 
+19:56:374 : MISS{"attacker":"piship","gridReference":"A12"} 
+19:56:379 : MOVE (Get) 
+19:56:416 : MISS{"attacker":"xpsman","gridReference":"F8"} 
+19:56:467 : MISS{"attacker":"piship","gridReference":"J5"} 
+19:56:472 : MOVE (Get) 
+19:56:508 : MISS{"attacker":"xpsman","gridReference":"F9"} 
+19:56:552 : MOVE (Get) 
+19:56:584 : MISS{"attacker":"xpsman","gridReference":"F10"} 
+19:56:633 : MISS{"attacker":"piship","gridReference":"M7"} 
+19:56:639 : MOVE (Get) 
+19:56:675 : MISS{"attacker":"xpsman","gridReference":"F11"} 
+19:56:727 : MISS{"attacker":"piship","gridReference":"B1"} 
+19:56:734 : MOVE (Get) 
+19:56:768 : MISS{"attacker":"xpsman","gridReference":"F12"} 
+19:56:820 : MISS{"attacker":"piship","gridReference":"O13"} 
+19:56:827 : MOVE (Get) 
+19:56:865 : MISS{"attacker":"xpsman","gridReference":"F13"} 
+19:56:959 : MISS{"attacker":"piship","gridReference":"E13"} 
+19:56:965 : MOVE (Get) 
+19:57:1 : MISS{"attacker":"xpsman","gridReference":"F14"} 
+19:57:51 : MISS{"attacker":"piship","gridReference":"J10"} 
+19:57:58 : MOVE (Get) 
+19:57:96 : MISS{"attacker":"xpsman","gridReference":"F15"} 
+19:57:149 : MISS{"attacker":"piship","gridReference":"K13"} 
+19:57:154 : MOVE (Get) 
+19:57:187 : MISS{"attacker":"xpsman","gridReference":"G2"} 
+19:57:241 : MISS{"attacker":"piship","gridReference":"M6"} 
+19:57:246 : MOVE (Get) 
+19:57:280 : MISS{"attacker":"xpsman","gridReference":"G4"} 
+19:57:333 : MISS{"attacker":"piship","gridReference":"E3"} 
+19:57:339 : MOVE (Get) 
+19:57:371 : MISS{"attacker":"xpsman","gridReference":"G5"} 
+19:57:422 : MISS{"attacker":"piship","gridReference":"H1"} 
+19:57:433 : MOVE (Get) 
+19:57:489 : MISS{"attacker":"xpsman","gridReference":"G6"} 
+19:57:548 : MISS{"attacker":"piship","gridReference":"F0"} 
+19:57:553 : MOVE (Get) 
+19:57:590 : HIT{"attacker":"xpsman","gridReference":"G7"} 
+19:57:643 : MISS{"attacker":"piship","gridReference":"F7"} 
+19:57:650 : MOVE (Get) 
+19:57:685 : MISS{"attacker":"xpsman","gridReference":"G8"} 
+19:57:771 : MOVE (Get) 
+19:57:814 : MISS{"attacker":"xpsman","gridReference":"G9"} 
+19:57:867 : MISS{"attacker":"piship","gridReference":"F4"} 
+19:57:873 : MOVE (Get) 
+19:57:911 : MISS{"attacker":"xpsman","gridReference":"G10"} 
+19:57:965 : MISS{"attacker":"piship","gridReference":"C13"} 
+19:57:972 : MOVE (Get) 
+19:58:11 : MISS{"attacker":"xpsman","gridReference":"G11"} 
+19:58:58 : MOVE (Get) 
+19:58:95 : MISS{"attacker":"xpsman","gridReference":"G12"} 
+19:58:145 : MISS{"attacker":"piship","gridReference":"G13"} 
+19:58:150 : MOVE (Get) 
+19:58:184 : MISS{"attacker":"xpsman","gridReference":"G13"} 
+19:58:237 : MISS{"attacker":"piship","gridReference":"H3"} 
+19:58:244 : MOVE (Get) 
+19:58:279 : MISS{"attacker":"xpsman","gridReference":"G14"} 
+19:58:325 : MISS{"attacker":"piship","gridReference":"A5"} 
+19:58:334 : MOVE (Get) 
+19:58:371 : MISS{"attacker":"xpsman","gridReference":"G15"} 
+19:58:446 : MISS{"attacker":"piship","gridReference":"P8"} 
+19:58:452 : MOVE (Get) 
+19:58:489 : MISS{"attacker":"xpsman","gridReference":"H1"} 
+19:58:542 : MISS{"attacker":"piship","gridReference":"D3"} 
+19:58:548 : MOVE (Get) 
+19:58:587 : MISS{"attacker":"xpsman","gridReference":"H2"} 
+19:58:633 : MOVE (Get) 
+19:58:737 : MISS{"attacker":"xpsman","gridReference":"H3"} 
+19:58:831 : MISS{"attacker":"piship","gridReference":"F2"} 
+19:58:837 : MOVE (Get) 
+19:58:887 : MISS{"attacker":"xpsman","gridReference":"H4"} 
+19:58:938 : MISS{"attacker":"piship","gridReference":"N13"} 
+19:58:945 : MOVE (Get) 
+19:58:983 : MISS{"attacker":"xpsman","gridReference":"H5"} 
+19:59:36 : MISS{"attacker":"piship","gridReference":"F15"} 
+19:59:43 : MOVE (Get) 
+19:59:79 : MISS{"attacker":"xpsman","gridReference":"H6"} 
+19:59:131 : MOVE (Get) 
+19:59:169 : HIT{"attacker":"xpsman","gridReference":"H7"} 
+19:59:221 : MISS{"attacker":"piship","gridReference":"O5"} 
+19:59:228 : MOVE (Get) 
+19:59:275 : MISS{"attacker":"xpsman","gridReference":"H8"} 
+19:59:327 : MISS{"attacker":"piship","gridReference":"F5"} 
+19:59:333 : MOVE (Get) 
+19:59:371 : MISS{"attacker":"xpsman","gridReference":"H9"} 
+19:59:422 : HIT_MINE{"attacker":"piship","gridReference":"C3"} 
+19:59:428 : MOVE (Get) 
+19:59:465 : MISS{"attacker":"xpsman","gridReference":"H10"} 
+19:59:472 : MOVE (Get) 
+19:59:507 : MISS{"attacker":"xpsman","gridReference":"H11"} 
+19:59:514 : MOVE (Get) 
+19:59:550 : MISS{"attacker":"xpsman","gridReference":"H12"} 
+19:59:557 : MOVE (Get) 
+19:59:592 : MISS{"attacker":"xpsman","gridReference":"H13"} 
+19:59:600 : MOVE (Get) 
+19:59:637 : MISS{"attacker":"xpsman","gridReference":"H14"} 
+19:59:644 : MOVE (Get) 
+19:59:680 : MISS{"attacker":"xpsman","gridReference":"H15"} 
+19:59:687 : MOVE (Get) 
+19:59:723 : MISS{"attacker":"xpsman","gridReference":"I1"} 
+19:59:730 : MOVE (Get) 
+19:59:769 : MISS{"attacker":"xpsman","gridReference":"I2"} 
+19:59:775 : MOVE (Get) 
+20:0:17 : HIT_MINE{"attacker":"xpsman","gridReference":"I3"} 
+20:0:86 : MISS{"attacker":"piship","gridReference":"K8"} 
+20:0:141 : MISS{"attacker":"piship","gridReference":"G14"} 
+20:0:192 : MISS{"attacker":"piship","gridReference":"E7"} 
+20:0:243 : MISS{"attacker":"piship","gridReference":"H10"} 
+20:0:327 : MISS{"attacker":"piship","gridReference":"N6"} 
+20:0:380 : MISS{"attacker":"piship","gridReference":"D15"} 
+20:0:683 : MISS{"attacker":"piship","gridReference":"N4"} 
+20:0:996 : MISS{"attacker":"piship","gridReference":"N13"} 
+20:1:303 : MOVE (Get) 
+20:1:342 : MISS{"attacker":"xpsman","gridReference":"I4"} 
+20:1:624 : MISS{"attacker":"piship","gridReference":"N2"} 
+20:1:631 : MOVE (Get) 
+20:1:939 : MISS{"attacker":"xpsman","gridReference":"I5"} 
+20:2:271 : MISS{"attacker":"piship","gridReference":"N0"} 
+20:2:278 : MOVE (Get) 
+20:2:536 : MISS{"attacker":"xpsman","gridReference":"I6"} 
+20:2:591 : MISS{"attacker":"piship","gridReference":"B5"} 
+20:2:597 : MOVE (Get) 
+20:2:636 : HIT{"attacker":"xpsman","gridReference":"I7"} 
+20:2:685 : MOVE (Get) 
+20:2:723 : MISS{"attacker":"xpsman","gridReference":"I8"} 
+20:2:780 : MISS{"attacker":"piship","gridReference":"M15"} 
+20:2:787 : MOVE (Get) 
+20:2:823 : MISS{"attacker":"xpsman","gridReference":"I9"} 
+20:2:882 : MOVE (Get) 
+20:2:919 : MISS{"attacker":"xpsman","gridReference":"I10"} 
+20:3:89 : MISS{"attacker":"piship","gridReference":"B13"} 
+20:3:97 : MOVE (Get) 
+20:3:133 : MISS{"attacker":"xpsman","gridReference":"I11"} 
+20:3:156 : MOVE (Get) 
+20:3:192 : MISS{"attacker":"xpsman","gridReference":"I12"} 
+20:3:246 : MISS{"attacker":"piship","gridReference":"N11"} 
+20:3:253 : MOVE (Get) 
+20:3:289 : MISS{"attacker":"xpsman","gridReference":"I13"} 
+20:3:340 : MISS{"attacker":"piship","gridReference":"F14"} 
+20:3:347 : MOVE (Get) 
+20:3:382 : HIT_MINE{"attacker":"xpsman","gridReference":"I14"} 
+20:3:435 : HIT_MINE{"attacker":"piship","gridReference":"D5"} 
+20:3:441 : MOVE (Get) 
+20:3:479 : MISS{"attacker":"xpsman","gridReference":"I15"} 
+20:3:542 : MISS{"attacker":"piship","gridReference":"C5"} 
+20:3:565 : MOVE (Get) 
+20:3:613 : MISS{"attacker":"xpsman","gridReference":"J1"} 
+20:3:662 : MISS{"attacker":"piship","gridReference":"O15"} 
+20:3:669 : MOVE (Get) 
+20:3:706 : MISS{"attacker":"xpsman","gridReference":"J2"} 
+20:3:755 : MISS{"attacker":"piship","gridReference":"S5"} 
+20:3:762 : MOVE (Get) 
+20:3:800 : HIT_MINE{"attacker":"xpsman","gridReference":"J3"} 
+20:3:851 : MISS{"attacker":"piship","gridReference":"A6"} 
+20:3:904 : MISS{"attacker":"piship","gridReference":"@6"} 
+20:3:956 : MISS{"attacker":"piship","gridReference":"L6"} 
+20:4:5 : MISS{"attacker":"piship","gridReference":"H9"} 
+20:4:57 : MISS{"attacker":"piship","gridReference":"Q15"} 
+20:4:128 : MISS{"attacker":"piship","gridReference":"Q13"} 
+20:4:177 : MISS{"attacker":"piship","gridReference":"E6"} 
+20:4:280 : MISS{"attacker":"piship","gridReference":"P3"} 
+20:4:336 : MISS{"attacker":"piship","gridReference":"S1"} 
+20:4:343 : MOVE (Get) 
+20:4:382 : MISS{"attacker":"xpsman","gridReference":"J4"} 
+20:4:432 : MISS{"attacker":"piship","gridReference":"O8"} 
+20:4:438 : MOVE (Get) 
+20:4:475 : MISS{"attacker":"xpsman","gridReference":"J5"} 
+20:4:527 : MISS{"attacker":"piship","gridReference":"Q10"} 
+20:4:533 : MOVE (Get) 
+20:4:571 : MISS{"attacker":"xpsman","gridReference":"J6"} 
+20:4:627 : MISS{"attacker":"piship","gridReference":"S3"} 
+20:4:634 : MOVE (Get) 
+20:4:674 : HIT{"attacker":"xpsman","gridReference":"J7"} 
+20:4:726 : MISS{"attacker":"piship","gridReference":"R2"} 
+20:4:735 : MOVE (Get) 
+20:4:797 : MISS{"attacker":"xpsman","gridReference":"J8"} 
+20:4:851 : MISS{"attacker":"piship","gridReference":"E10"} 
+20:4:859 : MOVE (Get) 
+20:4:896 : MISS{"attacker":"xpsman","gridReference":"J9"} 
+20:4:948 : MISS{"attacker":"piship","gridReference":"K5"} 
+20:4:955 : MOVE (Get) 
+20:4:994 : MISS{"attacker":"xpsman","gridReference":"J10"} 
+20:5:47 : MISS{"attacker":"piship","gridReference":"O13"} 
+20:5:55 : MOVE (Get) 
+20:5:94 : MISS{"attacker":"xpsman","gridReference":"J11"} 
+20:5:119 : MOVE (Get) 
+20:5:156 : MISS{"attacker":"xpsman","gridReference":"J12"} 
+20:5:208 : MISS{"attacker":"piship","gridReference":"G5"} 
+20:5:215 : MOVE (Get) 
+20:5:251 : MISS{"attacker":"xpsman","gridReference":"J13"} 
+20:5:305 : MISS{"attacker":"piship","gridReference":"S7"} 
+20:5:312 : MOVE (Get) 
+20:5:349 : MISS{"attacker":"xpsman","gridReference":"J14"} 
+20:5:441 : MISS{"attacker":"piship","gridReference":"P12"} 
+20:5:448 : MOVE (Get) 
+20:5:485 : MISS{"attacker":"xpsman","gridReference":"J15"} 
+20:5:537 : MISS{"attacker":"piship","gridReference":"Q11"} 
+20:5:543 : MOVE (Get) 
+20:5:580 : HIT_MINE{"attacker":"xpsman","gridReference":"K1"} 
+20:5:631 : MISS{"attacker":"piship","gridReference":"L10"} 
+20:5:698 : MISS{"attacker":"piship","gridReference":"B3"} 
+20:5:750 : MISS{"attacker":"piship","gridReference":"N15"} 
+20:5:802 : MISS{"attacker":"piship","gridReference":"R13"} 
+20:5:850 : MISS{"attacker":"piship","gridReference":"J10"} 
+20:5:903 : MISS{"attacker":"piship","gridReference":"I3"} 
+20:6:29 : MISS{"attacker":"piship","gridReference":"I6"} 
+20:6:130 : MISS{"attacker":"piship","gridReference":"N12"} 
+20:6:181 : MISS{"attacker":"piship","gridReference":"M1"} 
+20:6:259 : MOVE (Get) 
+20:6:295 : MISS{"attacker":"xpsman","gridReference":"K2"} 
+20:6:347 : MISS{"attacker":"piship","gridReference":"C11"} 
+20:6:354 : MOVE (Get) 
+20:6:390 : MISS{"attacker":"xpsman","gridReference":"K3"} 
+20:6:440 : MISS{"attacker":"piship","gridReference":"F13"} 
+20:6:449 : MOVE (Get) 
+20:6:485 : MISS{"attacker":"xpsman","gridReference":"K4"} 
+20:6:545 : MISS{"attacker":"piship","gridReference":"H14"} 
+20:6:554 : MOVE (Get) 
+20:6:590 : HIT{"attacker":"xpsman","gridReference":"K5"} 
+20:6:642 : MISS{"attacker":"piship","gridReference":"I4"} 
+20:6:650 : MOVE (Get) 
+20:6:687 : MISS{"attacker":"xpsman","gridReference":"K6"} 
+20:6:711 : MOVE (Get) 
+20:6:747 : MISS{"attacker":"xpsman","gridReference":"K7"} 
+20:6:799 : MISS{"attacker":"piship","gridReference":"Q6"} 
+20:6:805 : MOVE (Get) 
+20:6:844 : MISS{"attacker":"xpsman","gridReference":"K8"} 
+20:6:897 : MISS{"attacker":"piship","gridReference":"B10"} 
+20:6:903 : MOVE (Get) 
+20:6:940 : MISS{"attacker":"xpsman","gridReference":"K9"} 
+20:6:991 : HIT_MINE{"attacker":"piship","gridReference":"A2"} 
+20:6:997 : MOVE (Get) 
+20:7:32 : MISS{"attacker":"xpsman","gridReference":"K10"} 
+20:7:38 : MOVE (Get) 
+20:7:75 : MISS{"attacker":"xpsman","gridReference":"K11"} 
+20:7:81 : MOVE (Get) 
+20:7:117 : MISS{"attacker":"xpsman","gridReference":"K12"} 
+20:7:121 : MOVE (Get) 
+20:7:158 : MISS{"attacker":"xpsman","gridReference":"K13"} 
+20:7:165 : MOVE (Get) 
+20:7:201 : HIT{"attacker":"xpsman","gridReference":"K14"} 
+20:7:211 : MOVE (Get) 
+20:7:304 : HIT_MINE{"attacker":"xpsman","gridReference":"K15"} 
+20:7:400 : MISS{"attacker":"piship","gridReference":"J15"} 
+20:7:457 : MISS{"attacker":"piship","gridReference":"R0"} 
+20:7:511 : MISS{"attacker":"piship","gridReference":"H1"} 
+20:7:566 : MISS{"attacker":"piship","gridReference":"Q15"} 
+20:7:619 : MISS{"attacker":"piship","gridReference":"S11"} 
+20:7:670 : MISS{"attacker":"piship","gridReference":"A0"} 
+20:7:676 : MOVE (Get) 
+20:7:714 : MISS{"attacker":"xpsman","gridReference":"L1"} 
+20:7:765 : MISS{"attacker":"piship","gridReference":"N7"} 
+20:7:773 : MOVE (Get) 
+20:7:809 : MISS{"attacker":"xpsman","gridReference":"L2"} 
+20:7:861 : MISS{"attacker":"piship","gridReference":"O10"} 
+20:7:868 : MOVE (Get) 
+20:7:905 : MISS{"attacker":"xpsman","gridReference":"L3"} 
+20:7:959 : MISS{"attacker":"piship","gridReference":"@14"} 
+20:7:966 : MOVE (Get) 
+20:8:2 : MISS{"attacker":"xpsman","gridReference":"L4"} 
+20:8:59 : MISS{"attacker":"piship","gridReference":"M0"} 
+20:8:65 : MOVE (Get) 
+20:8:102 : HIT{"attacker":"xpsman","gridReference":"L5"} 
+20:8:155 : MISS{"attacker":"piship","gridReference":"G11"} 
+20:8:161 : MOVE (Get) 
+20:8:201 : HIT{"attacker":"xpsman","gridReference":"L6"} 
+20:8:251 : MISS{"attacker":"piship","gridReference":"L7"} 
+20:8:258 : MOVE (Get) 
+20:8:296 : MISS{"attacker":"xpsman","gridReference":"L7"} 
+20:8:320 : MOVE (Get) 
+20:8:370 : MISS{"attacker":"xpsman","gridReference":"L8"} 
+20:8:441 : MISS{"attacker":"piship","gridReference":"S4"} 
+20:8:461 : MOVE (Get) 
+20:8:523 : MISS{"attacker":"xpsman","gridReference":"L9"} 
+20:8:577 : MISS{"attacker":"piship","gridReference":"A15"} 
+20:8:584 : MOVE (Get) 
+20:8:622 : MISS{"attacker":"xpsman","gridReference":"L10"} 
+20:8:684 : MISS{"attacker":"piship","gridReference":"N11"} 
+20:8:694 : MOVE (Get) 
+20:8:810 : HIT_MINE{"attacker":"xpsman","gridReference":"L11"} 
+20:8:867 : MISS{"attacker":"piship","gridReference":"I13"} 
+20:8:993 : MISS{"attacker":"piship","gridReference":"Q3"} 
+20:9:55 : MISS{"attacker":"piship","gridReference":"B7"} 
+20:9:166 : MISS{"attacker":"piship","gridReference":"S14"} 
+20:9:219 : MISS{"attacker":"piship","gridReference":"K5"} 
+20:9:270 : MISS{"attacker":"piship","gridReference":"H11"} 
+20:9:324 : MISS{"attacker":"piship","gridReference":"P4"} 
+20:9:373 : MISS{"attacker":"piship","gridReference":"K9"} 
+20:9:424 : MISS{"attacker":"piship","gridReference":"B4"} 
+20:9:478 : MISS{"attacker":"piship","gridReference":"B15"} 
+20:9:529 : MISS{"attacker":"piship","gridReference":"F0"} 
+20:9:536 : MOVE (Get) 
+20:9:572 : MISS{"attacker":"xpsman","gridReference":"L12"} 
+20:9:625 : MISS{"attacker":"piship","gridReference":"N4"} 
+20:9:631 : MOVE (Get) 
+20:9:677 : MISS{"attacker":"xpsman","gridReference":"L13"} 
+20:9:737 : MISS{"attacker":"piship","gridReference":"P14"} 
+20:9:744 : MOVE (Get) 
+20:9:781 : HIT{"attacker":"xpsman","gridReference":"L14"} 
+20:9:831 : MISS{"attacker":"piship","gridReference":"S8"} 
+20:9:837 : MOVE (Get) 
+20:9:873 : MISS{"attacker":"xpsman","gridReference":"L15"} 
+20:9:897 : MOVE (Get) 
+20:9:933 : MISS{"attacker":"xpsman","gridReference":"M1"} 
+20:9:986 : MISS{"attacker":"piship","gridReference":"G9"} 
+20:9:993 : MOVE (Get) 
+20:10:28 : MISS{"attacker":"xpsman","gridReference":"M2"} 
+20:10:78 : MISS{"attacker":"piship","gridReference":"P2"} 
+20:10:84 : MOVE (Get) 
+20:10:128 : MISS{"attacker":"xpsman","gridReference":"M3"} 
+20:10:220 : MISS{"attacker":"piship","gridReference":"S0"} 
+20:10:227 : MOVE (Get) 
+20:10:264 : MISS{"attacker":"xpsman","gridReference":"M4"} 
+20:10:317 : MISS{"attacker":"piship","gridReference":"E2"} 
+20:10:323 : MOVE (Get) 
+20:10:359 : MISS{"attacker":"xpsman","gridReference":"M5"} 
+20:10:410 : MISS{"attacker":"piship","gridReference":"H9"} 
+20:10:416 : MOVE (Get) 
+20:10:450 : HIT{"attacker":"xpsman","gridReference":"M6"} 
+20:10:474 : MOVE (Get) 
+20:10:509 : MISS{"attacker":"xpsman","gridReference":"M7"} 
+20:10:558 : MISS{"attacker":"piship","gridReference":"K5"} 
+20:10:564 : MOVE (Get) 
+20:10:600 : MISS{"attacker":"xpsman","gridReference":"M8"} 
+20:10:653 : MISS{"attacker":"piship","gridReference":"M14"} 
+20:10:658 : MOVE (Get) 
+20:10:693 : MISS{"attacker":"xpsman","gridReference":"M9"} 
+20:10:744 : MISS{"attacker":"piship","gridReference":"H12"} 
+20:10:750 : MOVE (Get) 
+20:10:787 : MISS{"attacker":"xpsman","gridReference":"M10"} 
+20:10:812 : MOVE (Get) 
+20:10:902 : HIT{"attacker":"xpsman","gridReference":"M11"} 
+20:10:955 : MISS{"attacker":"piship","gridReference":"K3"} 
+20:10:962 : MOVE (Get) 
+20:11:47 : HIT{"attacker":"xpsman","gridReference":"M12"} 
+20:11:99 : MISS{"attacker":"piship","gridReference":"S3"} 
+20:11:106 : MOVE (Get) 
+20:11:139 : MISS{"attacker":"xpsman","gridReference":"M13"} 
+20:11:191 : MISS{"attacker":"piship","gridReference":"J3"} 
+20:11:197 : MOVE (Get) 
+20:11:234 : HIT{"attacker":"xpsman","gridReference":"M14"} 
+20:11:285 : MISS{"attacker":"piship","gridReference":"F6"} 
+20:11:292 : MOVE (Get) 
+20:11:328 : MISS{"attacker":"xpsman","gridReference":"M15"} 
+20:11:376 : MISS{"attacker":"piship","gridReference":"A8"} 
+20:11:383 : MOVE (Get) 
+20:11:418 : MISS{"attacker":"xpsman","gridReference":"N1"} 
+20:11:468 : MISS{"attacker":"piship","gridReference":"F5"} 
+20:11:474 : MOVE (Get) 
+20:11:511 : MISS{"attacker":"xpsman","gridReference":"N2"} 
+20:11:596 : MISS{"attacker":"piship","gridReference":"C4"} 
+20:11:603 : MOVE (Get) 
+20:11:640 : MISS{"attacker":"xpsman","gridReference":"N3"} 
+20:11:692 : MISS{"attacker":"piship","gridReference":"R8"} 
+20:11:699 : MOVE (Get) 
+20:11:736 : MISS{"attacker":"xpsman","gridReference":"N4"} 
+20:11:789 : MISS{"attacker":"piship","gridReference":"Q5"} 
+20:11:796 : MOVE (Get) 
+20:11:834 : MISS{"attacker":"xpsman","gridReference":"N5"} 
+20:11:890 : MISS{"attacker":"piship","gridReference":"R15"} 
+20:11:896 : MOVE (Get) 
+20:11:934 : MISS{"attacker":"xpsman","gridReference":"N6"} 
+20:11:986 : MISS{"attacker":"piship","gridReference":"A7"} 
+20:11:993 : MOVE (Get) 
+20:12:28 : HIT_MINE{"attacker":"xpsman","gridReference":"N7"} 
+20:12:84 : MISS{"attacker":"piship","gridReference":"O9"} 
+20:12:294 : MISS{"attacker":"piship","gridReference":"F15"} 
+20:12:365 : MISS{"attacker":"piship","gridReference":"A6"} 
+20:12:418 : MISS{"attacker":"piship","gridReference":"A10"} 
+20:12:488 : MISS{"attacker":"piship","gridReference":"D13"} 
+20:12:553 : MISS{"attacker":"piship","gridReference":"E0"} 
+20:12:623 : MISS{"attacker":"piship","gridReference":"D9"} 
+20:12:681 : MISS{"attacker":"piship","gridReference":"K8"} 
+20:12:738 : MISS{"attacker":"piship","gridReference":"F8"} 
+20:12:745 : MOVE (Get) 
+20:12:781 : MISS{"attacker":"xpsman","gridReference":"N8"} 
+20:12:806 : MOVE (Get) 
+20:12:843 : MISS{"attacker":"xpsman","gridReference":"N9"} 
+20:12:898 : MISS{"attacker":"piship","gridReference":"K4"} 
+20:12:905 : MOVE (Get) 
+20:12:948 : MISS{"attacker":"xpsman","gridReference":"N10"} 
+20:12:999 : MISS{"attacker":"piship","gridReference":"R4"} 
+20:13:4 : MOVE (Get) 
+20:13:41 : HIT{"attacker":"xpsman","gridReference":"N11"} 
+20:13:92 : MISS{"attacker":"piship","gridReference":"N6"} 
+20:13:99 : MOVE (Get) 
+20:13:136 : HIT{"attacker":"xpsman","gridReference":"N12"} 
+20:13:187 : MISS{"attacker":"piship","gridReference":"S7"} 
+20:13:194 : MOVE (Get) 
+20:13:230 : MISS{"attacker":"xpsman","gridReference":"N13"} 
+20:13:286 : MISS{"attacker":"piship","gridReference":"S2"} 
+20:13:293 : MOVE (Get) 
+20:13:406 : HIT{"attacker":"xpsman","gridReference":"N14"} 
+20:13:458 : MISS{"attacker":"piship","gridReference":"H15"} 
+20:13:464 : MOVE (Get) 
+20:13:502 : MISS{"attacker":"xpsman","gridReference":"N15"} 
+20:13:560 : MISS{"attacker":"piship","gridReference":"O6"} 
+20:13:566 : MOVE (Get) 
+20:13:602 : MISS{"attacker":"xpsman","gridReference":"O1"} 
+20:13:655 : MISS{"attacker":"piship","gridReference":"J1"} 
+20:13:663 : MOVE (Get) 
+20:13:702 : MISS{"attacker":"xpsman","gridReference":"O2"} 
+20:13:754 : MISS{"attacker":"piship","gridReference":"F3"} 
+20:13:760 : MOVE (Get) 
+20:13:799 : MISS{"attacker":"xpsman","gridReference":"O3"} 
+20:13:849 : MISS{"attacker":"piship","gridReference":"N3"} 
+20:13:856 : MOVE (Get) 
+20:13:892 : MISS{"attacker":"xpsman","gridReference":"O4"} 
+20:13:916 : MOVE (Get) 
+20:13:957 : MISS{"attacker":"xpsman","gridReference":"O5"} 
+20:14:9 : MISS{"attacker":"piship","gridReference":"D15"} 
+20:14:15 : MOVE (Get) 
+20:14:54 : MISS{"attacker":"xpsman","gridReference":"O6"} 
+20:14:150 : MISS{"attacker":"piship","gridReference":"K14"} 
+20:14:157 : MOVE (Get) 
+20:14:194 : MISS{"attacker":"xpsman","gridReference":"O7"} 
+20:14:248 : MISS{"attacker":"piship","gridReference":"@12"} 
+20:14:254 : MOVE (Get) 
+20:14:290 : MISS{"attacker":"xpsman","gridReference":"O8"} 
+20:14:345 : MISS{"attacker":"piship","gridReference":"H10"} 
+20:14:351 : MOVE (Get) 
+20:14:389 : MISS{"attacker":"xpsman","gridReference":"O9"} 
+20:14:445 : MISS{"attacker":"piship","gridReference":"D4"} 
+20:14:454 : MOVE (Get) 
+20:14:489 : MISS{"attacker":"xpsman","gridReference":"O10"} 
+20:14:513 : MOVE (Get) 
+20:14:551 : HIT{"attacker":"xpsman","gridReference":"O11"} 
+20:14:679 : MISS{"attacker":"piship","gridReference":"Q15"} 
+20:14:698 : MOVE (Get) 
+20:14:735 : MISS{"attacker":"xpsman","gridReference":"O12"} 
+20:14:787 : MISS{"attacker":"piship","gridReference":"N10"} 
+20:14:796 : MOVE (Get) 
+20:14:831 : HIT{"attacker":"xpsman","gridReference":"O13"} 
+20:14:884 : MISS{"attacker":"piship","gridReference":"N2"} 
+20:14:890 : MOVE (Get) 
+20:14:930 : MISS{"attacker":"xpsman","gridReference":"O14"} 
+20:14:981 : MISS{"attacker":"piship","gridReference":"E8"} 
+20:14:989 : MOVE (Get) 
+20:15:24 : MISS{"attacker":"xpsman","gridReference":"O15"} 
+20:15:76 : MISS{"attacker":"piship","gridReference":"O10"} 
+20:15:82 : MOVE (Get) 
+20:15:118 : MISS{"attacker":"xpsman","gridReference":"P1"} 
+20:15:170 : MISS{"attacker":"piship","gridReference":"I6"} 
+20:15:176 : MOVE (Get) 
+20:15:213 : MISS{"attacker":"xpsman","gridReference":"P2"} 
+20:15:237 : MOVE (Get) 
+20:15:308 : MISS{"attacker":"xpsman","gridReference":"P3"} 
+20:15:407 : MISS{"attacker":"piship","gridReference":"Q5"} 
+20:15:414 : MOVE (Get) 
+20:15:461 : MISS{"attacker":"xpsman","gridReference":"P4"} 
+20:15:513 : MISS{"attacker":"piship","gridReference":"M7"} 
+20:15:520 : MOVE (Get) 
+20:15:557 : MISS{"attacker":"xpsman","gridReference":"P5"} 
+20:15:584 : MOVE (Get) 
+20:15:620 : MISS{"attacker":"xpsman","gridReference":"P6"} 
+20:15:652 : MOVE (Get) 
+20:15:691 : HIT_MINE{"attacker":"xpsman","gridReference":"P7"} 
+20:15:744 : MISS{"attacker":"piship","gridReference":"O3"} 
+20:15:798 : MISS{"attacker":"piship","gridReference":"C13"} 
+20:15:889 : MISS{"attacker":"piship","gridReference":"R5"} 
+20:15:957 : MISS{"attacker":"piship","gridReference":"B13"} 
+20:16:68 : MISS{"attacker":"piship","gridReference":"N7"} 
+20:16:122 : MISS{"attacker":"piship","gridReference":"J6"} 
+20:16:172 : MISS{"attacker":"piship","gridReference":"K11"} 
+20:16:223 : MISS{"attacker":"piship","gridReference":"@13"} 
+20:16:293 : MISS{"attacker":"piship","gridReference":"N6"} 
+20:16:343 : MISS{"attacker":"piship","gridReference":"G8"} 
+20:16:350 : MOVE (Get) 
+20:16:385 : HIT_MINE{"attacker":"xpsman","gridReference":"P8"} 
+20:16:458 : MISS{"attacker":"piship","gridReference":"P0"} 
+20:16:511 : MISS{"attacker":"piship","gridReference":"M12"} 
+20:16:566 : MISS{"attacker":"piship","gridReference":"P5"} 
+20:16:619 : MISS{"attacker":"piship","gridReference":"F6"} 
+20:16:669 : MISS{"attacker":"piship","gridReference":"D12"} 
+20:16:720 : MISS{"attacker":"piship","gridReference":"B7"} 
+20:16:773 : MISS{"attacker":"piship","gridReference":"A15"} 
+20:16:835 : MISS{"attacker":"piship","gridReference":"H4"} 
+20:16:888 : MISS{"attacker":"piship","gridReference":"M8"} 
+20:16:940 : MISS{"attacker":"piship","gridReference":"F10"} 
+20:16:947 : MOVE (Get) 
+20:16:984 : MISS{"attacker":"xpsman","gridReference":"P9"} 
+20:17:37 : MISS{"attacker":"piship","gridReference":"M13"} 
+20:17:45 : MOVE (Get) 
+20:17:119 : MISS{"attacker":"xpsman","gridReference":"P10"} 
+20:17:176 : MISS{"attacker":"piship","gridReference":"O4"} 
+20:17:182 : MOVE (Get) 
+20:17:221 : HIT{"attacker":"xpsman","gridReference":"P11"} 
+20:17:245 : MOVE (Get) 
+20:17:284 : MISS{"attacker":"xpsman","gridReference":"P12"} 
+20:17:333 : MISS{"attacker":"piship","gridReference":"B9"} 
+20:17:340 : MOVE (Get) 
+20:17:378 : HIT{"attacker":"xpsman","gridReference":"P13"} 
+20:17:430 : MISS{"attacker":"piship","gridReference":"J3"} 
+20:17:437 : MOVE (Get) 
+20:17:487 : MISS{"attacker":"xpsman","gridReference":"P14"} 
+20:17:544 : MISS{"attacker":"piship","gridReference":"S13"} 
+20:17:551 : MOVE (Get) 
+20:17:588 : MISS{"attacker":"xpsman","gridReference":"P15"} 
+20:17:643 : MISS{"attacker":"piship","gridReference":"E15"} 
+20:17:650 : MOVE (Get) 
+20:17:687 : MISS{"attacker":"xpsman","gridReference":"Q1"} 
+20:17:739 : MISS{"attacker":"piship","gridReference":"B14"} 
+20:17:746 : MOVE (Get) 
+20:17:785 : MISS{"attacker":"xpsman","gridReference":"Q2"} 
+20:17:840 : MISS{"attacker":"piship","gridReference":"A14"} 
+20:17:846 : MOVE (Get) 
+20:17:884 : MISS{"attacker":"xpsman","gridReference":"Q3"} 
+20:17:941 : MISS{"attacker":"piship","gridReference":"O1"} 
+20:17:948 : MOVE (Get) 
+20:17:984 : MISS{"attacker":"xpsman","gridReference":"Q4"} 
+20:18:37 : MISS{"attacker":"piship","gridReference":"Q4"} 
+20:18:45 : MOVE (Get) 
+20:18:86 : MISS{"attacker":"xpsman","gridReference":"Q5"} 
+20:18:141 : MISS{"attacker":"piship","gridReference":"O10"} 
+20:18:148 : MOVE (Get) 
+20:18:186 : MISS{"attacker":"xpsman","gridReference":"Q6"} 
+20:18:238 : MISS{"attacker":"piship","gridReference":"C14"} 
+20:18:245 : MOVE (Get) 
+20:18:282 : MISS{"attacker":"xpsman","gridReference":"Q7"} 
+20:18:335 : MISS{"attacker":"piship","gridReference":"M13"} 
+20:18:341 : MOVE (Get) 
+20:18:405 : MISS{"attacker":"xpsman","gridReference":"Q8"} 
+20:18:514 : MISS{"attacker":"piship","gridReference":"R9"} 
+20:18:520 : MOVE (Get) 
+20:18:556 : MISS{"attacker":"xpsman","gridReference":"Q9"} 
+20:18:607 : MISS{"attacker":"piship","gridReference":"H10"} 
+20:18:613 : MOVE (Get) 
+20:18:650 : HIT_MINE{"attacker":"xpsman","gridReference":"Q10"} 
+20:18:709 : MISS{"attacker":"piship","gridReference":"B2"} 
+20:18:781 : HIT_MINE{"attacker":"piship","gridReference":"G3"} 
+20:18:788 : MOVE (Get) 
+20:18:826 : HIT{"attacker":"xpsman","gridReference":"Q11"} 
+20:18:834 : MOVE (Get) 
+20:18:872 : MISS{"attacker":"xpsman","gridReference":"Q12"} 
+20:18:879 : MOVE (Get) 
+20:18:915 : HIT{"attacker":"xpsman","gridReference":"Q13"} 
+20:18:940 : MOVE (Get) 
+20:18:976 : MISS{"attacker":"xpsman","gridReference":"Q14"} 
+20:19:30 : MISS{"attacker":"piship","gridReference":"G10"} 
+20:19:36 : MOVE (Get) 
+20:19:71 : MISS{"attacker":"xpsman","gridReference":"Q15"} 
+20:19:122 : MISS{"attacker":"piship","gridReference":"A0"} 
+20:19:128 : MOVE (Get) 
+20:19:167 : MISS{"attacker":"xpsman","gridReference":"R1"} 
+20:19:235 : MISS{"attacker":"piship","gridReference":"J15"} 
+20:19:246 : MOVE (Get) 
+20:19:284 : MISS{"attacker":"xpsman","gridReference":"R2"} 
+20:19:338 : MISS{"attacker":"piship","gridReference":"N14"} 
+20:19:345 : MOVE (Get) 
+20:19:382 : MISS{"attacker":"xpsman","gridReference":"R3"} 
+20:19:441 : MISS{"attacker":"piship","gridReference":"D13"} 
+20:19:449 : MOVE (Get) 
+20:19:536 : MISS{"attacker":"xpsman","gridReference":"R4"} 
+20:19:590 : MISS{"attacker":"piship","gridReference":"K14"} 
+20:19:597 : MOVE (Get) 
+20:19:636 : MISS{"attacker":"xpsman","gridReference":"R5"} 
+20:19:691 : MISS{"attacker":"piship","gridReference":"D4"} 
+20:19:698 : MOVE (Get) 
+20:19:735 : MISS{"attacker":"xpsman","gridReference":"R6"} 
+20:19:785 : MISS{"attacker":"piship","gridReference":"A13"} 
+20:19:792 : MOVE (Get) 
+20:19:867 : MISS{"attacker":"xpsman","gridReference":"R7"} 
+20:19:924 : MISS{"attacker":"piship","gridReference":"C1"} 
+20:19:930 : MOVE (Get) 
+20:19:967 : MISS{"attacker":"xpsman","gridReference":"R8"} 
+20:20:20 : MISS{"attacker":"piship","gridReference":"D8"} 
+20:20:26 : MOVE (Get) 
+20:20:64 : MISS{"attacker":"xpsman","gridReference":"R9"} 
+20:20:88 : MOVE (Get) 
+20:20:126 : MISS{"attacker":"xpsman","gridReference":"R10"} 
+20:20:179 : MISS{"attacker":"piship","gridReference":"@5"} 
+20:20:185 : MOVE (Get) 
+20:20:224 : MISS{"attacker":"xpsman","gridReference":"R11"} 
+20:20:250 : MOVE (Get) 
+20:20:287 : MISS{"attacker":"xpsman","gridReference":"R12"} 
+20:20:337 : MISS{"attacker":"piship","gridReference":"F13"} 
+20:20:343 : MOVE (Get) 
+20:20:379 : HIT{"attacker":"xpsman","gridReference":"R13"} 
+20:20:409 : START{"maxTurns":750,"gridSize":"S15","players":["Ragetti","xpsman"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+20:20:426 : PLACE (Get) 
+20:20:467 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+20:20:508 : MISS{"attacker":"Ragetti","gridReference":"S15"} 
+20:20:515 : MOVE (Get) 
+20:20:530 : PLACE (Get){"gridReferences":["A2"]} 
+20:20:544 : MISS{"attacker":"Ragetti","gridReference":"S14"} 
+20:20:551 : MOVE (Get) 
+20:20:567 : PLACE (Get){"gridReferences":["C3"]} 
+20:20:579 : MISS{"attacker":"Ragetti","gridReference":"S13"} 
+20:20:586 : MOVE (Get) 
+20:20:601 : PLACE (Get){"gridReferences":["G1"]} 
+20:20:612 : MISS{"attacker":"Ragetti","gridReference":"S12"} 
+20:20:619 : MOVE (Get) 
+20:20:633 : PLACE (Get){"gridReferences":["G3"]} 
+20:20:645 : MISS{"attacker":"Ragetti","gridReference":"S11"} 
+20:20:652 : MOVE (Get) 
+20:20:668 : PLACE (Get){"gridReferences":["D5"]} 
+20:20:680 : MISS{"attacker":"Ragetti","gridReference":"S10"} 
+20:20:712 : MOVE (Get) 
+20:20:743 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+20:20:755 : MISS{"attacker":"Ragetti","gridReference":"S9"} 
+20:20:762 : MOVE (Get) 
+20:20:777 : HIT{"attacker":"xpsman","gridReference":"B1"} 
+20:20:790 : MISS{"attacker":"Ragetti","gridReference":"S8"} 
+20:20:797 : MOVE (Get) 
+20:20:811 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+20:20:823 : MISS{"attacker":"Ragetti","gridReference":"S7"} 
+20:20:830 : MOVE (Get) 
+20:20:844 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+20:20:856 : MISS{"attacker":"Ragetti","gridReference":"S6"} 
+20:20:864 : MOVE (Get) 
+20:20:879 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+20:20:891 : MISS{"attacker":"Ragetti","gridReference":"S5"} 
+20:20:898 : MOVE (Get) 
+20:20:913 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+20:20:925 : MISS{"attacker":"Ragetti","gridReference":"S4"} 
+20:20:931 : MOVE (Get) 
+20:20:947 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+20:20:959 : MISS{"attacker":"Ragetti","gridReference":"S3"} 
+20:20:966 : MOVE (Get) 
+20:20:981 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+20:20:994 : MISS{"attacker":"Ragetti","gridReference":"S2"} 
+20:21:1 : MOVE (Get) 
+20:21:53 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+20:21:86 : MISS{"attacker":"Ragetti","gridReference":"S1"} 
+20:21:93 : MOVE (Get) 
+20:21:108 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+20:21:121 : MISS{"attacker":"Ragetti","gridReference":"R15"} 
+20:21:128 : MOVE (Get) 
+20:21:143 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+20:21:157 : MISS{"attacker":"Ragetti","gridReference":"R14"} 
+20:21:164 : MOVE (Get) 
+20:21:179 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+20:21:191 : MISS{"attacker":"Ragetti","gridReference":"R13"} 
+20:21:198 : MOVE (Get) 
+20:21:214 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+20:21:246 : MISS{"attacker":"Ragetti","gridReference":"R12"} 
+20:21:252 : MOVE (Get) 
+20:21:268 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+20:21:280 : MISS{"attacker":"Ragetti","gridReference":"R11"} 
+20:21:287 : MOVE (Get) 
+20:21:303 : HIT{"attacker":"xpsman","gridReference":"A7"} 
+20:21:315 : MISS{"attacker":"Ragetti","gridReference":"R10"} 
+20:21:321 : MOVE (Get) 
+20:21:340 : HIT{"attacker":"xpsman","gridReference":"A8"} 
+20:21:361 : MISS{"attacker":"Ragetti","gridReference":"R9"} 
+20:21:368 : MOVE (Get) 
+20:21:386 : HIT{"attacker":"xpsman","gridReference":"A9"} 
+20:21:399 : MISS{"attacker":"Ragetti","gridReference":"R8"} 
+20:21:406 : MOVE (Get) 
+20:21:422 : HIT{"attacker":"xpsman","gridReference":"A10"} 
+20:21:433 : MISS{"attacker":"Ragetti","gridReference":"R7"} 
+20:21:439 : MOVE (Get) 
+20:21:453 : HIT{"attacker":"xpsman","gridReference":"A11"} 
+20:21:467 : MISS{"attacker":"Ragetti","gridReference":"R6"} 
+20:21:473 : MOVE (Get) 
+20:21:486 : HIT{"attacker":"xpsman","gridReference":"A12"} 
+20:21:497 : MISS{"attacker":"Ragetti","gridReference":"R5"} 
+20:21:503 : MOVE (Get) 
+20:21:517 : HIT{"attacker":"xpsman","gridReference":"A13"} 
+20:21:528 : MISS{"attacker":"Ragetti","gridReference":"R4"} 
+20:21:534 : MOVE (Get) 
+20:21:549 : HIT{"attacker":"xpsman","gridReference":"A14"} 
+20:21:559 : MISS{"attacker":"Ragetti","gridReference":"R3"} 
+20:21:565 : MOVE (Get) 
+20:21:579 : HIT{"attacker":"xpsman","gridReference":"A15"} 
+20:21:589 : MISS{"attacker":"Ragetti","gridReference":"R2"} 
+20:21:595 : MOVE (Get) 
+20:21:609 : HIT{"attacker":"xpsman","gridReference":"B2"} 
+20:21:620 : MISS{"attacker":"Ragetti","gridReference":"R1"} 
+20:21:626 : MOVE (Get) 
+20:21:640 : HIT{"attacker":"xpsman","gridReference":"B3"} 
+20:21:651 : MISS{"attacker":"Ragetti","gridReference":"Q15"} 
+20:21:657 : MOVE (Get) 
+20:21:671 : HIT{"attacker":"xpsman","gridReference":"B4"} 
+20:21:682 : MISS{"attacker":"Ragetti","gridReference":"Q14"} 
+20:21:688 : MOVE (Get) 
+20:21:702 : HIT{"attacker":"xpsman","gridReference":"B5"} 
+20:21:713 : MISS{"attacker":"Ragetti","gridReference":"Q13"} 
+20:21:719 : MOVE (Get) 
+20:21:733 : HIT{"attacker":"xpsman","gridReference":"B6"} 
+20:21:744 : MISS{"attacker":"Ragetti","gridReference":"Q12"} 
+20:21:750 : MOVE (Get) 
+20:21:774 : HIT{"attacker":"xpsman","gridReference":"B7"} 
+20:21:796 : MISS{"attacker":"Ragetti","gridReference":"Q11"} 
+20:21:801 : MOVE (Get) 
+20:21:815 : HIT{"attacker":"xpsman","gridReference":"B8"} 
+20:21:828 : MISS{"attacker":"Ragetti","gridReference":"Q10"} 
+20:21:833 : MOVE (Get) 
+20:21:847 : HIT{"attacker":"xpsman","gridReference":"B9"} 
+20:21:857 : MISS{"attacker":"Ragetti","gridReference":"Q9"} 
+20:21:863 : MOVE (Get) 
+20:21:878 : HIT{"attacker":"xpsman","gridReference":"B10"} 
+20:21:890 : MISS{"attacker":"Ragetti","gridReference":"Q8"} 
+20:21:895 : MOVE (Get) 
+20:21:938 : HIT{"attacker":"xpsman","gridReference":"B11"} 
+20:21:949 : MISS{"attacker":"Ragetti","gridReference":"Q7"} 
+20:21:955 : MOVE (Get) 
+20:21:969 : HIT{"attacker":"xpsman","gridReference":"B12"} 
+20:21:981 : MISS{"attacker":"Ragetti","gridReference":"Q6"} 
+20:21:987 : MOVE (Get) 
+20:22:2 : HIT{"attacker":"xpsman","gridReference":"B13"} 
+20:22:12 : MISS{"attacker":"Ragetti","gridReference":"Q5"} 
+20:22:18 : MOVE (Get) 
+20:22:33 : HIT{"attacker":"xpsman","gridReference":"B14"} 
+20:22:44 : MISS{"attacker":"Ragetti","gridReference":"Q4"} 
+20:22:50 : MOVE (Get) 
+20:22:65 : HIT{"attacker":"xpsman","gridReference":"B15"} 
+21:2:976 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","dangerfox"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+21:3:16 : PLACE (Get) 
+21:3:64 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+21:3:367 : MOVE (Get) 
+21:3:381 : PLACE (Get){"gridReferences":["A2"]} 
+21:3:414 : MOVE (Get) 
+21:3:429 : PLACE (Get){"gridReferences":["C3"]} 
+21:3:507 : MOVE (Get) 
+21:3:522 : PLACE (Get){"gridReferences":["G1"]} 
+21:3:557 : MOVE (Get) 
+21:3:572 : PLACE (Get){"gridReferences":["G3"]} 
+21:3:605 : MOVE (Get) 
+21:3:620 : PLACE (Get){"gridReferences":["D5"]} 
+21:3:655 : MOVE (Get) 
+21:3:671 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+21:3:796 : MOVE (Get) 
+21:3:810 : MISS{"attacker":"xpsman","gridReference":"B1"} 
+21:3:851 : MOVE (Get) 
+21:3:867 : HIT{"attacker":"xpsman","gridReference":"C1"} 
+21:3:987 : MOVE (Get) 
+21:4:3 : HIT{"attacker":"xpsman","gridReference":"D1"} 
+21:4:148 : MOVE (Get) 
+21:4:164 : HIT{"attacker":"xpsman","gridReference":"E1"} 
+21:4:323 : MOVE (Get) 
+21:4:339 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+21:4:381 : MOVE (Get) 
+21:4:398 : HIT{"attacker":"xpsman","gridReference":"C3"} 
+21:4:440 : MOVE (Get) 
+21:4:455 : HIT{"attacker":"xpsman","gridReference":"G1"} 
+21:4:577 : MOVE (Get) 
+21:4:592 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+21:4:633 : MOVE (Get) 
+21:4:649 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+21:4:690 : MOVE (Get) 
+21:4:706 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+21:4:800 : MOVE (Get) 
+21:4:816 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+21:4:858 : MOVE (Get) 
+21:4:874 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+21:4:953 : MOVE (Get) 
+21:4:971 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+21:5:14 : MOVE (Get) 
+21:5:29 : MISS{"attacker":"xpsman","gridReference":"A7"} 
+21:5:70 : MOVE (Get) 
+21:5:86 : MISS{"attacker":"xpsman","gridReference":"A8"} 
+21:5:131 : MOVE (Get) 
+21:5:145 : MISS{"attacker":"xpsman","gridReference":"A9"} 
+21:5:187 : MOVE (Get) 
+21:5:202 : MISS{"attacker":"xpsman","gridReference":"A10"} 
+21:5:244 : MOVE (Get) 
+21:5:258 : MISS{"attacker":"xpsman","gridReference":"A11"} 
+21:5:338 : MOVE (Get) 
+21:5:352 : MISS{"attacker":"xpsman","gridReference":"A12"} 
+21:5:396 : MOVE (Get) 
+21:5:412 : MISS{"attacker":"xpsman","gridReference":"A13"} 
+21:5:450 : MISS{"attacker":"dangerfox","gridReference":"M9"} 
+21:5:466 : MOVE (Get) 
+21:5:481 : MISS{"attacker":"xpsman","gridReference":"A14"} 
+21:5:519 : MISS{"attacker":"dangerfox","gridReference":"Q9"} 
+21:5:535 : MOVE (Get) 
+21:5:548 : MISS{"attacker":"xpsman","gridReference":"A15"} 
+21:5:591 : MISS{"attacker":"dangerfox","gridReference":"M5"} 
+21:5:606 : MOVE (Get) 
+21:5:620 : MISS{"attacker":"xpsman","gridReference":"B2"} 
+21:5:660 : HIT{"attacker":"dangerfox","gridReference":"C1"} 
+21:5:676 : MOVE (Get) 
+21:5:690 : MISS{"attacker":"xpsman","gridReference":"B3"} 
+21:5:728 : MISS{"attacker":"dangerfox","gridReference":"G15"} 
+21:5:748 : MOVE (Get) 
+21:5:763 : MISS{"attacker":"xpsman","gridReference":"B4"} 
+21:5:800 : MISS{"attacker":"dangerfox","gridReference":"E7"} 
+21:5:815 : MOVE (Get) 
+21:5:829 : MISS{"attacker":"xpsman","gridReference":"B5"} 
+21:5:911 : MISS{"attacker":"dangerfox","gridReference":"F4"} 
+21:5:927 : MOVE (Get) 
+21:5:942 : HIT{"attacker":"xpsman","gridReference":"B6"} 
+21:5:984 : MISS{"attacker":"dangerfox","gridReference":"S7"} 
+21:6:0 : MOVE (Get) 
+21:6:15 : HIT{"attacker":"xpsman","gridReference":"B7"} 
+21:6:54 : MISS{"attacker":"dangerfox","gridReference":"F14"} 
+21:6:69 : MOVE (Get) 
+21:6:85 : HIT{"attacker":"xpsman","gridReference":"B8"} 
+21:6:128 : MISS{"attacker":"dangerfox","gridReference":"E3"} 
+21:6:143 : MOVE (Get) 
+21:6:158 : MISS{"attacker":"xpsman","gridReference":"B9"} 
+21:6:196 : MISS{"attacker":"dangerfox","gridReference":"G13"} 
+21:6:213 : MOVE (Get) 
+21:6:227 : HIT_MINE{"attacker":"xpsman","gridReference":"B10"} 
+21:6:265 : MISS{"attacker":"dangerfox","gridReference":"H12"} 
+21:6:307 : MISS{"attacker":"dangerfox","gridReference":"F2"} 
+21:6:362 : MISS{"attacker":"dangerfox","gridReference":"A11"} 
+21:6:401 : MISS{"attacker":"dangerfox","gridReference":"O5"} 
+21:6:440 : MISS{"attacker":"dangerfox","gridReference":"R12"} 
+21:6:478 : MISS{"attacker":"dangerfox","gridReference":"O13"} 
+21:6:517 : MISS{"attacker":"dangerfox","gridReference":"R6"} 
+21:6:556 : MISS{"attacker":"dangerfox","gridReference":"K11"} 
+21:6:595 : MISS{"attacker":"dangerfox","gridReference":"D14"} 
+21:6:637 : MISS{"attacker":"dangerfox","gridReference":"I11"} 
+21:6:724 : MISS{"attacker":"dangerfox","gridReference":"L8"} 
+21:6:739 : MOVE (Get) 
+21:6:754 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+21:6:793 : MISS{"attacker":"dangerfox","gridReference":"C7"} 
+21:6:809 : MOVE (Get) 
+21:6:834 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+21:6:876 : MISS{"attacker":"dangerfox","gridReference":"S9"} 
+21:6:892 : MOVE (Get) 
+21:6:905 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+21:6:944 : MISS{"attacker":"dangerfox","gridReference":"H4"} 
+21:6:960 : MOVE (Get) 
+21:6:974 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+21:7:12 : MISS{"attacker":"dangerfox","gridReference":"A7"} 
+21:7:28 : MOVE (Get) 
+21:7:42 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+21:7:81 : MISS{"attacker":"dangerfox","gridReference":"O11"} 
+21:7:96 : MOVE (Get) 
+21:7:113 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+21:7:202 : MISS{"attacker":"dangerfox","gridReference":"B6"} 
+21:7:218 : MOVE (Get) 
+21:7:232 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+21:7:271 : MISS{"attacker":"dangerfox","gridReference":"N12"} 
+21:7:287 : MOVE (Get) 
+21:7:302 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+21:7:340 : MISS{"attacker":"dangerfox","gridReference":"C9"} 
+21:7:356 : MOVE (Get) 
+21:7:370 : MISS{"attacker":"xpsman","gridReference":"C6"} 
+21:7:415 : MISS{"attacker":"dangerfox","gridReference":"O7"} 
+21:7:429 : MOVE (Get) 
+21:7:444 : MISS{"attacker":"xpsman","gridReference":"C7"} 
+21:7:484 : MISS{"attacker":"dangerfox","gridReference":"R14"} 
+21:7:501 : MOVE (Get) 
+21:7:515 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+21:7:555 : MISS{"attacker":"dangerfox","gridReference":"K15"} 
+21:7:571 : MOVE (Get) 
+21:7:587 : MISS{"attacker":"xpsman","gridReference":"C9"} 
+21:7:631 : MISS{"attacker":"dangerfox","gridReference":"M7"} 
+21:7:646 : MOVE (Get) 
+21:7:660 : MISS{"attacker":"xpsman","gridReference":"C10"} 
+21:7:698 : MISS{"attacker":"dangerfox","gridReference":"M1"} 
+21:7:714 : MOVE (Get) 
+21:7:728 : MISS{"attacker":"xpsman","gridReference":"C11"} 
+21:7:767 : MISS{"attacker":"dangerfox","gridReference":"J6"} 
+21:7:782 : MOVE (Get) 
+21:7:797 : MISS{"attacker":"xpsman","gridReference":"C12"} 
+21:7:886 : MISS{"attacker":"dangerfox","gridReference":"I5"} 
+21:7:903 : MOVE (Get) 
+21:7:918 : MISS{"attacker":"xpsman","gridReference":"C13"} 
+21:7:957 : MISS{"attacker":"dangerfox","gridReference":"Q1"} 
+21:7:975 : MOVE (Get) 
+21:7:989 : MISS{"attacker":"xpsman","gridReference":"C14"} 
+21:8:27 : MISS{"attacker":"dangerfox","gridReference":"R10"} 
+21:8:43 : MOVE (Get) 
+21:8:60 : MISS{"attacker":"xpsman","gridReference":"C15"} 
+21:8:98 : MISS{"attacker":"dangerfox","gridReference":"D6"} 
+21:8:113 : MOVE (Get) 
+21:8:130 : MISS{"attacker":"xpsman","gridReference":"D2"} 
+21:8:170 : MISS{"attacker":"dangerfox","gridReference":"L2"} 
+21:8:186 : MOVE (Get) 
+21:8:202 : HIT{"attacker":"xpsman","gridReference":"D3"} 
+21:8:240 : MISS{"attacker":"dangerfox","gridReference":"B4"} 
+21:8:255 : MOVE (Get) 
+21:8:269 : MISS{"attacker":"xpsman","gridReference":"D4"} 
+21:8:311 : MISS{"attacker":"dangerfox","gridReference":"D2"} 
+21:8:328 : MOVE (Get) 
+21:8:356 : MISS{"attacker":"xpsman","gridReference":"D6"} 
+21:8:439 : HIT{"attacker":"dangerfox","gridReference":"E1"} 
+21:8:454 : MOVE (Get) 
+21:8:469 : HIT_MINE{"attacker":"xpsman","gridReference":"D7"} 
+21:8:506 : MISS{"attacker":"dangerfox","gridReference":"Q13"} 
+21:8:545 : MISS{"attacker":"dangerfox","gridReference":"K1"} 
+21:8:584 : MISS{"attacker":"dangerfox","gridReference":"G11"} 
+21:8:623 : MISS{"attacker":"dangerfox","gridReference":"Q15"} 
+21:8:662 : MISS{"attacker":"dangerfox","gridReference":"Q7"} 
+21:8:703 : MISS{"attacker":"dangerfox","gridReference":"S11"} 
+21:8:745 : MISS{"attacker":"dangerfox","gridReference":"N6"} 
+21:8:784 : MISS{"attacker":"dangerfox","gridReference":"I9"} 
+21:8:824 : MISS{"attacker":"dangerfox","gridReference":"F6"} 
+21:8:862 : MISS{"attacker":"dangerfox","gridReference":"O1"} 
+21:8:902 : MISS{"attacker":"dangerfox","gridReference":"D10"} 
+21:8:918 : MOVE (Get) 
+21:8:932 : MISS{"attacker":"xpsman","gridReference":"D8"} 
+21:8:971 : MISS{"attacker":"dangerfox","gridReference":"H2"} 
+21:8:986 : MOVE (Get) 
+21:9:1 : MISS{"attacker":"xpsman","gridReference":"D9"} 
+21:9:42 : MISS{"attacker":"dangerfox","gridReference":"K3"} 
+21:9:58 : MOVE (Get) 
+21:9:73 : MISS{"attacker":"xpsman","gridReference":"D10"} 
+21:9:111 : MISS{"attacker":"dangerfox","gridReference":"B12"} 
+21:9:127 : MOVE (Get) 
+21:9:143 : MISS{"attacker":"xpsman","gridReference":"D11"} 
+21:9:180 : MISS{"attacker":"dangerfox","gridReference":"P12"} 
+21:9:230 : MOVE (Get) 
+21:9:244 : MISS{"attacker":"xpsman","gridReference":"D12"} 
+21:9:283 : MISS{"attacker":"dangerfox","gridReference":"A9"} 
+21:9:298 : MOVE (Get) 
+21:9:312 : MISS{"attacker":"xpsman","gridReference":"D13"} 
+21:9:352 : MISS{"attacker":"dangerfox","gridReference":"M11"} 
+21:9:374 : MOVE (Get) 
+21:9:389 : MISS{"attacker":"xpsman","gridReference":"D14"} 
+21:9:430 : MISS{"attacker":"dangerfox","gridReference":"B14"} 
+21:9:449 : MOVE (Get) 
+21:9:466 : MISS{"attacker":"xpsman","gridReference":"D15"} 
+21:9:506 : MISS{"attacker":"dangerfox","gridReference":"N10"} 
+21:9:522 : MOVE (Get) 
+21:9:537 : MISS{"attacker":"xpsman","gridReference":"E2"} 
+21:9:586 : MISS{"attacker":"dangerfox","gridReference":"E5"} 
+21:9:642 : MOVE (Get) 
+21:9:657 : HIT_MINE{"attacker":"xpsman","gridReference":"E3"} 
+21:9:696 : MISS{"attacker":"dangerfox","gridReference":"C11"} 
+21:9:734 : MISS{"attacker":"dangerfox","gridReference":"N14"} 
+21:9:774 : MISS{"attacker":"dangerfox","gridReference":"C13"} 
+21:9:814 : MISS{"attacker":"dangerfox","gridReference":"O9"} 
+21:9:852 : MISS{"attacker":"dangerfox","gridReference":"K9"} 
+21:9:891 : MISS{"attacker":"dangerfox","gridReference":"P14"} 
+21:9:929 : MISS{"attacker":"dangerfox","gridReference":"G7"} 
+21:9:968 : MISS{"attacker":"dangerfox","gridReference":"L12"} 
+21:10:5 : MISS{"attacker":"dangerfox","gridReference":"Q11"} 
+21:10:41 : MISS{"attacker":"dangerfox","gridReference":"A5"} 
+21:10:80 : MISS{"attacker":"dangerfox","gridReference":"F12"} 
+21:10:98 : MOVE (Get) 
+21:10:111 : MISS{"attacker":"xpsman","gridReference":"E4"} 
+21:10:188 : MISS{"attacker":"dangerfox","gridReference":"K7"} 
+21:10:209 : MOVE (Get) 
+21:10:224 : MISS{"attacker":"xpsman","gridReference":"E5"} 
+21:10:263 : MISS{"attacker":"dangerfox","gridReference":"H6"} 
+21:10:278 : MOVE (Get) 
+21:10:293 : MISS{"attacker":"xpsman","gridReference":"E6"} 
+21:10:333 : MISS{"attacker":"dangerfox","gridReference":"S5"} 
+21:10:348 : MOVE (Get) 
+21:10:363 : HIT{"attacker":"xpsman","gridReference":"E7"} 
+21:10:402 : MISS{"attacker":"dangerfox","gridReference":"J12"} 
+21:10:417 : MOVE (Get) 
+21:10:433 : HIT{"attacker":"xpsman","gridReference":"E8"} 
+21:10:472 : MISS{"attacker":"dangerfox","gridReference":"I3"} 
+21:10:487 : MOVE (Get) 
+21:10:506 : HIT{"attacker":"xpsman","gridReference":"E9"} 
+21:10:546 : MISS{"attacker":"dangerfox","gridReference":"E11"} 
+21:10:561 : MOVE (Get) 
+21:10:577 : HIT{"attacker":"xpsman","gridReference":"E10"} 
+21:10:614 : MISS{"attacker":"dangerfox","gridReference":"P10"} 
+21:10:629 : MOVE (Get) 
+21:10:644 : MISS{"attacker":"xpsman","gridReference":"E11"} 
+21:10:682 : MISS{"attacker":"dangerfox","gridReference":"C15"} 
+21:10:697 : MOVE (Get) 
+21:10:712 : MISS{"attacker":"xpsman","gridReference":"E12"} 
+21:10:751 : MISS{"attacker":"dangerfox","gridReference":"S1"} 
+21:10:766 : MOVE (Get) 
+21:10:786 : MISS{"attacker":"xpsman","gridReference":"E13"} 
+21:10:879 : HIT_MINE{"attacker":"dangerfox","gridReference":"C3"} 
+21:10:899 : MOVE (Get) 
+21:10:917 : MISS{"attacker":"xpsman","gridReference":"E14"} 
+21:10:934 : MOVE (Get) 
+21:10:950 : MISS{"attacker":"xpsman","gridReference":"E15"} 
+21:10:968 : MOVE (Get) 
+21:10:983 : HIT{"attacker":"xpsman","gridReference":"F1"} 
+21:10:998 : MOVE (Get) 
+21:11:13 : MISS{"attacker":"xpsman","gridReference":"F2"} 
+21:11:29 : MOVE (Get) 
+21:11:43 : MISS{"attacker":"xpsman","gridReference":"F3"} 
+21:11:58 : MOVE (Get) 
+21:11:73 : MISS{"attacker":"xpsman","gridReference":"F4"} 
+21:11:88 : MOVE (Get) 
+21:11:102 : MISS{"attacker":"xpsman","gridReference":"F5"} 
+21:11:122 : MOVE (Get) 
+21:11:175 : MISS{"attacker":"xpsman","gridReference":"F6"} 
+21:11:193 : MOVE (Get) 
+21:11:207 : MISS{"attacker":"xpsman","gridReference":"F7"} 
+21:11:224 : MOVE (Get) 
+21:11:243 : MISS{"attacker":"xpsman","gridReference":"F8"} 
+21:11:260 : MOVE (Get) 
+21:11:275 : MISS{"attacker":"xpsman","gridReference":"F9"} 
+21:11:313 : MISS{"attacker":"dangerfox","gridReference":"L14"} 
+21:11:337 : MOVE (Get) 
+21:11:351 : MISS{"attacker":"xpsman","gridReference":"F10"} 
+21:11:390 : MISS{"attacker":"dangerfox","gridReference":"H8"} 
+21:11:405 : MOVE (Get) 
+21:11:420 : MISS{"attacker":"xpsman","gridReference":"F11"} 
+21:11:460 : MISS{"attacker":"dangerfox","gridReference":"E15"} 
+21:11:475 : MOVE (Get) 
+21:11:490 : MISS{"attacker":"xpsman","gridReference":"F12"} 
+21:11:528 : MISS{"attacker":"dangerfox","gridReference":"S13"} 
+21:11:544 : MOVE (Get) 
+21:11:559 : MISS{"attacker":"xpsman","gridReference":"F13"} 
+21:11:597 : MISS{"attacker":"dangerfox","gridReference":"O15"} 
+21:11:612 : MOVE (Get) 
+21:11:632 : MISS{"attacker":"xpsman","gridReference":"F14"} 
+21:11:715 : MISS{"attacker":"dangerfox","gridReference":"Q3"} 
+21:11:732 : MOVE (Get) 
+21:11:747 : MISS{"attacker":"xpsman","gridReference":"F15"} 
+21:11:785 : MISS{"attacker":"dangerfox","gridReference":"R8"} 
+21:11:800 : MOVE (Get) 
+21:11:814 : MISS{"attacker":"xpsman","gridReference":"G2"} 
+21:11:854 : MISS{"attacker":"dangerfox","gridReference":"J4"} 
+21:11:869 : MOVE (Get) 
+21:11:884 : MISS{"attacker":"xpsman","gridReference":"G4"} 
+21:11:923 : MISS{"attacker":"dangerfox","gridReference":"P2"} 
+21:11:939 : MOVE (Get) 
+21:11:954 : HIT_MINE{"attacker":"xpsman","gridReference":"G5"} 
+21:11:994 : MISS{"attacker":"dangerfox","gridReference":"B10"} 
+21:12:55 : MISS{"attacker":"dangerfox","gridReference":"D4"} 
+21:12:93 : MISS{"attacker":"dangerfox","gridReference":"F8"} 
+21:12:133 : MISS{"attacker":"dangerfox","gridReference":"D12"} 
+21:12:171 : MISS{"attacker":"dangerfox","gridReference":"P4"} 
+21:12:209 : MISS{"attacker":"dangerfox","gridReference":"A15"} 
+21:12:248 : MISS{"attacker":"dangerfox","gridReference":"O3"} 
+21:12:286 : MISS{"attacker":"dangerfox","gridReference":"I1"} 
+21:12:324 : MISS{"attacker":"dangerfox","gridReference":"K5"} 
+21:12:367 : MISS{"attacker":"dangerfox","gridReference":"D8"} 
+21:12:407 : MISS{"attacker":"dangerfox","gridReference":"L4"} 
+21:12:422 : MOVE (Get) 
+21:12:436 : MISS{"attacker":"xpsman","gridReference":"G6"} 
+21:12:476 : MISS{"attacker":"dangerfox","gridReference":"E9"} 
+21:12:492 : MOVE (Get) 
+21:12:507 : HIT{"attacker":"xpsman","gridReference":"G7"} 
+21:12:546 : MISS{"attacker":"dangerfox","gridReference":"K13"} 
+21:12:604 : MOVE (Get) 
+21:12:652 : HIT{"attacker":"xpsman","gridReference":"G8"} 
+21:12:695 : HIT_MINE{"attacker":"dangerfox","gridReference":"G1"} 
+21:12:710 : MOVE (Get) 
+21:12:726 : MISS{"attacker":"xpsman","gridReference":"G9"} 
+21:12:741 : MOVE (Get) 
+21:12:755 : MISS{"attacker":"xpsman","gridReference":"G10"} 
+21:12:771 : MOVE (Get) 
+21:12:786 : MISS{"attacker":"xpsman","gridReference":"G11"} 
+21:12:801 : MOVE (Get) 
+21:12:816 : MISS{"attacker":"xpsman","gridReference":"G12"} 
+21:12:832 : MOVE (Get) 
+21:12:846 : MISS{"attacker":"xpsman","gridReference":"G13"} 
+21:12:862 : MOVE (Get) 
+21:12:877 : MISS{"attacker":"xpsman","gridReference":"G14"} 
+21:12:893 : MOVE (Get) 
+21:12:908 : MISS{"attacker":"xpsman","gridReference":"G15"} 
+21:12:922 : MOVE (Get) 
+21:12:937 : MISS{"attacker":"xpsman","gridReference":"H1"} 
+21:12:953 : MOVE (Get) 
+21:12:968 : MISS{"attacker":"xpsman","gridReference":"H2"} 
+21:12:984 : MOVE (Get) 
+21:12:998 : MISS{"attacker":"xpsman","gridReference":"H3"} 
+21:13:17 : MOVE (Get) 
+21:13:32 : MISS{"attacker":"xpsman","gridReference":"H4"} 
+21:13:71 : MISS{"attacker":"dangerfox","gridReference":"N4"} 
+21:13:88 : MOVE (Get) 
+21:13:103 : MISS{"attacker":"xpsman","gridReference":"H5"} 
+21:13:141 : MISS{"attacker":"dangerfox","gridReference":"N2"} 
+21:13:158 : MOVE (Get) 
+21:13:172 : MISS{"attacker":"xpsman","gridReference":"H6"} 
+21:13:211 : MISS{"attacker":"dangerfox","gridReference":"G9"} 
+21:13:226 : MOVE (Get) 
+21:13:240 : MISS{"attacker":"xpsman","gridReference":"H7"} 
+21:13:362 : MISS{"attacker":"dangerfox","gridReference":"L10"} 
+21:13:380 : MOVE (Get) 
+21:13:394 : MISS{"attacker":"xpsman","gridReference":"H8"} 
+21:13:434 : MISS{"attacker":"dangerfox","gridReference":"I15"} 
+21:13:450 : MOVE (Get) 
+21:13:464 : MISS{"attacker":"xpsman","gridReference":"H9"} 
+21:13:542 : MISS{"attacker":"dangerfox","gridReference":"J8"} 
+21:13:557 : MOVE (Get) 
+21:13:571 : HIT_MINE{"attacker":"xpsman","gridReference":"H10"} 
+21:13:611 : MISS{"attacker":"dangerfox","gridReference":"E13"} 
+21:13:649 : MISS{"attacker":"dangerfox","gridReference":"M15"} 
+21:13:687 : MISS{"attacker":"dangerfox","gridReference":"H14"} 
+21:13:725 : MISS{"attacker":"dangerfox","gridReference":"B8"} 
+21:13:765 : MISS{"attacker":"dangerfox","gridReference":"R2"} 
+21:13:804 : MISS{"attacker":"dangerfox","gridReference":"H10"} 
+21:13:842 : MISS{"attacker":"dangerfox","gridReference":"R4"} 
+21:13:885 : MISS{"attacker":"dangerfox","gridReference":"A13"} 
+21:13:923 : MISS{"attacker":"dangerfox","gridReference":"F10"} 
+21:13:962 : MISS{"attacker":"dangerfox","gridReference":"P6"} 
+21:13:999 : MISS{"attacker":"dangerfox","gridReference":"N8"} 
+21:14:14 : MOVE (Get) 
+21:14:29 : MISS{"attacker":"xpsman","gridReference":"H11"} 
+21:14:67 : MISS{"attacker":"dangerfox","gridReference":"J10"} 
+21:14:82 : MOVE (Get) 
+21:14:98 : MISS{"attacker":"xpsman","gridReference":"H12"} 
+21:14:137 : MISS{"attacker":"dangerfox","gridReference":"C5"} 
+21:14:155 : MOVE (Get) 
+21:14:172 : HIT_MINE{"attacker":"xpsman","gridReference":"H13"} 
+21:14:210 : MISS{"attacker":"dangerfox","gridReference":"Q5"} 
+21:14:249 : MISS{"attacker":"dangerfox","gridReference":"I7"} 
+21:14:289 : MISS{"attacker":"dangerfox","gridReference":"S3"} 
+21:14:329 : MISS{"attacker":"dangerfox","gridReference":"J14"} 
+21:14:367 : MISS{"attacker":"dangerfox","gridReference":"L6"} 
+21:14:408 : HIT{"attacker":"dangerfox","gridReference":"A1"} 
+21:14:535 : MISS{"attacker":"dangerfox","gridReference":"I13"} 
+21:14:588 : MISS{"attacker":"dangerfox","gridReference":"M13"} 
+21:14:626 : MISS{"attacker":"dangerfox","gridReference":"M3"} 
+21:14:662 : MISS{"attacker":"dangerfox","gridReference":"A3"} 
+21:14:701 : HIT_MINE{"attacker":"dangerfox","gridReference":"G3"} 
+21:14:715 : MOVE (Get) 
+21:14:731 : MISS{"attacker":"xpsman","gridReference":"H14"} 
+21:14:744 : MOVE (Get) 
+21:14:766 : MISS{"attacker":"xpsman","gridReference":"H15"} 
+21:14:781 : MOVE (Get) 
+21:14:793 : MISS{"attacker":"xpsman","gridReference":"I1"} 
+21:14:808 : MOVE (Get) 
+21:14:821 : MISS{"attacker":"xpsman","gridReference":"I2"} 
+21:14:836 : MOVE (Get) 
+21:14:849 : MISS{"attacker":"xpsman","gridReference":"I3"} 
+21:14:866 : MOVE (Get) 
+21:14:880 : MISS{"attacker":"xpsman","gridReference":"I4"} 
+21:14:894 : MOVE (Get) 
+21:14:907 : MISS{"attacker":"xpsman","gridReference":"I5"} 
+21:14:921 : MOVE (Get) 
+21:14:936 : MISS{"attacker":"xpsman","gridReference":"I6"} 
+21:14:951 : MOVE (Get) 
+21:14:965 : MISS{"attacker":"xpsman","gridReference":"I7"} 
+21:14:980 : MOVE (Get) 
+21:14:993 : MISS{"attacker":"xpsman","gridReference":"I8"} 
+21:15:7 : MOVE (Get) 
+21:15:20 : HIT_MINE{"attacker":"xpsman","gridReference":"I9"} 
+21:15:58 : MISS{"attacker":"dangerfox","gridReference":"P8"} 
+21:15:95 : MISS{"attacker":"dangerfox","gridReference":"J2"} 
+21:15:132 : MISS{"attacker":"dangerfox","gridReference":"B2"} 
+21:15:170 : MISS{"attacker":"dangerfox","gridReference":"G5"} 
+21:15:208 : MISS{"attacker":"dangerfox","gridReference":"S15"} 
+21:15:246 : MISS{"attacker":"dangerfox","gridReference":"E12"} 
+21:15:284 : MISS{"attacker":"dangerfox","gridReference":"K6"} 
+21:15:326 : MISS{"attacker":"dangerfox","gridReference":"I8"} 
+21:15:365 : MISS{"attacker":"dangerfox","gridReference":"D11"} 
+21:15:403 : MISS{"attacker":"dangerfox","gridReference":"N11"} 
+21:15:442 : MISS{"attacker":"dangerfox","gridReference":"N5"} 
+21:15:458 : MOVE (Get) 
+21:15:472 : MISS{"attacker":"xpsman","gridReference":"I10"} 
+21:15:515 : MISS{"attacker":"dangerfox","gridReference":"J11"} 
+21:15:531 : MOVE (Get) 
+21:15:545 : MISS{"attacker":"xpsman","gridReference":"I11"} 
+21:15:623 : MISS{"attacker":"dangerfox","gridReference":"J5"} 
+21:15:638 : MOVE (Get) 
+21:15:651 : MISS{"attacker":"xpsman","gridReference":"I12"} 
+21:15:757 : MISS{"attacker":"dangerfox","gridReference":"D15"} 
+21:15:772 : MOVE (Get) 
+21:15:787 : MISS{"attacker":"xpsman","gridReference":"I13"} 
+21:15:824 : MISS{"attacker":"dangerfox","gridReference":"N9"} 
+21:15:840 : MOVE (Get) 
+21:15:854 : MISS{"attacker":"xpsman","gridReference":"I14"} 
+21:15:892 : MISS{"attacker":"dangerfox","gridReference":"B9"} 
+21:15:908 : MOVE (Get) 
+21:15:921 : MISS{"attacker":"xpsman","gridReference":"I15"} 
+21:15:957 : MISS{"attacker":"dangerfox","gridReference":"J9"} 
+21:15:973 : MOVE (Get) 
+21:15:987 : MISS{"attacker":"xpsman","gridReference":"J1"} 
+21:16:25 : MISS{"attacker":"dangerfox","gridReference":"M6"} 
+21:16:40 : MOVE (Get) 
+21:16:53 : HIT_MINE{"attacker":"xpsman","gridReference":"J2"} 
+21:16:90 : MISS{"attacker":"dangerfox","gridReference":"F5"} 
+21:16:128 : MISS{"attacker":"dangerfox","gridReference":"G12"} 
+21:16:166 : MISS{"attacker":"dangerfox","gridReference":"N13"} 
+21:16:203 : MISS{"attacker":"dangerfox","gridReference":"H7"} 
+21:16:240 : MISS{"attacker":"dangerfox","gridReference":"K2"} 
+21:16:277 : MISS{"attacker":"dangerfox","gridReference":"E4"} 
+21:16:316 : MISS{"attacker":"dangerfox","gridReference":"E6"} 
+21:16:356 : MISS{"attacker":"dangerfox","gridReference":"M12"} 
+21:16:399 : MISS{"attacker":"dangerfox","gridReference":"L3"} 
+21:16:439 : MISS{"attacker":"dangerfox","gridReference":"S14"} 
+21:16:479 : MISS{"attacker":"dangerfox","gridReference":"M10"} 
+21:16:496 : MOVE (Get) 
+21:16:510 : MISS{"attacker":"xpsman","gridReference":"J3"} 
+21:16:549 : MISS{"attacker":"dangerfox","gridReference":"O2"} 
+21:16:566 : MOVE (Get) 
+21:16:581 : MISS{"attacker":"xpsman","gridReference":"J4"} 
+21:16:620 : MISS{"attacker":"dangerfox","gridReference":"C10"} 
+21:16:635 : MOVE (Get) 
+21:16:649 : MISS{"attacker":"xpsman","gridReference":"J5"} 
+21:16:689 : MISS{"attacker":"dangerfox","gridReference":"S2"} 
+21:16:703 : MOVE (Get) 
+21:16:718 : HIT_MINE{"attacker":"xpsman","gridReference":"J6"} 
+21:16:757 : MISS{"attacker":"dangerfox","gridReference":"E10"} 
+21:16:795 : MISS{"attacker":"dangerfox","gridReference":"O8"} 
+21:16:833 : MISS{"attacker":"dangerfox","gridReference":"H13"} 
+21:16:875 : MISS{"attacker":"dangerfox","gridReference":"A10"} 
+21:16:916 : MISS{"attacker":"dangerfox","gridReference":"L11"} 
+21:17:60 : MISS{"attacker":"dangerfox","gridReference":"P13"} 
+21:17:102 : MISS{"attacker":"dangerfox","gridReference":"J3"} 
+21:17:141 : MISS{"attacker":"dangerfox","gridReference":"P15"} 
+21:17:181 : MISS{"attacker":"dangerfox","gridReference":"K4"} 
+21:17:219 : MISS{"attacker":"dangerfox","gridReference":"D3"} 
+21:17:258 : MISS{"attacker":"dangerfox","gridReference":"M2"} 
+21:17:274 : MOVE (Get) 
+21:17:289 : MISS{"attacker":"xpsman","gridReference":"J7"} 
+21:17:328 : MISS{"attacker":"dangerfox","gridReference":"O12"} 
+21:17:343 : MOVE (Get) 
+21:17:358 : MISS{"attacker":"xpsman","gridReference":"J8"} 
+21:17:397 : MISS{"attacker":"dangerfox","gridReference":"Q4"} 
+21:17:413 : MOVE (Get) 
+21:17:427 : MISS{"attacker":"xpsman","gridReference":"J9"} 
+21:17:465 : MISS{"attacker":"dangerfox","gridReference":"F15"} 
+21:17:480 : MOVE (Get) 
+21:17:494 : MISS{"attacker":"xpsman","gridReference":"J10"} 
+21:17:534 : MISS{"attacker":"dangerfox","gridReference":"N3"} 
+21:17:550 : MOVE (Get) 
+21:17:566 : MISS{"attacker":"xpsman","gridReference":"J11"} 
+21:17:614 : MISS{"attacker":"dangerfox","gridReference":"H15"} 
+21:17:629 : MOVE (Get) 
+21:17:644 : HIT_MINE{"attacker":"xpsman","gridReference":"J12"} 
+21:17:682 : MISS{"attacker":"dangerfox","gridReference":"R1"} 
+21:17:719 : MISS{"attacker":"dangerfox","gridReference":"K8"} 
+21:17:758 : MISS{"attacker":"dangerfox","gridReference":"I4"} 
+21:17:796 : MISS{"attacker":"dangerfox","gridReference":"D9"} 
+21:17:833 : MISS{"attacker":"dangerfox","gridReference":"C6"} 
+21:17:871 : MISS{"attacker":"dangerfox","gridReference":"R9"} 
+21:17:953 : MISS{"attacker":"dangerfox","gridReference":"S8"} 
+21:17:993 : MISS{"attacker":"dangerfox","gridReference":"A6"} 
+21:18:33 : MISS{"attacker":"dangerfox","gridReference":"F7"} 
+21:18:70 : MISS{"attacker":"dangerfox","gridReference":"L13"} 
+21:18:125 : MISS{"attacker":"dangerfox","gridReference":"Q2"} 
+21:18:251 : MOVE (Get) 
+21:18:274 : MISS{"attacker":"xpsman","gridReference":"J13"} 
+21:18:313 : MISS{"attacker":"dangerfox","gridReference":"I14"} 
+21:18:329 : MOVE (Get) 
+21:18:343 : MISS{"attacker":"xpsman","gridReference":"J14"} 
+21:18:410 : MISS{"attacker":"dangerfox","gridReference":"Q8"} 
+21:18:429 : MOVE (Get) 
+21:18:443 : MISS{"attacker":"xpsman","gridReference":"J15"} 
+21:18:488 : MISS{"attacker":"dangerfox","gridReference":"D7"} 
+21:18:505 : MOVE (Get) 
+21:18:520 : MISS{"attacker":"xpsman","gridReference":"K1"} 
+21:18:561 : MISS{"attacker":"dangerfox","gridReference":"R13"} 
+21:18:577 : MOVE (Get) 
+21:18:590 : MISS{"attacker":"xpsman","gridReference":"K2"} 
+21:18:630 : MISS{"attacker":"dangerfox","gridReference":"M8"} 
+21:18:647 : MOVE (Get) 
+21:18:661 : MISS{"attacker":"xpsman","gridReference":"K3"} 
+21:18:698 : HIT_MINE{"attacker":"dangerfox","gridReference":"A2"} 
+21:18:713 : MOVE (Get) 
+21:18:725 : MISS{"attacker":"xpsman","gridReference":"K4"} 
+21:18:739 : MOVE (Get) 
+21:18:750 : MISS{"attacker":"xpsman","gridReference":"K5"} 
+21:18:764 : MOVE (Get) 
+21:18:777 : MISS{"attacker":"xpsman","gridReference":"K6"} 
+21:18:791 : MOVE (Get) 
+21:18:802 : MISS{"attacker":"xpsman","gridReference":"K7"} 
+21:18:816 : MOVE (Get) 
+21:18:829 : MISS{"attacker":"xpsman","gridReference":"K8"} 
+21:18:842 : MOVE (Get) 
+21:18:854 : MISS{"attacker":"xpsman","gridReference":"K9"} 
+21:18:870 : MOVE (Get) 
+21:18:883 : MISS{"attacker":"xpsman","gridReference":"K10"} 
+21:18:897 : MOVE (Get) 
+21:18:909 : MISS{"attacker":"xpsman","gridReference":"K11"} 
+21:18:931 : MOVE (Get) 
+21:18:944 : MISS{"attacker":"xpsman","gridReference":"K12"} 
+21:18:959 : MOVE (Get) 
+21:18:972 : HIT_MINE{"attacker":"xpsman","gridReference":"K13"} 
+21:19:7 : MISS{"attacker":"dangerfox","gridReference":"P3"} 
+21:19:46 : MISS{"attacker":"dangerfox","gridReference":"P1"} 
+21:19:80 : MISS{"attacker":"dangerfox","gridReference":"S12"} 
+21:19:116 : MISS{"attacker":"dangerfox","gridReference":"I2"} 
+21:19:195 : MISS{"attacker":"dangerfox","gridReference":"L15"} 
+21:19:249 : MISS{"attacker":"dangerfox","gridReference":"J13"} 
+21:19:292 : MISS{"attacker":"dangerfox","gridReference":"R11"} 
+21:19:368 : MISS{"attacker":"dangerfox","gridReference":"A4"} 
+21:19:407 : MISS{"attacker":"dangerfox","gridReference":"P5"} 
+21:19:445 : MISS{"attacker":"dangerfox","gridReference":"A8"} 
+21:19:461 : MOVE (Get) 
+21:19:475 : MISS{"attacker":"xpsman","gridReference":"K14"} 
+21:19:512 : MISS{"attacker":"dangerfox","gridReference":"B11"} 
+21:19:528 : MOVE (Get) 
+21:19:543 : MISS{"attacker":"xpsman","gridReference":"K15"} 
+21:19:582 : MISS{"attacker":"dangerfox","gridReference":"H5"} 
+21:19:596 : MOVE (Get) 
+21:19:611 : MISS{"attacker":"xpsman","gridReference":"L1"} 
+21:19:649 : MISS{"attacker":"dangerfox","gridReference":"I6"} 
+21:19:664 : MOVE (Get) 
+21:19:678 : MISS{"attacker":"xpsman","gridReference":"L2"} 
+21:19:716 : MISS{"attacker":"dangerfox","gridReference":"B15"} 
+21:19:732 : MOVE (Get) 
+21:19:746 : MISS{"attacker":"xpsman","gridReference":"L3"} 
+21:19:791 : MISS{"attacker":"dangerfox","gridReference":"B7"} 
+21:19:806 : MOVE (Get) 
+21:19:819 : MISS{"attacker":"xpsman","gridReference":"L4"} 
+21:19:857 : MISS{"attacker":"dangerfox","gridReference":"L9"} 
+21:19:872 : MOVE (Get) 
+21:19:886 : MISS{"attacker":"xpsman","gridReference":"L5"} 
+21:19:924 : MISS{"attacker":"dangerfox","gridReference":"C4"} 
+21:19:939 : MOVE (Get) 
+21:19:953 : MISS{"attacker":"xpsman","gridReference":"L6"} 
+21:19:993 : MISS{"attacker":"dangerfox","gridReference":"A14"} 
+21:20:7 : MOVE (Get) 
+21:20:21 : MISS{"attacker":"xpsman","gridReference":"L7"} 
+21:20:59 : MISS{"attacker":"dangerfox","gridReference":"C2"} 
+21:20:74 : MOVE (Get) 
+21:20:88 : MISS{"attacker":"xpsman","gridReference":"L8"} 
+21:20:124 : MISS{"attacker":"dangerfox","gridReference":"G14"} 
+21:20:140 : MOVE (Get) 
+21:20:154 : MISS{"attacker":"xpsman","gridReference":"L9"} 
+21:20:192 : MISS{"attacker":"dangerfox","gridReference":"F1"} 
+21:20:206 : MOVE (Get) 
+21:20:220 : HIT_MINE{"attacker":"xpsman","gridReference":"L10"} 
+21:20:259 : MISS{"attacker":"dangerfox","gridReference":"K12"} 
+21:20:298 : HIT{"attacker":"dangerfox","gridReference":"B1"} 
+21:20:337 : MISS{"attacker":"dangerfox","gridReference":"J15"} 
+21:20:374 : MISS{"attacker":"dangerfox","gridReference":"P7"} 
+21:20:415 : MISS{"attacker":"dangerfox","gridReference":"R3"} 
+21:20:453 : MISS{"attacker":"dangerfox","gridReference":"F13"} 
+21:20:490 : MISS{"attacker":"dangerfox","gridReference":"Q10"} 
+21:20:572 : HIT_MINE{"attacker":"dangerfox","gridReference":"D5"} 
+21:20:587 : MOVE (Get) 
+21:20:602 : MISS{"attacker":"xpsman","gridReference":"L11"} 
+21:20:618 : MOVE (Get) 
+21:20:631 : MISS{"attacker":"xpsman","gridReference":"L12"} 
+21:20:647 : MOVE (Get) 
+21:20:663 : MISS{"attacker":"xpsman","gridReference":"L13"} 
+21:20:678 : MOVE (Get) 
+21:20:693 : MISS{"attacker":"xpsman","gridReference":"L14"} 
+21:20:708 : MOVE (Get) 
+21:20:722 : MISS{"attacker":"xpsman","gridReference":"L15"} 
+21:20:738 : MOVE (Get) 
+21:20:751 : MISS{"attacker":"xpsman","gridReference":"M1"} 
+21:20:766 : MOVE (Get) 
+21:20:779 : MISS{"attacker":"xpsman","gridReference":"M2"} 
+21:20:795 : MOVE (Get) 
+21:20:808 : MISS{"attacker":"xpsman","gridReference":"M3"} 
+21:20:847 : MISS{"attacker":"dangerfox","gridReference":"L7"} 
+21:20:862 : MOVE (Get) 
+21:20:876 : MISS{"attacker":"xpsman","gridReference":"M4"} 
+21:20:915 : MISS{"attacker":"dangerfox","gridReference":"Q12"} 
+21:20:931 : MOVE (Get) 
+21:20:945 : MISS{"attacker":"xpsman","gridReference":"M5"} 
+21:20:984 : MISS{"attacker":"dangerfox","gridReference":"R5"} 
+21:21:0 : MOVE (Get) 
+21:21:14 : HIT_MINE{"attacker":"xpsman","gridReference":"M6"} 
+21:21:52 : MISS{"attacker":"dangerfox","gridReference":"P9"} 
+21:21:91 : MISS{"attacker":"dangerfox","gridReference":"O10"} 
+21:21:129 : MISS{"attacker":"dangerfox","gridReference":"L1"} 
+21:21:169 : MISS{"attacker":"dangerfox","gridReference":"C14"} 
+21:21:208 : MISS{"attacker":"dangerfox","gridReference":"Q6"} 
+21:21:245 : MISS{"attacker":"dangerfox","gridReference":"B13"} 
+21:21:284 : MISS{"attacker":"dangerfox","gridReference":"E2"} 
+21:21:322 : MISS{"attacker":"dangerfox","gridReference":"S10"} 
+21:21:366 : MISS{"attacker":"dangerfox","gridReference":"C8"} 
+21:21:416 : MISS{"attacker":"dangerfox","gridReference":"G6"} 
+21:21:461 : MISS{"attacker":"dangerfox","gridReference":"H1"} 
+21:21:479 : MOVE (Get) 
+21:21:492 : MISS{"attacker":"xpsman","gridReference":"M7"} 
+21:21:531 : MISS{"attacker":"dangerfox","gridReference":"B3"} 
+21:21:547 : MOVE (Get) 
+21:21:562 : MISS{"attacker":"xpsman","gridReference":"M8"} 
+21:21:606 : MISS{"attacker":"dangerfox","gridReference":"K14"} 
+21:21:620 : MOVE (Get) 
+21:21:635 : MISS{"attacker":"xpsman","gridReference":"M9"} 
+21:21:674 : MISS{"attacker":"dangerfox","gridReference":"J1"} 
+21:21:690 : MOVE (Get) 
+21:21:704 : MISS{"attacker":"xpsman","gridReference":"M10"} 
+21:21:744 : MISS{"attacker":"dangerfox","gridReference":"G2"} 
+21:21:779 : MOVE (Get) 
+21:21:796 : MISS{"attacker":"xpsman","gridReference":"M11"} 
+21:21:833 : MISS{"attacker":"dangerfox","gridReference":"E14"} 
+21:21:849 : MOVE (Get) 
+21:21:870 : MISS{"attacker":"xpsman","gridReference":"M12"} 
+21:21:950 : MISS{"attacker":"dangerfox","gridReference":"P11"} 
+21:21:966 : MOVE (Get) 
+21:21:980 : HIT_MINE{"attacker":"xpsman","gridReference":"M13"} 
+21:22:19 : MISS{"attacker":"dangerfox","gridReference":"O6"} 
+21:22:57 : MISS{"attacker":"dangerfox","gridReference":"S6"} 
+21:22:96 : MISS{"attacker":"dangerfox","gridReference":"G10"} 
+21:22:133 : MISS{"attacker":"dangerfox","gridReference":"H11"} 
+21:22:172 : MISS{"attacker":"dangerfox","gridReference":"K10"} 
+21:22:214 : MISS{"attacker":"dangerfox","gridReference":"N1"} 
+21:22:253 : MISS{"attacker":"dangerfox","gridReference":"N7"} 
+21:22:292 : MISS{"attacker":"dangerfox","gridReference":"H3"} 
+21:22:329 : MISS{"attacker":"dangerfox","gridReference":"D13"} 
+21:22:368 : MISS{"attacker":"dangerfox","gridReference":"F11"} 
+21:22:405 : MISS{"attacker":"dangerfox","gridReference":"I12"} 
+21:22:420 : MOVE (Get) 
+21:22:433 : MISS{"attacker":"xpsman","gridReference":"M14"} 
+21:22:475 : MISS{"attacker":"dangerfox","gridReference":"N15"} 
+21:22:560 : MOVE (Get) 
+21:22:586 : MISS{"attacker":"xpsman","gridReference":"M15"} 
+21:22:624 : MISS{"attacker":"dangerfox","gridReference":"F3"} 
+21:22:640 : MOVE (Get) 
+21:22:653 : MISS{"attacker":"xpsman","gridReference":"N1"} 
+21:22:701 : MISS{"attacker":"dangerfox","gridReference":"O14"} 
+21:22:765 : MOVE (Get) 
+21:22:778 : MISS{"attacker":"xpsman","gridReference":"N2"} 
+21:22:870 : MISS{"attacker":"dangerfox","gridReference":"C12"} 
+21:22:885 : MOVE (Get) 
+21:22:901 : MISS{"attacker":"xpsman","gridReference":"N3"} 
+21:22:940 : MISS{"attacker":"dangerfox","gridReference":"F9"} 
+21:22:956 : MOVE (Get) 
+21:22:970 : HIT_MINE{"attacker":"xpsman","gridReference":"N4"} 
+21:23:9 : MISS{"attacker":"dangerfox","gridReference":"B5"} 
+21:23:135 : MISS{"attacker":"dangerfox","gridReference":"H9"} 
+21:23:178 : MISS{"attacker":"dangerfox","gridReference":"G8"} 
+21:23:310 : MISS{"attacker":"dangerfox","gridReference":"M14"} 
+21:23:349 : MISS{"attacker":"dangerfox","gridReference":"J7"} 
+21:23:392 : MISS{"attacker":"dangerfox","gridReference":"G4"} 
+21:23:431 : MISS{"attacker":"dangerfox","gridReference":"S4"} 
+21:23:472 : MISS{"attacker":"dangerfox","gridReference":"I10"} 
+21:23:509 : MISS{"attacker":"dangerfox","gridReference":"L5"} 
+21:23:549 : MISS{"attacker":"dangerfox","gridReference":"O4"} 
+21:23:588 : MISS{"attacker":"dangerfox","gridReference":"A12"} 
+21:23:605 : MOVE (Get) 
+21:23:619 : MISS{"attacker":"xpsman","gridReference":"N5"} 
+21:23:659 : MISS{"attacker":"dangerfox","gridReference":"E8"} 
+21:23:676 : MOVE (Get) 
+21:23:690 : HIT_MINE{"attacker":"xpsman","gridReference":"N6"} 
+21:23:781 : MISS{"attacker":"dangerfox","gridReference":"Q14"} 
+21:23:828 : HIT{"attacker":"dangerfox","gridReference":"D1"} 
+22:53:993 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","titanic"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+22:54:275 : PLACE (Get) 
+22:54:593 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+23:0:872 : MOVE (Get) 
+23:0:888 : PLACE (Get){"gridReferences":["A2"]} 
+23:0:922 : MISS{"attacker":"titanic","gridReference":"E13"} 
+23:0:944 : MOVE (Get) 
+23:0:960 : PLACE (Get){"gridReferences":["C3"]} 
+23:0:982 : MISS{"attacker":"titanic","gridReference":"J9"} 
+23:1:6 : MOVE (Get) 
+23:1:22 : PLACE (Get){"gridReferences":["G1"]} 
+23:1:41 : MISS{"attacker":"titanic","gridReference":"A15"} 
+23:1:57 : MOVE (Get) 
+23:1:72 : PLACE (Get){"gridReferences":["G3"]} 
+23:1:92 : MISS{"attacker":"titanic","gridReference":"K8"} 
+23:1:108 : MOVE (Get) 
+23:1:123 : PLACE (Get){"gridReferences":["D5"]} 
+23:1:143 : MISS{"attacker":"titanic","gridReference":"G9"} 
+23:1:159 : MOVE (Get) 
+23:1:175 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+23:1:205 : MISS{"attacker":"titanic","gridReference":"Q12"} 
+23:1:227 : MOVE (Get) 
+23:1:243 : HIT{"attacker":"xpsman","gridReference":"B1"} 
+23:1:319 : MISS{"attacker":"titanic","gridReference":"I12"} 
+23:1:339 : MOVE (Get) 
+23:1:354 : HIT{"attacker":"xpsman","gridReference":"C1"} 
+23:1:389 : MISS{"attacker":"titanic","gridReference":"K13"} 
+23:1:405 : MOVE (Get) 
+23:1:425 : HIT{"attacker":"xpsman","gridReference":"D1"} 
+23:1:481 : MISS{"attacker":"titanic","gridReference":"D12"} 
+23:1:519 : MOVE (Get) 
+23:1:533 : HIT{"attacker":"xpsman","gridReference":"E1"} 
+23:1:565 : MISS{"attacker":"titanic","gridReference":"F8"} 
+23:1:585 : MOVE (Get) 
+23:1:602 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+23:1:652 : MISS{"attacker":"titanic","gridReference":"D6"} 
+23:1:670 : MOVE (Get) 
+23:1:685 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+23:1:779 : MISS{"attacker":"titanic","gridReference":"R12"} 
+23:1:809 : MOVE (Get) 
+23:1:827 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+23:1:856 : MISS{"attacker":"titanic","gridReference":"H15"} 
+23:1:873 : MOVE (Get) 
+23:1:887 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+23:1:917 : MISS{"attacker":"titanic","gridReference":"I11"} 
+23:1:933 : MOVE (Get) 
+23:1:951 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+23:1:980 : MISS{"attacker":"titanic","gridReference":"C10"} 
+23:1:998 : MOVE (Get) 
+23:2:13 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+23:2:89 : MISS{"attacker":"titanic","gridReference":"S4"} 
+23:2:107 : MOVE (Get) 
+23:2:122 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+23:2:155 : MISS{"attacker":"titanic","gridReference":"A3"} 
+23:2:219 : MOVE (Get) 
+23:2:234 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+23:2:264 : MISS{"attacker":"titanic","gridReference":"S1"} 
+23:2:280 : MOVE (Get) 
+23:2:296 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+23:2:335 : MISS{"attacker":"titanic","gridReference":"Q12"} 
+23:44:524 : START{"maxTurns":750,"gridSize":"S15","players":["xpsman","Barbosa"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+23:44:532 : PLACE (Get) 
+23:44:579 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+23:44:623 : MOVE (Get) 
+23:44:638 : PLACE (Get){"gridReferences":["A2"]} 
+23:44:650 : MISS{"attacker":"Barbosa","gridReference":"P8"} 
+23:44:657 : MOVE (Get) 
+23:44:672 : PLACE (Get){"gridReferences":["C3"]} 
+23:44:684 : MISS{"attacker":"Barbosa","gridReference":"Q5"} 
+23:44:691 : MOVE (Get) 
+23:44:706 : PLACE (Get){"gridReferences":["G1"]} 
+23:44:718 : MISS{"attacker":"Barbosa","gridReference":"M7"} 
+23:44:727 : MOVE (Get) 
+23:44:742 : PLACE (Get){"gridReferences":["G3"]} 
+23:44:755 : MISS{"attacker":"Barbosa","gridReference":"R2"} 
+23:44:762 : MOVE (Get) 
+23:44:776 : PLACE (Get){"gridReferences":["D5"]} 
+23:44:790 : MISS{"attacker":"Barbosa","gridReference":"G13"} 
+23:44:797 : MOVE (Get) 
+23:44:812 : MISS{"attacker":"xpsman","gridReference":"A1"} 
+23:44:824 : MISS{"attacker":"Barbosa","gridReference":"H8"} 
+23:44:831 : MOVE (Get) 
+23:44:846 : MISS{"attacker":"xpsman","gridReference":"B1"} 
+23:44:858 : MISS{"attacker":"Barbosa","gridReference":"L2"} 
+23:44:865 : MOVE (Get) 
+23:44:878 : MISS{"attacker":"xpsman","gridReference":"C1"} 
+23:44:891 : MISS{"attacker":"Barbosa","gridReference":"H12"} 
+23:44:897 : MOVE (Get) 
+23:44:912 : MISS{"attacker":"xpsman","gridReference":"D1"} 
+23:44:924 : MISS{"attacker":"Barbosa","gridReference":"O3"} 
+23:44:930 : MOVE (Get) 
+23:44:945 : MISS{"attacker":"xpsman","gridReference":"E1"} 
+23:44:957 : MISS{"attacker":"Barbosa","gridReference":"J12"} 
+23:44:964 : MOVE (Get) 
+23:44:978 : MISS{"attacker":"xpsman","gridReference":"A2"} 
+23:44:993 : MISS{"attacker":"Barbosa","gridReference":"Q11"} 
+23:44:999 : MOVE (Get) 
+23:45:14 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+23:45:25 : MISS{"attacker":"Barbosa","gridReference":"E3"} 
+23:45:32 : MOVE (Get) 
+23:45:47 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+23:45:59 : MISS{"attacker":"Barbosa","gridReference":"S3"} 
+23:45:66 : MOVE (Get) 
+23:45:82 : HIT{"attacker":"xpsman","gridReference":"G3"} 
+23:45:89 : MOVE (Get) 
+23:45:142 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+23:45:159 : MISS{"attacker":"Barbosa","gridReference":"K7"} 
+23:45:165 : MOVE (Get) 
+23:45:180 : MISS{"attacker":"xpsman","gridReference":"A3"} 
+23:45:191 : MISS{"attacker":"Barbosa","gridReference":"J4"} 
+23:45:198 : MOVE (Get) 
+23:45:213 : MISS{"attacker":"xpsman","gridReference":"A4"} 
+23:45:225 : MISS{"attacker":"Barbosa","gridReference":"H4"} 
+23:45:232 : MOVE (Get) 
+23:45:247 : MISS{"attacker":"xpsman","gridReference":"A5"} 
+23:45:259 : MISS{"attacker":"Barbosa","gridReference":"G5"} 
+23:45:266 : MOVE (Get) 
+23:45:280 : MISS{"attacker":"xpsman","gridReference":"A6"} 
+23:45:292 : MISS{"attacker":"Barbosa","gridReference":"P6"} 
+23:45:298 : MOVE (Get) 
+23:45:312 : MISS{"attacker":"xpsman","gridReference":"A7"} 
+23:45:324 : MISS{"attacker":"Barbosa","gridReference":"A3"} 
+23:45:331 : MOVE (Get) 
+23:45:345 : MISS{"attacker":"xpsman","gridReference":"A8"} 
+23:45:359 : MISS{"attacker":"Barbosa","gridReference":"H10"} 
+23:45:367 : MOVE (Get) 
+23:45:381 : MISS{"attacker":"xpsman","gridReference":"A9"} 
+23:45:392 : MISS{"attacker":"Barbosa","gridReference":"O5"} 
+23:45:400 : MOVE (Get) 
+23:45:414 : MISS{"attacker":"xpsman","gridReference":"A10"} 
+23:45:426 : MISS{"attacker":"Barbosa","gridReference":"I15"} 
+23:45:432 : MOVE (Get) 
+23:45:447 : MISS{"attacker":"xpsman","gridReference":"A11"} 
+23:45:459 : MISS{"attacker":"Barbosa","gridReference":"S1"} 
+23:45:468 : MOVE (Get) 
+23:45:483 : MISS{"attacker":"xpsman","gridReference":"A12"} 
+23:45:495 : MISS{"attacker":"Barbosa","gridReference":"B12"} 
+23:45:502 : MOVE (Get) 
+23:45:517 : MISS{"attacker":"xpsman","gridReference":"A13"} 
+23:45:542 : MISS{"attacker":"Barbosa","gridReference":"K13"} 
+23:45:561 : MOVE (Get) 
+23:45:590 : MISS{"attacker":"xpsman","gridReference":"A14"} 
+23:45:603 : MISS{"attacker":"Barbosa","gridReference":"D6"} 
+23:45:610 : MOVE (Get) 
+23:45:624 : MISS{"attacker":"xpsman","gridReference":"A15"} 
+23:45:636 : MISS{"attacker":"Barbosa","gridReference":"I3"} 
+23:45:643 : MOVE (Get) 
+23:45:659 : MISS{"attacker":"xpsman","gridReference":"B2"} 
+23:45:672 : MISS{"attacker":"Barbosa","gridReference":"I11"} 
+23:45:678 : MOVE (Get) 
+23:45:693 : MISS{"attacker":"xpsman","gridReference":"B3"} 
+23:45:704 : MISS{"attacker":"Barbosa","gridReference":"E7"} 
+23:45:711 : MOVE (Get) 
+23:45:725 : MISS{"attacker":"xpsman","gridReference":"B4"} 
+23:45:737 : MISS{"attacker":"Barbosa","gridReference":"A11"} 
+23:45:744 : MOVE (Get) 
+23:45:759 : MISS{"attacker":"xpsman","gridReference":"B5"} 
+23:45:770 : MISS{"attacker":"Barbosa","gridReference":"N6"} 
+23:45:778 : MOVE (Get) 
+23:45:791 : MISS{"attacker":"xpsman","gridReference":"B6"} 
+23:45:803 : MISS{"attacker":"Barbosa","gridReference":"P14"} 
+23:45:810 : MOVE (Get) 
+23:45:826 : MISS{"attacker":"xpsman","gridReference":"B7"} 
+23:45:838 : MISS{"attacker":"Barbosa","gridReference":"M11"} 
+23:45:845 : MOVE (Get) 
+23:45:860 : MISS{"attacker":"xpsman","gridReference":"B8"} 
+23:45:910 : MISS{"attacker":"Barbosa","gridReference":"D12"} 
+23:45:917 : MOVE (Get) 
+23:45:931 : MISS{"attacker":"xpsman","gridReference":"B9"} 
+23:45:943 : MISS{"attacker":"Barbosa","gridReference":"R6"} 
+23:45:950 : MOVE (Get) 
+23:45:964 : MISS{"attacker":"xpsman","gridReference":"B10"} 
+23:45:977 : MISS{"attacker":"Barbosa","gridReference":"F4"} 
+23:45:984 : MOVE (Get) 
+23:45:998 : MISS{"attacker":"xpsman","gridReference":"B11"} 
+23:46:10 : MISS{"attacker":"Barbosa","gridReference":"P4"} 
+23:46:17 : MOVE (Get) 
+23:46:30 : MISS{"attacker":"xpsman","gridReference":"B12"} 
+23:46:43 : MISS{"attacker":"Barbosa","gridReference":"Q1"} 
+23:46:50 : MOVE (Get) 
+23:46:65 : MISS{"attacker":"xpsman","gridReference":"B13"} 
+23:46:77 : MISS{"attacker":"Barbosa","gridReference":"C11"} 
+23:46:83 : MOVE (Get) 
+23:46:97 : MISS{"attacker":"xpsman","gridReference":"B14"} 
+23:46:107 : MISS{"attacker":"Barbosa","gridReference":"M13"} 
+23:46:113 : MOVE (Get) 
+23:46:126 : MISS{"attacker":"xpsman","gridReference":"B15"} 
+23:46:137 : MISS{"attacker":"Barbosa","gridReference":"R8"} 
+23:46:143 : MOVE (Get) 
+23:46:155 : MISS{"attacker":"xpsman","gridReference":"C2"} 
+23:46:166 : MISS{"attacker":"Barbosa","gridReference":"C5"} 
+23:46:171 : MOVE (Get) 
+23:46:185 : MISS{"attacker":"xpsman","gridReference":"C4"} 
+23:46:199 : HIT{"attacker":"Barbosa","gridReference":"A1"} 
+23:46:206 : MOVE (Get) 
+23:46:221 : MISS{"attacker":"xpsman","gridReference":"C5"} 
+23:46:234 : HIT{"attacker":"Barbosa","gridReference":"B1"} 
+23:46:242 : MOVE (Get) 
+23:46:260 : MISS{"attacker":"xpsman","gridReference":"C6"} 
+23:46:273 : HIT{"attacker":"Barbosa","gridReference":"C1"} 
+23:46:281 : MOVE (Get) 
+23:46:295 : MISS{"attacker":"xpsman","gridReference":"C7"} 
+23:46:308 : HIT{"attacker":"Barbosa","gridReference":"D1"} 
+23:46:315 : MOVE (Get) 
+23:46:329 : MISS{"attacker":"xpsman","gridReference":"C8"} 
+23:46:341 : HIT{"attacker":"Barbosa","gridReference":"E1"} 
+23:46:380 : START{"maxTurns":750,"gridSize":"S15","players":["Pintel","xpsman"],"ships":["CARRIER","DESTROYER","FRIGATE","FRIGATE","GUNBOAT","DESTROYER","GUNBOAT","CARRIER","GUNBOAT"],"mineCount":25} 
+23:46:394 : PLACE (Get) 
+23:46:435 : PLACE (Get){"gridReferences":["A1","B1","C1","D1","E1"]} 
+23:46:479 : HIT{"attacker":"Pintel","gridReference":"A1"} 
+23:46:485 : MOVE (Get) 
+23:46:500 : PLACE (Get){"gridReferences":["A1"]} 
+23:46:510 : MISS{"attacker":"Pintel","gridReference":"A2"} 
+23:46:517 : MOVE (Get) 
+23:46:532 : PLACE (Get){"gridReferences":["C3"]} 
+23:46:544 : MISS{"attacker":"Pintel","gridReference":"A3"} 
+23:46:551 : MOVE (Get) 
+23:46:566 : PLACE (Get){"gridReferences":["G1"]} 
+23:46:577 : MISS{"attacker":"Pintel","gridReference":"A4"} 
+23:46:584 : MOVE (Get) 
+23:46:599 : PLACE (Get){"gridReferences":["G3"]} 
+23:46:612 : MISS{"attacker":"Pintel","gridReference":"A5"} 
+23:46:619 : MOVE (Get) 
+23:46:682 : PLACE (Get){"gridReferences":["D5"]} 
+23:46:694 : MISS{"attacker":"Pintel","gridReference":"A6"} 
+23:46:700 : MOVE (Get) 
+23:46:720 : HIT{"attacker":"xpsman","gridReference":"A1"} 
+23:46:734 : MISS{"attacker":"Pintel","gridReference":"A7"} 
+23:46:741 : MOVE (Get) 
+23:46:788 : HIT{"attacker":"xpsman","gridReference":"B1"} 
+23:46:800 : MISS{"attacker":"Pintel","gridReference":"A8"} 
+23:46:806 : MOVE (Get) 
+23:46:823 : HIT{"attacker":"xpsman","gridReference":"C1"} 
+23:46:834 : MISS{"attacker":"Pintel","gridReference":"A9"} 
+23:46:842 : MOVE (Get) 
+23:46:859 : HIT{"attacker":"xpsman","gridReference":"D1"} 
+23:46:871 : MISS{"attacker":"Pintel","gridReference":"A10"} 
+23:46:879 : MOVE (Get) 
+23:46:894 : HIT{"attacker":"xpsman","gridReference":"E1"} 
+23:46:906 : MISS{"attacker":"Pintel","gridReference":"A11"} 
+23:46:913 : MOVE (Get) 
+23:46:928 : MISS{"attacker":"xpsman","gridReference":"A1"} 
+23:46:941 : MISS{"attacker":"Pintel","gridReference":"A12"} 
+23:46:948 : MOVE (Get) 
+23:46:963 : MISS{"attacker":"xpsman","gridReference":"C3"} 
+23:46:974 : MISS{"attacker":"Pintel","gridReference":"A13"} 
+23:46:983 : MOVE (Get) 
+23:46:998 : MISS{"attacker":"xpsman","gridReference":"G1"} 
+23:47:13 : MISS{"attacker":"Pintel","gridReference":"A14"} 
+23:47:20 : MOVE (Get) 
+23:47:34 : MISS{"attacker":"xpsman","gridReference":"G3"} 
+23:47:46 : MISS{"attacker":"Pintel","gridReference":"A15"} 
+23:47:53 : MOVE (Get) 
+23:47:67 : MISS{"attacker":"xpsman","gridReference":"D5"} 
+23:47:80 : HIT{"attacker":"Pintel","gridReference":"B1"} 
+23:47:86 : MOVE (Get) 
+23:47:102 : HIT{"attacker":"xpsman","gridReference":"A2"} 
+23:47:115 : MISS{"attacker":"Pintel","gridReference":"B2"} 
+23:47:122 : MOVE (Get) 
+23:47:137 : HIT{"attacker":"xpsman","gridReference":"A3"} 
+23:47:149 : MISS{"attacker":"Pintel","gridReference":"B3"} 
+23:47:155 : MOVE (Get) 
+23:47:171 : HIT{"attacker":"xpsman","gridReference":"A4"} 
+23:47:184 : MISS{"attacker":"Pintel","gridReference":"B4"} 
+23:47:189 : MOVE (Get) 
+23:47:206 : HIT{"attacker":"xpsman","gridReference":"A5"} 
+23:47:218 : MISS{"attacker":"Pintel","gridReference":"B5"} 
+23:47:225 : MOVE (Get) 
+23:47:241 : HIT{"attacker":"xpsman","gridReference":"A6"} 
+23:47:251 : MISS{"attacker":"Pintel","gridReference":"B6"} 
+23:47:259 : MOVE (Get) 
+23:47:275 : HIT{"attacker":"xpsman","gridReference":"A7"} 
+23:47:288 : MISS{"attacker":"Pintel","gridReference":"B7"} 
+23:47:295 : MOVE (Get) 
+23:47:311 : HIT{"attacker":"xpsman","gridReference":"A8"} 
+23:47:323 : MISS{"attacker":"Pintel","gridReference":"B8"} 
+23:47:329 : MOVE (Get) 
+23:47:345 : HIT{"attacker":"xpsman","gridReference":"A9"} 
+23:47:357 : MISS{"attacker":"Pintel","gridReference":"B9"} 
+23:47:364 : MOVE (Get) 
+23:47:379 : HIT{"attacker":"xpsman","gridReference":"A10"} 
+23:47:391 : MISS{"attacker":"Pintel","gridReference":"B10"} 
+23:47:398 : MOVE (Get) 
+23:47:413 : HIT{"attacker":"xpsman","gridReference":"A11"} 
+23:47:425 : MISS{"attacker":"Pintel","gridReference":"B11"} 
+23:47:433 : MOVE (Get) 
+23:47:448 : HIT{"attacker":"xpsman","gridReference":"A12"} 
+23:47:460 : MISS{"attacker":"Pintel","gridReference":"B12"} 
+23:47:466 : MOVE (Get) 
+23:47:482 : HIT{"attacker":"xpsman","gridReference":"A13"} 
+23:47:495 : MISS{"attacker":"Pintel","gridReference":"B13"} 
+23:47:500 : MOVE (Get) 
+23:47:516 : HIT{"attacker":"xpsman","gridReference":"A14"} 
+23:47:528 : MISS{"attacker":"Pintel","gridReference":"B14"} 
+23:47:535 : MOVE (Get) 
+23:47:551 : HIT{"attacker":"xpsman","gridReference":"A15"} 
+23:47:563 : MISS{"attacker":"Pintel","gridReference":"B15"} 
+23:47:570 : MOVE (Get) 
+23:47:585 : HIT{"attacker":"xpsman","gridReference":"B2"} 
+23:47:598 : HIT{"attacker":"Pintel","gridReference":"C1"} 
+23:47:608 : MOVE (Get) 
+23:47:623 : HIT{"attacker":"xpsman","gridReference":"B3"} 
+23:47:635 : MISS{"attacker":"Pintel","gridReference":"C2"} 
+23:47:641 : MOVE (Get) 
+23:47:656 : HIT{"attacker":"xpsman","gridReference":"B4"} 
+23:47:668 : HIT_MINE{"attacker":"Pintel","gridReference":"C3"} 
+23:47:676 : MOVE (Get) 
+23:47:691 : HIT{"attacker":"xpsman","gridReference":"B5"} 
+23:47:698 : MOVE (Get) 
+23:47:714 : HIT{"attacker":"xpsman","gridReference":"B6"} 
+23:47:721 : MOVE (Get) 
+23:47:736 : HIT{"attacker":"xpsman","gridReference":"B7"} 
+23:47:744 : MOVE (Get) 
+23:47:761 : HIT{"attacker":"xpsman","gridReference":"B8"} 
+23:47:767 : MOVE (Get) 
+23:47:782 : HIT{"attacker":"xpsman","gridReference":"B9"} 
+23:47:788 : MOVE (Get) 
+23:47:803 : HIT{"attacker":"xpsman","gridReference":"B10"} 
+23:47:811 : MOVE (Get) 
+23:47:827 : HIT{"attacker":"xpsman","gridReference":"B11"} 
+23:47:834 : MOVE (Get) 
+23:47:850 : HIT{"attacker":"xpsman","gridReference":"B12"} 

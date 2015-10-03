@@ -109,11 +109,13 @@ namespace Bot
         {
             MinePositions = new List<string>
             {
+                "A1",
                 "B1",
                 "C3",
                 "G1",
                 "G3",
-                "D5"
+                "D5", 
+                GridLetter + GridLength
             };
             MaxTurns = maxTurns;
             Ships = ships;
