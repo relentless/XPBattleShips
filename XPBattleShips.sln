@@ -7,8 +7,6 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebAPI", "WebAPI\WebAPI.fsp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot", "Bot\Bot.csproj", "{69470B7D-FB4F-4273-A324-AF0F8ABFCB10}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ApiTests", "ApiTests\ApiTests.fsproj", "{6AE8D530-07D5-4940-B747-A620101869FE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{69470B7D-FB4F-4273-A324-AF0F8ABFCB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69470B7D-FB4F-4273-A324-AF0F8ABFCB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69470B7D-FB4F-4273-A324-AF0F8ABFCB10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6AE8D530-07D5-4940-B747-A620101869FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AE8D530-07D5-4940-B747-A620101869FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AE8D530-07D5-4940-B747-A620101869FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AE8D530-07D5-4940-B747-A620101869FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
