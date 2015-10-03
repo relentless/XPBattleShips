@@ -12,39 +12,35 @@ type Start = JsonProvider<"{ \"maxTurns\" : 10, \"gridSize\" : \"B2\", \"players
 
 type Place = JsonProvider<"{\"gridReferences\" : [\"C12\", \"D12\"]}">
 
-//let logFile = sprintf """c:/Logs/BattleshipsLog%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
-//System.IO.File.Create(logFile) |> ignore
+let logFile = sprintf """c:/Logs/BattleshipsLog%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
 
-//let log (text:string) =
-//    use streamWriter = File.AppendText(logFile)
-//    streamWriter.WriteLine(text)
+let logToFile (text:string) =
+    System.IO.File.AppendAllText(logFile, text + "\n")
+
+let logRequest title requestBody =
+    printfn "%s\n%s" title requestBody
+    let time = System.DateTime.Now
+    logToFile (sprintf "%i:%i:%i : %s" time.Minute time.Second time.Millisecond title)
+    logToFile requestBody
 
 type FakeServer() as self = 
     inherit NancyModule()
 
     do
-        self.Get.["/"] <- 
-            fun _ -> 
-                printfn "Index\n"
-                let response = "Grant and Simon's Bot" |> Nancy.Response.op_Implicit 
-                response.StatusCode <- HttpStatusCode.OK
-                response :> obj
-
+        
         self.Post.["/START"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "START\n%s" requestBody
-
-                //requestBody |> log
-
-                let body = Start.Parse(requestBody)
-                bot.SetupGrid(body.GridSize, body.MaxTurns, body.Ships, body.MineCount)
+                requestBody |> logRequest "START"
+                
+                let bodyJson = Start.Parse(requestBody)
+                bot.SetupGrid(bodyJson.GridSize, bodyJson.MaxTurns, bodyJson.Ships, bodyJson.MineCount)
                 200 :> obj
 
         self.Get.["/PLACE"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "PLACE (Get)\n%s" requestBody
+                requestBody |> logRequest "PLACE (Get)"
                 let response = "Response" |> Nancy.Response.op_Implicit 
                 response.StatusCode <- HttpStatusCode.OK
                 200 :> obj
@@ -52,52 +48,52 @@ type FakeServer() as self =
         self.Post.["/PLACE"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "PLACE (Post)\n%s" requestBody
-
-                let request = Place.Parse(requestBody)
-                bot.MyShips(request.GridReferences)
-
+                requestBody |> logRequest "PLACE (Get)"
+                let requestBody = self.Request.Body.AsString()
+                let placeJson = Place.Parse(requestBody)
+                bot.MyShips(placeJson.GridReferences)
                 200 :> obj
 
         self.Post.["/SCAN"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "SCAN\n%s" requestBody
+                requestBody |> logRequest "SCAN"
                 200 :> obj
 
         self.Get.["/MOVE"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "MOVE\n%s" requestBody
-
-                
+                requestBody |> logRequest "MOVE (Get)"
                 let place = bot.NextMove()
-
                 let response = "{\"type\": \"ATTACK\", \"gridReference\" : \"" + place + "\"}" |> Nancy.Response.op_Implicit 
                 response.StatusCode <- HttpStatusCode.OK
-                //response.ContentType <- "application/json"
                 response :> obj
 
         self.Post.["/HIT"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "HIT\n%s" requestBody
+                requestBody |> logRequest "HIT"
                 200 :> obj
 
         self.Post.["/HIT_MINE"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "HIT_MINE\n%s" requestBody
+                requestBody |> logRequest "HIT_MINE"
                 200 :> obj
 
         self.Post.["/MISS"] <- 
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
-                printfn "MISS\n%s" requestBody
-                //let response = "Response" |> Nancy.Response.op_Implicit 
-                //response.StatusCode <- HttpStatusCode.OK
+                requestBody |> logRequest "MISS"
                 200 :> obj
 
+        self.Get.["/"] <- 
+            fun _ -> 
+                let requestBody = self.Request.Body.AsString()
+                requestBody |> logRequest "INDEX"
+                let response = "Grant and Simon's Bot: XPSMan!" |> Nancy.Response.op_Implicit 
+                response.StatusCode <- HttpStatusCode.OK
+                response :> obj
 [<EntryPoint>]
 let main argv = 
     
