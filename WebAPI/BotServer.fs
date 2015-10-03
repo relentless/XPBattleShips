@@ -2,9 +2,12 @@
 open Nancy.Extensions
 open Nancy.Hosting.Self
 open System
+open FSharp.Data
 open Bot
 
 let bot = Bot()
+
+type Start = JsonProvider<"{ \"maxTurns\" : 10, \"gridSize\" : \"B2\", \"players\"  : [\"P1\",\"p2\"], \"ships\" : [\"S1\",\"S2\"], \"mineCount\" : 5}" >
 
 type FakeServer() as self = 
     inherit NancyModule()
@@ -22,7 +25,8 @@ type FakeServer() as self =
                 let requestBody = self.Request.Body.AsString()
                 printfn "START\n%s" requestBody
 
-                bot.SetupGrid("H8")
+                let body = Start.Parse(requestBody)
+                bot.SetupGrid(body.GridSize)
                 200 :> obj
 
         self.Get.["/PLACE"] <- 
