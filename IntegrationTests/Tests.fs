@@ -5,8 +5,6 @@ open FsUnit
 open HttpClient
 open System
 
-
-
 [<TestFixture>]
 type ``Integration tests`` ()=
 
