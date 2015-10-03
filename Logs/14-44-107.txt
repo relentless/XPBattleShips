@@ -1,0 +1,5 @@
+44:54:772 : START
+{ "maxTurns" : 10, "gridSize" : "B2", "players"  : ["P1","p2"], "ships" : ["S1","S2"], "mineCount" : 5}44:54:906 : MOVE (Get)
+44:54:947 : MOVE (Get)
+44:54:949 : MOVE (Get)
+44:54:950 : MOVE (Get)

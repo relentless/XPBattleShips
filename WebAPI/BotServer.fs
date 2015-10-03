@@ -12,15 +12,15 @@ type Start = JsonProvider<"{ \"maxTurns\" : 10, \"gridSize\" : \"B2\", \"players
 
 type Place = JsonProvider<"{\"gridReferences\" : [\"C12\", \"D12\"]}">
 
-let logFile = sprintf """c:/Logs/BattleshipsLog%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
+let logFile = sprintf """C:/Programming/XPBattleShips/Logs/%i-%i-%i.txt""" System.DateTime.Now.Hour System.DateTime.Now.Minute System.DateTime.Now.Millisecond
 
 let logToFile (text:string) =
-    System.IO.File.AppendAllText(logFile, text + "\n")
+    System.IO.File.AppendAllText(logFile, text)
 
 let logRequest title requestBody =
     printfn "%s\n%s" title requestBody
     let time = System.DateTime.Now
-    logToFile (sprintf "%i:%i:%i : %s" time.Minute time.Second time.Millisecond title)
+    logToFile (sprintf "%i:%i:%i : %s%s" time.Minute time.Second time.Millisecond title System.Environment.NewLine)
     logToFile requestBody
 
 type FakeServer() as self = 
@@ -49,7 +49,6 @@ type FakeServer() as self =
             fun _ -> 
                 let requestBody = self.Request.Body.AsString()
                 requestBody |> logRequest "PLACE (Get)"
-                let requestBody = self.Request.Body.AsString()
                 let placeJson = Place.Parse(requestBody)
                 bot.MyShips(placeJson.GridReferences)
                 200 :> obj
