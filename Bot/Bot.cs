@@ -30,6 +30,11 @@ namespace Bot
             new ShipPosition {GridLetter = "C", GridNumber = 3, Orientation = "horizontal"},
         };
 
+        public Bot()
+        {
+            MyShipPositions = new List<string>();
+        }
+
         public ShipPosition PlaceShip()
         {
             var ship = MyPlacedShips[_placedShips];
